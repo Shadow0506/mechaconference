@@ -1,1 +1,1 @@
-# mechaconference
+# Mechaconference
