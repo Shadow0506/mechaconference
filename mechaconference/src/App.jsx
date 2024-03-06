@@ -13,14 +13,15 @@ import { Registration } from './Components/Registration'
 import { Sponsorship } from './Components/Sponsorship'
 import { Venue } from './Components/Venue'
 import { Footer } from './Components/Footer'
-
+import {Headertailwind} from './Components/Headertailwind'
 function App() {
   
   return (
     <>
     <div>
     <BrowserRouter>
-    <Header />
+    
+    <Headertailwind />
     <Routes>
         <Route path='/Impdates' element={<Impdates />}></Route>
         <Route path='/' element = {<Home/>} />
