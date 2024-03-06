@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router-dom"
-
 import { Menuitems } from './Menuitems.js';
 import Typewriter from "typewriter-effect";
 export function Headertailwind() {
@@ -11,14 +10,14 @@ export function Headertailwind() {
                 <a href='/' className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src='https://static.vecteezy.com/system/resources/previews/010/206/756/non_2x/pec-letter-design-pec-letter-logo-design-on-black-background-pec-creative-initials-letter-logo-concept-pec-letter-design-pec-letter-logo-design-on-black-background-p-vector.jpg' className="h-8" alt="Logo"></img>
                     <div className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white py-5" >
-
-                    <Typewriter onInit={(typewriter) => {
-                    typewriter
-                        .typeString("Conference Name")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("Organized by PEC")
-                        .start();}}/>
+                        <Typewriter onInit={(typewriter) => {
+                            typewriter
+                                .typeString("Conference Name")
+                                .pauseFor(1500)
+                                .deleteAll()
+                                .typeString("Organized by PEC")
+                                .start();
+                        }} />
                     </div>
                 </a>
 
