@@ -1,5 +1,5 @@
-import { Link, useNavigate } from "react-router-dom"
-import './Header.css'
+import { Link, useNavigate } from "react-router-dom";
+import './Header.css';
 import { Menuitems } from './Menuitems.js';
 import { useState,setState } from "react";
 export function Header() {
