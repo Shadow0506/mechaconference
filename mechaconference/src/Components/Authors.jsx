@@ -10,7 +10,7 @@ export function Authors()
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
         <Typewriter onInit={(typewriter) => {
                             typewriter
-                                .typeString("All about the authors")
+                                .typeString("Speakers")
                                 .pauseFor(15)
                                 .start();
                         }} />

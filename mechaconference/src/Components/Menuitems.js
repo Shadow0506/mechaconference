@@ -21,8 +21,8 @@ export const Menuitems = [
 
     },
     {
-        title : "Authors",
-        url : "/authors",
+        title : "Speakers",
+        url : "/speakers",
         cName : "nav-links",
         icon : "fa-solid fa-user pr-1"
 

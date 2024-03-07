@@ -14,10 +14,6 @@ export function Headertailwind() {
                             typewriter
                                 .typeString("Conference Name")
                                 .pauseFor(1500)
-                                .deleteAll()
-                                .typeString("Organized by PEC")
-                                .pauseFor(1500)
-                                .deleteAll()
                                 .start();
                         }} />
                     </div>

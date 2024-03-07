@@ -36,7 +36,7 @@ function App() {
     <Routes>
         <Route path='/Impdates' element={<Suspense fallback={"loading.."}><Impdates /></Suspense>}></Route>
         <Route path='/' element = {<Suspense fallback={"loading.."}><Home/></Suspense>} />
-        <Route path='/authors' element = {<Suspense fallback={"loading.."}><Authors/></Suspense>} />
+        <Route path='/speakers' element = {<Suspense fallback={"loading.."}><Authors/></Suspense>} />
         <Route path='/aboutus' element = {<Suspense fallback={"loading.."}><AboutUs/></Suspense>} />
         <Route path='/callforpapers' element = {<Suspense fallback={"loading.."}><Callforpapers/></Suspense>} />
         <Route path='/committees' element = {<Suspense fallback={"loading.."}><Committees/></Suspense>} />
