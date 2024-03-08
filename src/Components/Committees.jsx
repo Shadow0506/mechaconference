@@ -490,6 +490,510 @@ export function Committees() {
                 </div>
             </section>
 
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-col text-center w-full mb-20">
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+                            <Typewriter onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("National Advisory Committee")
+                                    .pauseFor(1500)
+                                    .start();
+                            }} />
+                        </h1>
+                    </div>
+                    <div class="flex flex-wrap -m-2">
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Navin Kumar</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Ropar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Surjit Angra</h2>
+                                    <p class="leading-relaxed text-base">Professor, NIT Kurukshetra</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Vinod Kumar</h2>
+                                    <p class="leading-relaxed text-base">Professor, NIT Kurukshetra</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Punit Kumar</h2>
+                                    <p class="leading-relaxed text-base">Professor, NIT Kurukshetra</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Rajeev Kumar</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Mandi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Tarun Kumar Bera</h2>
+                                    <p class="leading-relaxed text-base">Professor and Head, TIET Patiala</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. M.M. Joglekar</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. B.K. Mishra</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. P.M. Pathak</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. V. Huzur Saran</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Indra Vir Singh</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Anoop Chawla</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Delhi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. A. K. Darpe</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Delhi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Akshay Dvivedi</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Dheerendra Kr. Dwivedi</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Apurbba Kumar Sharma</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Hari Singh</h2>
+                                    <p class="leading-relaxed text-base">Professor, NIT Kurukshetra</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. G. A. HARMAIN</h2>
+                                    <p class="leading-relaxed text-base">Professor, NIT Srinagar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Himanshu Chaudhary</h2>
+                                    <p class="leading-relaxed text-base">Professor, MNIT Jaipur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. T. C. Gupta</h2>
+                                    <p class="leading-relaxed text-base">Professor, MNIT Jaipur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Bishakh Bhattacharya</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Kanpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. K R Guruprasad</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Kanpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. B. Ravindra</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Jodhpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Suril Shah</h2>
+                                    <p class="leading-relaxed text-base">Professor, IIT Jodhpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Dhiraj K. Mahajan</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, IIT Ropar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Arpan Gupta</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, IIT Mandi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Neeraj Grover</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, TIET Patiala</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Abinash Kumar Swain</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, IIT Roorkee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Arpan Gupta</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, IIT Delhi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Siddhartha</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, NIT Hamirpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Dinesh Kumar</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, MNIT Jaipur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Sanat Agrawal</h2>
+                                    <p class="leading-relaxed text-base"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Rajendra Kumar Munian</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Ropar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. V S Nagendra Reddy B</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Kurukshetra</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Amit Shukla</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Mandi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Deepak Sachan</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Mandi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Anshul Sharma</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Hamirpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Mohit Pant</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Hamirpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Abhishek Mishra</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Delhi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Naresh Varma Datla</h2>
+                                    <p class="leading-relaxed text-base">Associate Professor, IIT Delhi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Anshul Sharma</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Hamirpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Azher Jameel</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Srinagar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Keval S. Ramani</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Kanpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Ushashi Roy</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Kanpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Apurba Mandal</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Uttarakhand</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Vikas Kukshal</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Uttarakhand</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Prashant Tiwari</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, NIT Uttarakhand</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Amrita Puri</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Jodhpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Atul Kumar Sharma</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor,IIT Jodhpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Riby Abraham Boby</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Jodhpur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Ravi Kant</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Ropar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Sunny Zafar</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Mandi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Dr. Swati Sharma</h2>
+                                    <p class="leading-relaxed text-base">Assistant Professor, IIT Mandi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <div class="flex-grow">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Mrityunjay Doddamani</h2>
+                                    <p class="leading-relaxed text-base"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
         </div>
     )
 }
