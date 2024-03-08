@@ -16,7 +16,7 @@ export function Headertailwind() {
 
     return (
         <nav className="bg-white border-gray-200 dark:bg-gray-900 pb-5">
-            <div className="max-w-screen-3xl flex items-center justify-between mx-auto ">
+            <div className="max-w-screen-xl flex items-center justify-between mx-auto pb-0">
                 <div className="flex items-center space-x-3 md:flex-3 mx-auto">
                     <img className="h-25 hidden md:block mx-auto" src="https://latestgovtjobs.in/wp-content/uploads/2017/11/PEC-Logo-150x150.png" alt="peclogo" />
                     <div className="flex items-center">
