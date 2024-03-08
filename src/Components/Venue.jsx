@@ -13,31 +13,20 @@ export function Venue()
             <div className="flex flex-col sm:flex-row justify-center items-center">
                 <div className="w-full sm:w-1/2 md:p-4">
                     <img src="https://dummyimage.com/400x200" alt="Venue Image 1" className="rounded-lg shadow-lg mb-4" />
-                    {/* <p className="text-center text-sm text-gray-600 px-4">Image 1 Description</p> */}
                 </div>
                 <div className="w-full sm:w-1/2 md:p-4">
                     <img src="https://dummyimage.com/400x200" alt="Venue Image 2" className="rounded-lg shadow-lg mb-4" />
-                    {/* <p className="text-center text-sm text-gray-600 px-4">Image 2 Description</p> */}
                 </div>
             </div>
             </div>
             <div className="custom-bg-colour rounded-lg overflow-hidden py-2">
                 <div className="container mx-auto text-center">
-                    <h2 className="text-ways-to-reach">Ways to reach Chandigarh</h2>
+                    <h2 className="text-ways-to-reach">Ways to Reach Chandigarh</h2>
                 </div>
             </div>
             <div className='second-portion'>
-            <section className="text-gray-600 body-font -mt-14"> {/* Adjusted margin top */}
+            <section className="text-gray-600 body-font -mt-14">
                 <div className="container px-5 py-24 mx-auto">
-                    {/* <div className="flex flex-col">
-                        <div className="h-1 bg-gray-200 rounded overflow-hidden">
-                            <div className="w-24 h-full bg-indigo-500"></div>
-                        </div>
-                        <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-                            <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Space The Final Frontier</h1>
-                            <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
-                        </div>
-                    </div> */}
                     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                             <div className="rounded-lg h-64 overflow-hidden">
@@ -45,11 +34,6 @@ export function Venue()
                             </div>
                             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">Air Route</h2>
                             <p className="text-air-route">Chandigarh International Airport serves not only Chandigarh but neighbouring cities of Panchkula, Mohali and even some of the southern districts of Himachal. The international airport operates flights of 7 airlines including Indigo, Spicejet and Air India which connect Chandigarh with several national and international destinations. Travellers can either take private cabs or public transport like buses, autos to reach the college from here.</p>
-                            {/* <a className="text-indigo-500 inline-flex items-center mt-3">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a> */}
                         </div>
                         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                             <div className="rounded-lg h-64 overflow-hidden">
@@ -57,11 +41,6 @@ export function Venue()
                             </div>
                             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">Train Route</h2>
                             <p className="text-train-route">Chandigarh Junction Railway Station (CDG) is the main railhead of the city. It serves both short and long-distance trains to and from neighbouring cities like Delhi, Ambala, Panipat, Shimla and many more.</p>
-                            {/* <a className="text-indigo-500 inline-flex items-center mt-3">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a> */}
                         </div>
                         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                             <div className="rounded-lg h-64 overflow-hidden">
@@ -69,11 +48,6 @@ export function Venue()
                             </div>
                             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">Road Route</h2>
                             <p className="text-road-route">Travellers who prefer road trips can easily access Chandigarh from neighbouring cities via a well-maintained network of highways and expressways. Ambala-Chandigarh Expressway, Khuda Lahore Road, Jan Marg, Sukhna Path and Shanti Path are some of the major arterial roads in the city. Chandigarh Bus Terminus serves as the main entrance for both public and private buses. There are plenty of public transports available outside the bus terminus using which guests can access major parts of the city.</p>
-                            {/* <a className="text-indigo-500 inline-flex items-center mt-3">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -83,94 +57,123 @@ export function Venue()
             <div className='text-2'>
                 <div className="custom-bg-colour-2 rounded-lg overflow-hidden py-2">
                     <div className="container mx-auto text-center">
-                        <h2 className="text-hotels">Hotels around PEC</h2>
+                        <h2 className="text-hotels">Hotels Near PEC</h2>
                     </div>
                 </div>
             </div>
 
             <div className='third-portion'>
-                <section class="text-gray-600 body-font overflow-hidden">
-                    <div class="container px-5 py-24 mx-auto">
-                        <div class="lg:w-4/5 mx-auto flex flex-wrap">
-                        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/>
-                        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                            <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-                            <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
-                            <div class="flex mb-4">
-                            <span class="flex items-center">
-                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                </svg>
-                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                </svg>
-                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                </svg>
-                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                </svg>
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                                </svg>
-                                <span class="text-gray-600 ml-3">4 Reviews</span>
-                            </span>
-                            <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
-                                <a class="text-gray-500">
-                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                                </svg>
-                                </a>
-                                <a class="text-gray-500">
-                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                                </svg>
-                                </a>
-                                <a class="text-gray-500">
-                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                </svg>
-                                </a>
-                            </span>
+                <section className="text-gray-600 body-font overflow-hidden">
+                    <div className="container px-5 py-24 mx-auto">
+                        <div className="lg:w-4/5 mx-auto flex flex-wrap">
+                            <div className="img-list">
+                                <img alt="Hotels" className="map w-1/2" src="https://ieeeindiscon.org/assets/images/hotels.png"/>
+                                <ul className="list-disc list-inside px-10">
+                                    <h1 className='some-good-hotels'>Some Good Hotels</h1>
+                                    <li className="leading-relaxed">The Lalit Chandigarh</li>
+                                    <li className="leading-relaxed">JW Marriott Hotel</li>
+                                    <li className="leading-relaxed">Hyatt Centric Sector 17</li>
+                                    <li className="leading-relaxed">Hotel Mountain View</li>
+                                    <li className="leading-relaxed">Hyatt Regency</li>
+                                </ul>
                             </div>
-                            <p class="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
-                            <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
-                            <div class="flex">
-                                <span class="mr-3">Color</span>
-                                <button class="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
-                                <button class="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                                <button class="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none"></button>
-                            </div>
-                            <div class="flex ml-6 items-center">
-                                <span class="mr-3">Size</span>
-                                <div class="relative">
-                                <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
-                                    <option>SM</option>
-                                    <option>M</option>
-                                    <option>L</option>
-                                    <option>XL</option>
-                                </select>
-                                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                    </svg>
-                                </span>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="flex">
-                            <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
-                            <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
-                            <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-                                </svg>
-                            </button>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     </section>
+            </div>
+
+            <div className='text-3'>
+                <div className="custom-bg-colour rounded-lg overflow-hidden py-2">
+                    <div className="container mx-auto text-center">
+                        <h2 className="text-attractions">Attractions</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div className='Attractions py-20'>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-2 mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/2">
+                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="Sukhna Lake" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.chandigarhx.com/wp-content/uploads/2018/04/sukhna-lake-drying-1.jpg"/>
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Sukhna Lake</h2>
+                                <p class="mb-4">A tranquil reservoir offering boating and breathtaking views.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/2">
+                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="Rose Garden" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://im.whatshot.in/img/2019/Dec/rose-garden-1575289885.jpg"/>
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Rose Garden</h2>
+                                <p class="mb-4">The largest rose garden in Asia, boasting thousands of varieties.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/2">
+                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                <img alt="Rock Garden" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.adotrip.com/public/images/areas/5e41376d80313-Rock%20Garden%20Sight%20Seeing%20Tour.jpg"/>
+                                <div class="flex-grow sm:pl-8">
+                                    <h2 class="title-font font-medium text-lg text-gray-900">Rock Garden</h2>
+                                    <p class="mb-4">A unique sculpture garden crafted from recycled materials.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/2">
+                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="Bird Park" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://avesdojorge.com/wp-content/uploads/2020/12/avesdojorge_loroparquefundacion-scaled.jpg"/>
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Bird Park</h2>
+                                <p class="mb-4">Located in the Nepli Reserve Forest, it offers a peaceful retreat for birdwatchers within the lush Sukhna Wildlife Sanctuary.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container px-5 py-0 mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/2">
+                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="Le Corbusier Centre" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://chandigarhmetro.com/wp-content/uploads/2017/03/Le-corbusier-chandigarh.jpg"/>
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Le Corbusier Centre</h2>
+                                <p class="mb-4">Provides insights into the life and works of Le Corbusier.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/2">
+                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="Capitol Complex" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://cdn.thespaces.com/wp-content/uploads/2020/04/Chandigarh_RC_6-1024x683.jpg"/>
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Capitol Complex</h2>
+                                <p class="mb-4">An architectural marvel by Le Corbusier housing government offices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/2">
+                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="Government Museum and Art Gallery" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://edge.ixigo.com/ixi-api/img/512d9ca2e4b09b831bf79fcb_600x315.jpg"/>
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Government Museum and Art Gallery</h2>
+                                <p class="mb-4">Home to Gandharan sculptures and modern Indian art.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/2">
+                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="Cactus Garden" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://themedmatter.in/wp-content/uploads/2023/02/cactus-garden-in-chandigarh-city-featured-1024x576.jpg"/>
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Cactus Garden</h2>
+                                <p class="mb-4">One of Asia's largest succulent gardens located in nearby Panchkula.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section>
             </div>
         </div>
     )
