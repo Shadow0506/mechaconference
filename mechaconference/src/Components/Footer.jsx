@@ -1,20 +1,17 @@
 export function Footer() {
     return (
         <div>
-            <footer className="text-gray-600 body-font">
-                <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                    <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg> */}
-                        <span className="ml-3 text-xl">Conference Name</span>
-                    </a>
-                    <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Copyright. All Rights Reserved. Designed by Punjab Engineering College (Deemed to be University), Chandigarh.
+            
 
-                    </p>
+<footer class="bg-white shadow dark:bg-gray-900 ">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">ICDMT 2024</a>. All Rights Reserved.Designed by Punjab Engineering College (Deemed to be University), Chandigarh.</span>
+    </div>
+</footer>
 
-                </div>
-            </footer>
+
         </div>
     )
 }
