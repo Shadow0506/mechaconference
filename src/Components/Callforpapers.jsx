@@ -1111,24 +1111,19 @@ export function Callforpapers() {
                         <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">Accepted papers will be published in the journals of following publishers </h1>
                         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">(Approval is pending)</p>
                     </div>
-                    <div class="flex flex-wrap -m-4">
-                        <div class="p-4 lg:w-1/2">
-                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4 mr-8" src="https://bioone.org/images/publishers/fullsize/SAGE.png" />
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-53 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://icssmt.com/2023/Springer.png" />
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-51 h-52 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Elsevier_logo_2019.svg/800px-Elsevier_logo_2019.svg.png" />
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://assets.materialstoday.com/wpimg/float/6ec9dec2-a9ce-415f-80db-fe6bd7027d22.jpg" />
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-55 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png" />
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://sciencecouncil.org/web/wp-content/uploads/2016/02/iop-logo.jpg" />
-                            </div>
-                        </div>
+                    <div class="flex flex-wrap justify-center -m-4">
+    <div class="p-4 lg:w-1/2">
+        <div class="h-full flex flex-wrap justify-center items-center">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://bioone.org/images/publishers/fullsize/SAGE.png" />
+            <img alt="team" class="flex-shrink-0 rounded-lg w-53 h-48 object-cover object-center mb-4 mr-0" src="https://icssmt.com/2023/Springer.png" />
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-50 object-cover object-center mb-4 mr-0" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Elsevier_logo_2019.svg/800px-Elsevier_logo_2019.svg.png" />
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://assets.materialstoday.com/wpimg/float/6ec9dec2-a9ce-415f-80db-fe6bd7027d22.jpg" />
+            <img alt="team" class="flex-shrink-0 rounded-lg w-50 h-48 object-cover object-center mb-4 mr-0" src="https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png" />
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://sciencecouncil.org/web/wp-content/uploads/2016/02/iop-logo.jpg" />
+        </div>
+    </div>
+</div>
 
-
-
-
-
-
-                    </div>
                 </div>
             </section>
 
