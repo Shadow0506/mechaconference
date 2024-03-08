@@ -1092,87 +1092,46 @@ export function Callforpapers() {
                 </div>
             </section>
             <div class="text-center mb-20">
-                        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-0 mt-10">
-                            <Typewriter
-                                onInit={(typewriter) => {
-                                    typewriter
-                                        .typeString("Paper Submission")
-                                        .pauseFor(1500)
-                                        .start();
-                                }}
-                            />
-                        </h1>
-                        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Authors are required to adhere strictly to the manuscript preparation guidelines. You can access the MS Word Template and a Sample Paper for reference on the conference website. Manuscript submissions should be made through the Microsoft CMT online system. All submitted manuscripts will undergo a peer-review process and mandatory plagiarism screening for publication eligibility. Accepted papers following peer review will be published as a standalone proceeding by a Scopus Indexed publication. Best Paper Awards will be given for the top Five papers presented.</p>
-                        <h1>Link for submission/Registration is ____</h1>
+                <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-0 mt-10">
+                    <Typewriter
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString("Paper Submission")
+                                .pauseFor(1500)
+                                .start();
+                        }}
+                    />
+                </h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Authors are required to adhere strictly to the manuscript preparation guidelines. You can access the MS Word Template and a Sample Paper for reference on the conference website. Manuscript submissions should be made through the Microsoft CMT online system. All submitted manuscripts will undergo a peer-review process and mandatory plagiarism screening for publication eligibility. Accepted papers following peer review will be published as a standalone proceeding by a Scopus Indexed publication. Best Paper Awards will be given for the top Five papers presented.</p>
+                <h1>Link for submission/Registration is ____</h1>
+            </div>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-5 mx-auto">
+                    <div class="flex flex-col text-center w-full mb-20">
+                        <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">Accepted papers will be published in the journals of following publishers </h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">(Approval is pending)</p>
                     </div>
-                    <section class="text-gray-600 body-font">
-  <div class="container px-5 py-5 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">Accepted papers will be published in the journals of following publishers </h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">(Approval is pending)</p>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 lg:w-1/2">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">Sage Publishing</h2>
-            
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/2">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201"/>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">Springer</h2>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/2">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204"/>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">Elsevier</h2>
-            </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/2">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204"/>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">Materials Today : Proceedings</h2>
-            </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/2">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204"/>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">Taylor & Francis</h2>
-            </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/2">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204"/>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">Advances in Materials and Processing Technology</h2>
-            </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/2">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206"/>
-          <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-lg text-gray-900">Institute Of Physics</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-            
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/2">
+                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4 mr-8" src="https://bioone.org/images/publishers/fullsize/SAGE.png" />
+                                <img alt="team" class="flex-shrink-0 rounded-lg w-53 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://icssmt.com/2023/Springer.png" />
+                                <img alt="team" class="flex-shrink-0 rounded-lg w-51 h-52 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Elsevier_logo_2019.svg/800px-Elsevier_logo_2019.svg.png" />
+                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://assets.materialstoday.com/wpimg/float/6ec9dec2-a9ce-415f-80db-fe6bd7027d22.jpg" />
+                                <img alt="team" class="flex-shrink-0 rounded-lg w-55 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png" />
+                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4 mr-11" src="https://sciencecouncil.org/web/wp-content/uploads/2016/02/iop-logo.jpg" />
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
         </div>
     )
 }
