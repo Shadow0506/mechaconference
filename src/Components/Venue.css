@@ -1,9 +1,11 @@
 .custom-bg-colour {
     background-color: #3b9cdc;
+    outline: solid 3px black;
 }
 
 .custom-bg-colour-2 {
     background-color: #3b9cdc;
+    outline: solid 3px black;
 }
 
 .text-ways-to-reach {
@@ -13,6 +15,12 @@
 }
 
 .text-hotels {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text-attractions {
     color: black;
     font-size: larger;
     font-weight: bold;
@@ -32,4 +40,16 @@
 
 .flex {
     padding-bottom: 2%;
+}
+
+.some-good-hotels {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.img-list {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
 }
