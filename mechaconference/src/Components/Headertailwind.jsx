@@ -16,9 +16,9 @@ export function Headertailwind() {
 
     return (
         <nav className="bg-white border-gray-200 dark:bg-gray-900 pb-5">
-            <div className="max-w-screen-xl flex items-center justify-between mx-auto py-4">
-                <div className="flex items-center space-x-2 md:flex-1">
-                    <img className="h-13 hidden md:block" src={peclogo} alt="peclogo" />
+            <div className="max-w-screen-3xl flex items-center justify-between mx-auto ">
+                <div className="flex items-center space-x-3 md:flex-3 mx-auto">
+                    <img className="h-25 hidden md:block mx-auto" src="https://latestgovtjobs.in/wp-content/uploads/2017/11/PEC-Logo-150x150.png" alt="peclogo" />
                     <div className="flex items-center">
                         <a href='/' className="flex items-center space-x-3 rtl:space-x">
                             <div className="text-4xl font-semibold whitespace-nowrap dark:text-white">
@@ -33,7 +33,7 @@ export function Headertailwind() {
                             </div>
                         </a>
                     </div>
-                    <img className="h-13 hidden md:block" src="https://d2lk14jtvqry1q.cloudfront.net/media/small_Indian_Institute_of_Technology_Roorkee_IIT_Roorkee_d3621c62ed_c263d74c1b_21b6a76f59.png" alt="iitrlogo" />
+                    <img className="h-24 hidden md:block mx-auto" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
                 </div>
                 <button onClick={toggleMobileMenu} className="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
