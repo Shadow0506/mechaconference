@@ -1,0 +1,35 @@
+.custom-bg-colour {
+    background-color: #3b9cdc;
+}
+
+.custom-bg-colour-2 {
+    background-color: #3b9cdc;
+}
+
+.text-ways-to-reach {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text-hotels {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text-air-route {
+    font-style: italic;
+}
+
+.text-train-route {
+    font-style: italic;
+}
+
+.text-road-route {
+    font-style: italic;
+}
+
+.flex {
+    padding-bottom: 2%;
+}
