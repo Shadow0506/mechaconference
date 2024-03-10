@@ -1,10 +1,20 @@
+import Typewriter from "typewriter-effect";
 import './Venue.css'
 export function Venue()
 {
     return(
         <div className="container mx-auto px-4 py-10">
             <div className="max-w-3xl mx-auto text-center mb-8">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Venue</h2>
+            <div class="flex flex-col text-center w-full mt-10">
+                <h1 class="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
+                    <Typewriter onInit={(typewriter) => {
+                        typewriter
+                            .typeString("Our Venue")
+                            .pauseFor(1500)
+                            .start();
+                    }} />
+                </h1>
+            </div>
                 <p className="text-lg text-gray-700 max-w-xl mx-auto px-4 py-4">
                 Punjab Engineering College is located in Chandigarh, Sector-12. Chandigarh, also known as The City Beautiful, is a city and a union territory in the northern part of India that serves as the capital of the states of Punjab and Haryana. Chandigarh is easily accessible from anywhere in the country via all modes of transport, including flight, train and bus. The city is served by an international airport as well as well-planned rail and road network, using which travellers can enter the city with ease. 
                 </p>
@@ -19,10 +29,20 @@ export function Venue()
                 </div>
             </div>
             </div>
-            <div className="custom-bg-colour rounded-lg overflow-hidden py-2">
-                <div className="container mx-auto text-center">
-                    <h2 className="text-ways-to-reach">Ways to Reach Chandigarh</h2>
-                </div>
+            {/* <div className="custom-bg-colour rounded-lg overflow-hidden py-2"> */}
+            <div className="text-center sm:text-left mb-1 before:block before:w-24 before:h-3 before:mb-2 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-violet-400">
+                <h3 className="text-3xl font-semibold">
+                  <Typewriter
+                    onInit={(typewriter) => {
+                      typewriter
+                        .typeString("Ways to reach chandigarh")
+                        .pauseFor(15)
+                        .start();
+                    }}
+                  />
+                </h3>
+
+                
             </div>
             <div className='second-portion'>
             <section className="text-gray-600 body-font -mt-14">
@@ -54,17 +74,29 @@ export function Venue()
             </section>
             </div>
 
-            <div className='text-2'>
+            {/* <div className='text-2'>
                 <div className="custom-bg-colour-2 rounded-lg overflow-hidden py-2">
                     <div className="container mx-auto text-center">
                         <h2 className="text-hotels">Hotels Near PEC</h2>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <div className="text-center sm:text-left mb-1 before:block before:w-24 before:h-3 before:mb-2 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-violet-400">
+                <h3 className="text-3xl font-semibold">
+                  <Typewriter
+                    onInit={(typewriter) => {
+                      typewriter
+                        .typeString("Hotels near PEC")
+                        .pauseFor(15)
+                        .start();
+                    }}
+                  />
+                </h3>
+                </div>
 
             <div className='third-portion'>
                 <section className="text-gray-600 body-font overflow-hidden">
-                    <div className="container px-5 py-24 mx-auto">
+                    <div className="container px-5 py-10 mx-auto">
                         <div className="lg:w-4/5 mx-auto flex flex-wrap">
                             <div className="img-list">
                                 <img alt="Hotels" className="map w-1/2" src="https://ieeeindiscon.org/assets/images/hotels.png"/>
@@ -82,13 +114,18 @@ export function Venue()
                     </section>
             </div>
 
-            <div className='text-3'>
-                <div className="custom-bg-colour rounded-lg overflow-hidden py-2">
-                    <div className="container mx-auto text-center">
-                        <h2 className="text-attractions">Attractions</h2>
-                    </div>
+            <div className="text-center sm:text-left mb-1 before:block before:w-24 before:h-3 before:mb-2 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-violet-400">
+                <h3 className="text-3xl font-semibold">
+                  <Typewriter
+                    onInit={(typewriter) => {
+                      typewriter
+                        .typeString("Attractions")
+                        .pauseFor(15)
+                        .start();
+                    }}
+                  />
+                </h3>
                 </div>
-            </div>
 
             <div className='Attractions py-20'>
             <section class="text-gray-600 body-font">

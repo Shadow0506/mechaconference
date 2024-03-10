@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
-
+import { useNavigate } from "react-router-dom";
 export function Impdates() {
+  const navigate = useNavigate();
   return (
     <div className="flex justify-center">
       <section className="bg-white-800 text-black-100">
@@ -43,10 +44,10 @@ export function Impdates() {
         </div>
 		<div className="flex justify-between">
 
-        <button className="inline-block px-3 py-2 mr-4 ml-4 text-white bg-blue-500 border border-transparent rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white">
+        <button onClick={()=>{navigate('/callforpapers')}} className="inline-block px-3 py-2 mr-4 ml-4 text-white bg-blue-500 border border-transparent rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white">
           Call for Papers
         </button>
-        <button className="inline-block px-3 py-2 ml-4 mr-4 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white">
+        <button onClick={()=>{navigate('/callforpapers')}} className="inline-block px-3 py-2 ml-4 mr-4 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white">
           Submit Your Paper
         </button>
 		</div>

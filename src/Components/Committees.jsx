@@ -2,6 +2,16 @@ import Typewriter from "typewriter-effect";
 export function Committees() {
     return (
         <div>
+            <div class="flex flex-col text-center w-full mt-10">
+                <h1 class="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
+                    <Typewriter onInit={(typewriter) => {
+                        typewriter
+                            .typeString("Committees")
+                            .pauseFor(1500)
+                            .start();
+                    }} />
+                </h1>
+            </div>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 pt-10 mx-auto">
                     <div class="flex flex-wrap -m-3">
@@ -42,7 +52,7 @@ export function Committees() {
                 </div>
             </section>
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 py-2 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h1 class="sm:text-3xl text-2xl font-medium title-font  text-gray-900">
                             <Typewriter onInit={(typewriter) => {
@@ -114,7 +124,7 @@ export function Committees() {
                 </div>
             </section>
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 py-2 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                             <Typewriter onInit={(typewriter) => {
@@ -311,7 +321,7 @@ export function Committees() {
                 </div>
             </section>
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 py-2 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                             <Typewriter onInit={(typewriter) => {
@@ -491,7 +501,7 @@ export function Committees() {
             </section>
 
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 py-2 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                             <Typewriter onInit={(typewriter) => {

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import { Impdates } from './Components/Impdates'
 import { Home } from './Components/Home'
-import { Authors } from './Components/Authors'
+import { Speakers } from './Components/Speakers'
 import { AboutUs } from './Components/AboutUs'
 import { Callforpapers } from './Components/Callforpapers'
 import { Committees } from './Components/Committees'
@@ -23,7 +23,7 @@ function App() {
     <Routes>
         <Route path='/Impdates' element={<Impdates />}></Route>
         <Route path='/' element = {<Home/>} />
-        <Route path='/speakers' element = {<Authors/>} />
+        <Route path='/speakers' element = {<Speakers/>} />
         <Route path='/aboutus' element = {<AboutUs/>} />
         <Route path='/callforpapers' element = {<Callforpapers/>} />
         <Route path='/committees' element = {<Committees/>} />

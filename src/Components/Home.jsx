@@ -44,11 +44,11 @@ export function Home() {
                             </div>
                             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                                 <p class="leading-relaxed text-lg mb-4">The goal of the ‘International Conference on Design and Manufacturing Technologies” (ICDMT-2024) scheduled for 08th -10th Nov 2024 is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing with a focus on advanced materials to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view to product design, process design and analysis as well as to create, and manufacture goods. </p>
-                                <a class="text-indigo-500 inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                {/* <a class="text-indigo-500 inline-flex items-center">Learn More */}
+                                    {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
+                                    </svg> */}
+                                {/* </a> */}
                             </div>
                         </div>
                     </div>
