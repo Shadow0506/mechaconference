@@ -48,13 +48,13 @@ export const Menuitems = [
         icon : "fa-solid fa-envelope pr-1"
 
     },
-    {
-        title : "Sponsors",
-        url : "/sponsorship",
-        cName : "nav-links",
-        icon : "fa-solid fa-handshake pr-1"
+    // {
+    //     title : "Sponsors",
+    //     url : "/sponsorship",
+    //     cName : "nav-links",
+    //     icon : "fa-solid fa-handshake pr-1"
         
-    },
+    // },
     {
         title : "Venue",
         url : "/venue",

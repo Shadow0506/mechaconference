@@ -3,17 +3,17 @@ export function ContactUs()
 {
     return(
         <div>
-            <section className="text-gray-600 body-font relative">
+            <section className="text-gray-600 body-font relative my-20">
                 <div className="container px-5 py-5 mx-auto flex sm:flex-nowrap flex-wrap justify-center">
                     <div className="div-with-line lg:w-2/3 md:w-1/2 flex flex-col items-center justify-center">
                         <iframe
                             title="map"
                             width="80%"
                             height="300"
-                            frameborder="0"
+                            frameBorder="0"
                             scrolling="no"
-                            marginheight="0"
-                            marginwidth="0"
+                            marginHeight="0"
+                            marginWidth="0"
                             src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=30.765269, 76.786558&ie=UTF8&t=&z=14&iwloc=B&output=embed"
                             className="mb-6"
                         ></iframe>
