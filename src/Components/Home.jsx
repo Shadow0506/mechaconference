@@ -17,7 +17,7 @@ export function Home() {
                                 }}
                             />
                         </h1>
-                        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">**Space for theme**</p>
+                        <p class="text-2xl italic lg:w-1/2 w-full leading-relaxed text-cyan-700 mt-5">Design, Develop and Manufacture</p>
                     </div>
                 </div>
             </section>
