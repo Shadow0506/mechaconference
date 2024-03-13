@@ -1,0 +1,21 @@
+.contact-btn {
+    background-color: #4CAF50;
+  }
+
+  .text-above-contact-btn {
+    font-size: larger;
+    color: indigo;
+  }
+
+  .div-with-line {
+    border-right: 1px solid black;
+    padding-right: 20px;
+  }
+
+@media (max-width: 639px) {
+    .div-with-line {
+        border-right: 0px;
+        border-bottom: 1px solid black;
+        padding-right: 20px;
+      }   
+}
