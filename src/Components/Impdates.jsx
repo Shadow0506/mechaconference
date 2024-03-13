@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 export function Impdates() {
   const navigate = useNavigate();
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center mb-5">
       <section className="bg-white-800 text-black-100">
         <div className="container max-w-5xl px-4 py-12 mx-auto">
           <div className="grid gap-4 mx-4 sm:grid-cols-12">
