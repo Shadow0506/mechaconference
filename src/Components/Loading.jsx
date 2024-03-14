@@ -1,34 +1,36 @@
 import React from 'react';
 import ReactLoading from 'react-loading';
-import './Loading.css'
+import './Loading.css';
+
 export default function Loading() {
   return (
-        <div class="boxes">
-    <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
+    <div className="flex justify-center items-center h-screen">
+      <div className="boxes">
+        <div className="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 }
