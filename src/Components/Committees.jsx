@@ -1,4 +1,8 @@
 import Typewriter from "typewriter-effect";
+import profmpgarg from '../profmpgarg.jpeg'
+import profsarbjitsingh from '../profsarbjitsingh.jpeg'
+import drviveksheel from '../drviveksheel.jpeg'
+import drkamalkumar from '../drkamalkumar.jpeg'
 export function Committees() {
     return (
         <div>
@@ -97,7 +101,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={profsarbjitsingh} />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sarbjit Singh</h2>
                                     <p className="leading-relaxed text-base">Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
@@ -106,7 +110,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={profmpgarg} />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. M.P Garg</h2>
                                     <p className="leading-relaxed text-base">Joint-Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
@@ -115,7 +119,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={drkamalkumar} />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
                                     <p className="leading-relaxed text-base">Joint-Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
@@ -124,7 +128,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={drviveksheel} />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Viveksheel Rajput</h2>
                                     <p className="leading-relaxed text-base">Convenor, Department of Mechanical Engineering, PEC, CHD</p>
