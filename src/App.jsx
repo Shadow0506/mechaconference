@@ -14,6 +14,7 @@ import { Sponsorship } from './Components/Sponsorship';
 import { Venue } from './Components/Venue';
 import { Footer } from './Components/Footer';
 import { Headertailwind } from './Components/Headertailwind';
+import { Impdates_main } from './Components/Impdates_main';
 import Loading from './Components/Loading';
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
           <Loading />
           ) : (
             <Routes>
-              <Route path='/Impdates' element={<Impdates />} />
+              <Route path='/Impdates' element={<Impdates_main/>} />
               <Route path='/' element={<Home />} />
               <Route path='/speakers' element={<Speakers />} />
               <Route path='/aboutus' element={<AboutUs />} />
