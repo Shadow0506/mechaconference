@@ -16,7 +16,8 @@ import { Footer } from './Components/Footer';
 import { Headertailwind } from './Components/Headertailwind';
 import { Impdates_main } from './Components/Impdates_main';
 import Loading from './Components/Loading';
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -28,6 +29,8 @@ function App() {
 
   return (
     <div className="flex flex-col h-screen">
+      <Analytics />
+      <SpeedInsights/>
       <BrowserRouter>
         <Headertailwind />
         <div className="flex-1">
