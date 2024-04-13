@@ -22,34 +22,42 @@ export function Speakers()
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"></img>
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Speaker 1</h2>
-          <p className="leading-relaxed text-base">Profile details</p>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Inderdeep_Singh.jpg" alt="content"></img>
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Inderdeep Singh</h2>
+          <p className="leading-relaxed text-base">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content"></img>
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Speaker 2</h2>
-          <p className="leading-relaxed text-base">Profile details</p>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Akshay_Dvivedi.jpg" alt="content"></img>
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Akshay Dvivedi</h2>
+          <p className="leading-relaxed text-base">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content"></img>
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Speaker 3</h2>
-          <p className="leading-relaxed text-base">Profile details</p>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Rahul_Vaish.jpg" alt="content"></img>
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Rahul Vaish</h2>
+          <p className="leading-relaxed text-base">School of Engineering IIT Mandi</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"></img>
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Speaker 4</h2>
-          <p className="leading-relaxed text-base">Profile details</p>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Sunil_Pandey.jpg" alt="content"></img>
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Sunil Pandey</h2>
+          <p className="leading-relaxed text-base">Department of Mechanical Engineering, IIT Delhi</p>
+        </div>
+      </div>
+      <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-100 p-6 rounded-lg">
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Pradeep_Dixit.jpg" alt="content"></img>
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Associate Professor</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Pradeep Dixit</h2>
+          <p className="leading-relaxed text-base">Department of Mechanical Engineering, IIT Bombay</p>
         </div>
       </div>
     </div>
