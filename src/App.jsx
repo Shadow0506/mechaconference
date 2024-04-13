@@ -46,7 +46,7 @@ function App() {
               <Route path='/committees' element={<Committees />} />
               <Route path='/contactus' element={<ContactUs />} />
               <Route path='/registration' element={<Registration />} />
-              {/* <Route path='/sponsorship' element={<Sponsorship />} /> */}
+              <Route path='/sponsorship' element={<Sponsorship />} />
               <Route path='/venue' element={<Venue />} />
             </Routes>
           )}
