@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import Marquee from "react-fast-marquee";
 import { Impdates } from './Impdates'
+import { Speakershome } from "./Speakershome";
 export function Home() {
     return (
         <div>
@@ -59,6 +60,7 @@ export function Home() {
                 </div>
             </section>
             <Impdates/>
+            <Speakershome/>
         </div>
     )
 }

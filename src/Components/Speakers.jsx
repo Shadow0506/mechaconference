@@ -22,7 +22,7 @@ export function Speakers()
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Inderdeep_Singh.jpg" alt="content"></img>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src='./src/Components/inderdeep.jpeg' alt="content"></img>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Inderdeep Singh</h2>
           <p className="leading-relaxed text-base">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
@@ -30,7 +30,7 @@ export function Speakers()
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Akshay_Dvivedi.jpg" alt="content"></img>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src='./src/Components/akshay_dv.jpeg' alt="content"></img>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Akshay Dvivedi</h2>
           <p className="leading-relaxed text-base">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
@@ -38,7 +38,7 @@ export function Speakers()
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Rahul_Vaish.jpg" alt="content"></img>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src='./src/Components/rahul_vaish.jpeg' alt="content"></img>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Rahul Vaish</h2>
           <p className="leading-relaxed text-base">School of Engineering IIT Mandi</p>
@@ -46,7 +46,7 @@ export function Speakers()
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Sunil_Pandey.jpg" alt="content"></img>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src='./src/Components/Sunil_pandey.jpeg' alt="content"></img>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Sunil Pandey</h2>
           <p className="leading-relaxed text-base">Department of Mechanical Engineering, IIT Delhi</p>
@@ -54,7 +54,7 @@ export function Speakers()
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="src\Components\Photos\Pradeep_Dixit.jpg" alt="content"></img>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src='./src/Components/pradeep_dixit.jpeg' alt="content"></img>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Associate Professor</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Pradeep Dixit</h2>
           <p className="leading-relaxed text-base">Department of Mechanical Engineering, IIT Bombay</p>
