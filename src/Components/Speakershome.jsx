@@ -25,14 +25,11 @@ export function Speakershome() {
     return (
 
         <div className="w-3/4 m-auto">
-        <div className="flex flex-wrap w-full mb-4">
-          <div className="lg:w-1/2 w-full lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-              Keynote Speakers
-            </h1>
-            <div className="h-1 w-20 bg-indigo-500 rounded"></div>
-          </div>
-        </div>
+        <div className="flex flex-col text-center w-full mt-10">
+                <h1 className="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
+                    KEYNOTE SPEAKERS
+                </h1>
+            </div>
         <div className="mt-20">
           <Slider {...settings}>
             {data.map((d) => (

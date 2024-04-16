@@ -1,40 +1,7 @@
-import Marquee from "react-fast-marquee";
-import { Impdates } from './Impdates'
-import { Speakershome } from "./Speakershome";
-import { AboutUs_home } from "./HomeComponents/AboutUs_home";
-import { Callforpapers_home } from "./HomeComponents/Callforpapers_home";
-import { Registration_home } from "./HomeComponents/Registration_home";
-import { Committees_home } from "./HomeComponents/Committees_home";
-import {ContactUs} from "./ContactUs";
-export function Home() {
-    return (
-        <div>
-
-            <section className="text-gray-600 body-font">
-                <Marquee className=" text-red-500 p-4">
-                    <i class="fa-solid fa-bullhorn px-4"></i>Important Announcements</Marquee>
-                <div className="container px-5 py-10 mx-auto">
-                    <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
-                        <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900">
-                            International Conference on Design and Manufacturing Technologies
-
-                        </h1>
-                        <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900">
-                            ICDMT 2024
-
-                        </h1>
-                        <p className="text-2xl italic lg:w-1/2 w-full leading-relaxed text-cyan-700 mt-5">Design, Develop and Manufacture</p>
-                    </div>
-                </div>
-            </section>
-            <section className="text-gray-600 body-font">
-                <div className="container px-5 py-5 mx-auto flex flex-col">
-                    <div className="lg:w-4/6 mx-auto">
-                        <div className="rounded-lg h-64 overflow-hidden">
-                            {/* space for icdmt poster */}
-
-
-                            <div id="default-carousel" class="relative w-full" data-carousel="slide">
+export function Callforpapers_home()
+{
+    return(
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
                                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                                         <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
@@ -77,33 +44,5 @@ export function Home() {
                                 </button>
                             </div>
 
-
-                        </div>
-                        <div className="flex flex-wrap w-full mb-4">
-                            <div className="lg:w-full lg:mb-0 pt-10">
-                                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-                                    ABOUT ICDMT-2024
-                                </h1>
-                                <div className="h-1 w-20 bg-indigo-500 rounded"></div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col sm:flex-row">
-
-                            <div className="sm:pl-8 sm:py-8 sm:border-l sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-center">
-                                <p className="text-lg-3xl mb-4">The goal of the ‘International Conference on Design and Manufacturing Technologies” (ICDMT-2024) scheduled for 08th -10th Nov 2024 is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing with a focus on advanced materials to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view to product design, process design and analysis as well as to create, and manufacture goods. </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <Impdates />
-            <Speakershome />
-            <AboutUs_home/>
-            <Callforpapers_home/>
-            <Registration_home/>
-            <Committees_home/>
-            <ContactUs/>
-        </div>
     )
 }
