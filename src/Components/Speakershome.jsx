@@ -34,7 +34,7 @@ export function Speakershome() {
           <Slider {...settings}>
             {data.map((d) => (
               <div key={d.name} className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
-                <div className="h-56 bg-gray-900 flex justify-center items-center rounded-t-xl">
+                <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
                   <img src={d.img} alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
