@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 export function Sponsorship()
 {
     return(
-        <div>
+        <div style={{backgroundColor: '#E9FFFF'}}>
             <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
