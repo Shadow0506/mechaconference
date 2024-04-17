@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 export function Callforpapers() {
     const navigate = useNavigate();
     return (
-        <div>
+        <div style={{backgroundColor: '#E9FFFF'}}>
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="text-center mb-20">
