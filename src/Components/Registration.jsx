@@ -1,7 +1,7 @@
 export function Registration()
 {
     return(
-        <div>
+        <div  style={{backgroundColor: '#E9FFFF'}}>
             This is Registration
         </div>
     )
