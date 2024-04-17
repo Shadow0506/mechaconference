@@ -1,8 +1,8 @@
 import Typewriter from "typewriter-effect";
 export function AboutUs() {
   return (
-    <div>
-      <div class="flex flex-col text-center w-full mt-10">
+    <div style={{backgroundColor: '#E9FFFF', padding: '40px'}}>
+      <div class="flex flex-col text-center w-full">
                         <h1 class="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
                             <Typewriter onInit={(typewriter) => {
                                 typewriter
