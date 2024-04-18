@@ -1,9 +1,9 @@
 import './ContactUs.css'
 export function ContactUs() {
     return (
-        <div>
-            <section className="text-gray-600 body-font relative my-20">
-            <div className="flex flex-col text-center w-full mt-10">
+        <div style={{backgroundColor: '#E9FFFF'}}>
+            <section className="text-gray-600 body-font relative">
+            <div className="flex flex-col text-center w-full" style={{padding: '20px'}}>
                 <h1 className="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
                     CONTACT US
                 </h1>
@@ -25,7 +25,7 @@ export function ContactUs() {
 
                     </div>
 
-                    <div className="lg:w-1/2 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 justify-center items-center">
+                    <div className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 justify-center items-center">
                         <div className="lg:w-1/2 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden p-1 flex items-start justify-center shadow-md">
                             <div className="bg-white w-full py-6 px-6 rounded-lg">
                                 <div className="mb-4">
