@@ -25,10 +25,15 @@ export function Speakershome() {
     return (
 
         <div className="w-3/4 m-auto">
-        <div className="flex flex-col text-center w-full mt-10">
-                <h1 className="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
-                    KEYNOTE SPEAKERS
-                </h1>
+        <div className="container px-5 py-5 mx-auto flex flex-col">
+                <div className="flex flex-wrap w-full mb-4 mx-auto">
+                    <div className="lg:w-full lg:mb-0 pt-10">
+                        <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+                            KEYNOTE SPEAKERS
+                        </h1>
+                        <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+                    </div>
+                </div>
             </div>
         <div className="mt-20">
           <Slider {...settings}>
@@ -47,6 +52,13 @@ export function Speakershome() {
             ))}
           </Slider>
         </div>
+        <div className="flex justify-center">
+                <a className="text-indigo-500 inline-flex items-center mt-10" href="/speakers" target="_blank">View All
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
       </div>
       
     )

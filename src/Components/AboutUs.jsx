@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import main_logo from './main_logo.jpeg'
 export function AboutUs() {
   return (
     <div style={{backgroundColor: '#E9FFFF', padding: '40px'}}>
@@ -16,7 +17,7 @@ export function AboutUs() {
         <div class="container px-5 py-2 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"></img>
+              <img alt="content" class="object-cover object-center h-full w-full" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"></img>
             </div>
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -52,7 +53,7 @@ export function AboutUs() {
         <div class="container px-5 py-0 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"></img>
+              <img alt="content" class="object-cover object-center h-full w-full" src="https://topotoolbox.files.wordpress.com/2023/10/1600x-22.jpg"></img>
             </div>
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -91,7 +92,7 @@ export function AboutUs() {
         <div class="container px-5 py-10 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"></img>
+              <img alt="content" class="object-cover object-center h-full w-full" src="https://pec.ac.in/sites/default/files/images/home_4.jpg"></img>
             </div>
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:pt-12">
@@ -128,8 +129,8 @@ export function AboutUs() {
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-10 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
-            <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"></img>
+            <div class="rounded-lg h-65 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src={main_logo}></img>
             </div>
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:pt-12">

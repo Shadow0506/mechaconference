@@ -1,12 +1,17 @@
-import 'src/Components/ContactUs.css'
+import '../ContactUs.css'
 export function ContactUs_home() {
     return (
         <div>
             <section className="text-gray-600 body-font relative my-20">
-            <div className="flex flex-col text-center w-full mt-10">
-                <h1 className="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
-                    CONTACT US
-                </h1>
+            <div className="container px-5 py-5 mx-auto flex flex-col">
+                <div className="flex flex-wrap w-full mb-4 mx-auto">
+                    <div className="lg:w-full lg:mb-0 pt-10">
+                        <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+                            CONTACT US
+                        </h1>
+                        <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+                    </div>
+                </div>
             </div>
 
                 <div className="container px-5 py-5 mx-auto flex sm:flex-nowrap flex-wrap justify-center">
@@ -25,7 +30,7 @@ export function ContactUs_home() {
 
                     </div>
 
-                    <div className="lg:w-1/2 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 justify-center items-center">
+                    <div className="lg:w-1/2 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 justify-center items-center" style={{backgroundColor: '#E9FFFF'}}>
                         <div className="lg:w-1/2 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden p-1 flex items-start justify-center shadow-md">
                             <div className="bg-white w-full py-6 px-6 rounded-lg">
                                 <div className="mb-4">

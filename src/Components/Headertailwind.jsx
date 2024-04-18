@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import { Menuitems } from './Menuitems.js';
 import Typewriter from "typewriter-effect";
-import peclogo from './cover_tpo-removebg-preview (1).png';
+import main_logo from './main_logo.jpeg'
 
 export function Headertailwind() {
     const navigate = useNavigate();
@@ -19,17 +19,11 @@ export function Headertailwind() {
             <div className="max-w-screen-xl flex items-center justify-between mx-auto pb-0 ">
                 <div className="flex items-center space-x-3 md:flex-3 mx-auto">
                     <img className="h-25 hidden md:block mx-auto" src="https://latestgovtjobs.in/wp-content/uploads/2017/11/PEC-Logo-150x150.png" alt="peclogo" />
+                    {/* <img className="h-25 hidden md:block mx-auto" src="https://latestgovtjobs.in/wp-content/uploads/2017/11/PEC-Logo-150x150.png" alt="peclogo" /> */}
                     <div className="flex items-center">
                         <a href='/' className="flex items-center space-x-3 rtl:space-x">
                             <div className="text-4xl font-semibold whitespace-nowrap text-white">
-                                <Typewriter
-                                    onInit={(typewriter) => {
-                                        typewriter
-                                            .typeString("ICDMT 2024")
-                                            .pauseFor(1500)
-                                            .start();
-                                    }}
-                                />
+                                ICDMT 2024
                             </div>
                         </a>
                     </div>
