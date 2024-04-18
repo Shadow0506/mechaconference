@@ -5,25 +5,28 @@ import { AboutUs_home } from "./HomeComponents/AboutUs_home";
 import { Callforpapers_home } from "./HomeComponents/Callforpapers_home";
 import { Registration_home } from "./HomeComponents/Registration_home";
 import { Committees_home } from "./HomeComponents/Committees_home";
-import {ContactUs} from "./ContactUs";
+// import {ContactUs_home} from "./HomeComponents/ContactUs_home";
 export function Home() {
     return (
-        <div>
+        <div style={{backgroundColor: '#E9FFFF'}}>
 
             <section className="text-gray-600 body-font">
                 <Marquee className=" text-red-500 p-4">
                     <i class="fa-solid fa-bullhorn px-4"></i>Important Announcements</Marquee>
                 <div className="container px-5 py-10 mx-auto">
                     <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
-                        <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900">
+                <div className="rounded-box p-3 rounded w-full"  style={{backgroundColor: '#c5b6d3', borderRadius: '20px'}}>
+                        
+                            <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900">
                             International Conference on Design and Manufacturing Technologies
+                            </h1>
+                        
 
-                        </h1>
                         <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900">
                             ICDMT 2024
-
                         </h1>
-                        <p className="text-2xl italic lg:w-1/2 w-full leading-relaxed text-cyan-700 mt-5">Design, Develop and Manufacture</p>
+                </div>
+                        <p className="text-2xl italic lg:w-1/2 w-full leading-relaxed mt-5" style={{fontWeight: 'bold', color: '#9be0c0'}}>Design, Develop and Manufacture</p>
                     </div>
                 </div>
             </section>
@@ -103,7 +106,7 @@ export function Home() {
             <Callforpapers_home/>
             <Registration_home/>
             <Committees_home/>
-            <ContactUs/>
+            {/* <ContactUs_home /> */}
         </div>
     )
 }
