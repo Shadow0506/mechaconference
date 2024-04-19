@@ -12,7 +12,7 @@ export function AboutUs_home() {
                 </div>
             </div>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-2 mx-auto flex flex-col">
+        <div class="container py-2 mx-auto flex flex-col">
           <div class="mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
               <img alt="content" class="object-cover object-center h-full w-full" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"></img>
@@ -50,7 +50,7 @@ export function AboutUs_home() {
       </section>
 
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-10 mx-auto flex flex-col">
+        <div class="container  py-10 mx-auto flex flex-col">
           <div class="mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
               <img alt="content" class="object-cover object-center h-full w-full" src="https://pec.ac.in/sites/default/files/images/home_4.jpg"></img>
@@ -88,7 +88,7 @@ export function AboutUs_home() {
         </div>
       </section>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-0 mx-auto flex flex-col">
+        <div class="container  py-0 mx-auto flex flex-col">
           <div class="mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
               <img alt="content" class="object-cover object-center h-full w-full" src="https://topotoolbox.files.wordpress.com/2023/10/1600x-22.jpg"></img>

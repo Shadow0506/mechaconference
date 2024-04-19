@@ -49,13 +49,12 @@ export function Home() {
 
             <section className="text-gray-600 body-font">
                 <div className="container px-5 mx-auto flex flex-col">
-                    <div className="mx-auto">
                         <section class="container">
                             <div class="slider-wrapper">
                                 <div class="slider">
-                                    <img id="slide-1" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg" alt="3D rendering of an imaginary orange planet in space" style={{ display: currentSlide === 0 ? 'block' : 'none' }}/>
-                                    <img id="slide-2" src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="3D rendering of an imaginary green planet in space" style={{ display: currentSlide === 1 ? 'block' : 'none' }}/>
-                                    <img id="slide-3" src="https://ieeeindiscon.org/assets/images/college/audi.jpeg" alt="3D rendering of an imaginary blue planet in space" style={{ display: currentSlide === 2 ? 'block' : 'none' }}/>
+                                    <img id="slide-1" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg" alt="pec" style={{ display: currentSlide === 0 ? 'block' : 'none' }}/>
+                                    <img id="slide-2" src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="pec" style={{ display: currentSlide === 1 ? 'block' : 'none' }}/>
+                                    <img id="slide-3" src="https://ieeeindiscon.org/assets/images/college/audi.jpeg" alt="pec" style={{ display: currentSlide === 2 ? 'block' : 'none' }}/>
 
                                 </div>
                                 
@@ -67,6 +66,7 @@ export function Home() {
                                 </div>
                             </div>
                         </section>
+                    <div className="mx-auto">
                         <div className="flex flex-wrap w-full mb-4">
                             <div className="lg:w-full lg:mb-0 pt-10">
                                 <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
