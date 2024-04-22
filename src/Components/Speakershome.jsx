@@ -24,8 +24,8 @@ export function Speakershome() {
     };
     return (
 
-        <div className="w-3/4 m-auto">
-        <div className="container lg:px-5 lg:py-5 mx-auto flex flex-col">
+        <div className="w-3/4 m-auto pt-8">
+        <div className="container  mx-auto flex flex-col">
                 <div className="flex flex-wrap w-full mx-auto">
                     <div className="lg:w-full lg:mb-0 ">
                         <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
@@ -35,7 +35,7 @@ export function Speakershome() {
                     </div>
                 </div>
             </div>
-        <div className="mt-20">
+        <div className="pt-5">
           <Slider {...settings}>
             
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
