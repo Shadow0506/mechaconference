@@ -49,23 +49,46 @@ export function Home() {
 
             <section className="text-gray-600 body-font">
                 <div className="container px-5 mx-auto flex flex-col">
-                        <section class="container">
-                            <div class="slider-wrapper">
-                                <div class="slider">
-                                    <img id="slide-1" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg" alt="pec" style={{ display: currentSlide === 0 ? 'block' : 'none' }}/>
-                                    <img id="slide-2" src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="pec" style={{ display: currentSlide === 1 ? 'block' : 'none' }}/>
-                                    <img id="slide-3" src="https://ieeeindiscon.org/assets/images/college/audi.jpeg" alt="pec" style={{ display: currentSlide === 2 ? 'block' : 'none' }}/>
+                    <section class="container">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <img id="slide-1" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg" alt="pec" style={{ display: currentSlide === 0 ? 'block' : 'none' }} />
+                                <img id="slide-2" src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="pec" style={{ display: currentSlide === 1 ? 'block' : 'none' }} />
+                                <img id="slide-3" src="https://ieeeindiscon.org/assets/images/college/audi.jpeg" alt="pec" style={{ display: currentSlide === 2 ? 'block' : 'none' }} />
 
-                                </div>
-                                
-                                <div class="slider-nav">
-                                    <a href="#slide-1"></a>
-                                    <a href="#slide-2"></a>
-                                    <a href="#slide-3"></a>
-                                  
-                                </div>
                             </div>
-                        </section>
+
+                            <div class="slider-nav">
+                                <a href="#slide-1"></a>
+                                <a href="#slide-2"></a>
+                                <a href="#slide-3"></a>
+
+                            </div>
+                        </div>
+                    </section>
+                    <div className="flex justify-center p-10">
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Our Venue</span>
+                            </div>
+                            <div class="second-content p-10">
+                                <span>Punjab Engineering College</span>
+                            </div>
+
+
+                        </div>
+                        
+                        <div class="card">
+                            <div class="first-content">
+                                <span>Date</span>
+                            </div>
+                            <div class="second-content p-10">
+                                <span>8th November 2024</span>
+                            </div>
+
+
+                        </div>
+                    </div>
                     <div className="mx-auto">
                         <div className="flex flex-wrap w-full mb-4">
                             <div className="lg:w-full lg:mb-0 pt-10">

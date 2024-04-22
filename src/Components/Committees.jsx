@@ -6,16 +6,21 @@ import drkamalkumar from '../drkamalkumar.jpeg'
 export function Committees() {
     return (
         <div style={{backgroundColor: '#E9FFFF'}}>
-            <div className="flex flex-col text-center w-full" style={{padding: '20px'}}>
-                <h1 className="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
-                    <Typewriter onInit={(typewriter) => {
-                        typewriter
-                            .typeString("Committees")
-                            .pauseFor(1500)
-                            .start();
-                    }} />
-                </h1>
-            </div>
+            <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
+        <div className="flex flex-wrap w-full mb-4">
+          <div className="lg:w-full lg:mb-0 pt-10 text-center">
+            <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <Typewriter onInit={(typewriter) => {
+                typewriter
+                  .typeString("COMMITTEES")
+                  .pauseFor(1500)
+                  .start();
+              }} />
+            </h1>
+            <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+          </div>
+        </div>
+      </div>
             <div className="p-4 flex flex-col text-center w-full md:w-1/2 mx-auto">
                 <div className="h-full flex flex-col items-center text-center">
                     <img alt="team" className="flex-shrink-0 rounded-lg w-full h-65 object-cover object-center mb-4" src="https://pec.ac.in/sites/default/files/styles/event/public/headline/images/Director_PEC-1.JPG?itok=6elrGkaX" />

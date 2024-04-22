@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom"
 
 export function Callforpapers_home() {
+    const navigate = useNavigate();
     return (
 
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
@@ -32,6 +34,13 @@ export function Callforpapers_home() {
                         </section>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center">
+                <a className="text-indigo-500 inline-flex items-center mt-10" onClick={()=>{navigate('/callforpapers')}} target="_blank">View All Tracks
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
             </div>
         </div>
 

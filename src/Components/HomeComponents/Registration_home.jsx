@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 export function Registration_home() {
+    const navigate = useNavigate();
     return (
         <div className=" mx-auto flex flex-col">
             <div className=" px-5 py-5 mx-auto flex flex-col">
@@ -68,7 +71,7 @@ export function Registration_home() {
                 </div>
             </div>
             <div className="flex justify-center">
-                <a className="text-indigo-500 inline-flex items-center mt-10" href="/registration" target="_blank">Learn More
+                <a className="text-indigo-500 inline-flex items-center mt-10" onClick={()=>{navigate('/registration')}} target="_blank">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>

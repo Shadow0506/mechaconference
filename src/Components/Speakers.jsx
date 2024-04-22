@@ -5,20 +5,19 @@ export function Speakers()
         <div>
             <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-wrap w-full mb-20">
-      <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-        <Typewriter onInit={(typewriter) => {
-                            typewriter
-                                .typeString("Speakers")
-                                .pauseFor(15)
-                                .start();
-                        }} />
-        </h1>
-        <div className="h-1 w-20 bg-indigo-500 rounded"></div>
-      </div>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">**A short desciption of the Speakers page**</p>
-    </div>
+  <div className="flex flex-wrap w-full mb-4">
+          <div className="lg:w-full lg:mb-0 pt-10 text-center">
+            <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <Typewriter onInit={(typewriter) => {
+                typewriter
+                  .typeString("KEYNOTE SPEAKERS")
+                  .pauseFor(1500)
+                  .start();
+              }} />
+            </h1>
+            <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+          </div>
+        </div>
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">

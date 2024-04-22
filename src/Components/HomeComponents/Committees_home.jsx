@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom"
+
 export function Committees_home(){
+    const navigate = useNavigate();
     return(
         <div>
            <div className="container px-5 py-5 mx-auto flex flex-col">
@@ -63,7 +66,7 @@ export function Committees_home(){
                 </div>
             </section>
             <div className="flex justify-center">
-                <a className="text-indigo-500 inline-flex items-center mt-10" href="/committees" target="_blank">View All
+                <a className="text-indigo-500 inline-flex items-center mt-10" onClick={()=>{navigate('/committees')}} target="_blank">View All
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>

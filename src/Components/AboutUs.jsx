@@ -2,17 +2,24 @@ import Typewriter from "typewriter-effect";
 import main_logo from './main_logo.jpeg'
 export function AboutUs() {
   return (
-    <div style={{backgroundColor: '#E9FFFF', padding: '40px'}}>
-      <div class="flex flex-col text-center w-full">
-                        <h1 class="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
-                            <Typewriter onInit={(typewriter) => {
-                                typewriter
-                                    .typeString("About Us")
-                                    .pauseFor(1500)
-                                    .start();
-                            }} />
-                        </h1>
-                    </div>
+    <div style={{ backgroundColor: '#E9FFFF', padding: '40px' }}>
+      <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
+        <div className="flex flex-wrap w-full mb-4">
+          <div className="lg:w-full lg:mb-0 pt-10 text-center">
+            <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <Typewriter onInit={(typewriter) => {
+                typewriter
+                  .typeString("ABOUT US")
+                  .pauseFor(1500)
+                  .start();
+              }} />
+            </h1>
+            <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+          </div>
+        </div>
+      </div>
+
+
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-2 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
@@ -107,7 +114,7 @@ export function AboutUs() {
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Mechanical Engineering Department</h2>
                   <h3 class="font-medium title-font mt-4 text-gray-900 text-lg">PEC , Chandigarh</h3>
                   <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                  
+
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
@@ -145,13 +152,13 @@ export function AboutUs() {
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">ICDMT 2024</h2>
                   <h4 class="font-medium title-font mt-4 text-gray-900 text-lg">International Conference on Design and Manufacturing Technologies</h4>
                   <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                  
+
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p class="leading-relaxed text-lg mb-4 text-justify">Design and Manufacturing play a crucial role in a country's economy and societal development due to its significant wealth-generating capabilities. To expand and deepen understanding of materials from the application point of view and to meet the growing global demands, it is essential to focus on in-depth studies of functionally graded materials and tailor-made materials, their design as well as manufacturing aspects. This approach aims to enhance innovation and responsiveness in addressing the diverse needs of the international community. The goal of the ‘International Conference on Design and Manufacturing Technologies” (ICDMT-2024) scheduled for 08th -10th Nov 2024 is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing with a focus on advanced materials to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view to product design, process design and analysis as well as to create, and manufacture goods.
-This event is being jointly organized by the Department of Mechanical Engineering Punjab Engineering College (Deemed to be University) in association with The Design Innovation Centre, Indian Institute of Technology, Roorkee, (Uttarakhand). The three-day gala event is structured with the delivery of keynote addresses focusing on the main themes of the conference followed by parallel sessions. Keynote addresses will be delivered by experts from academia or industry of international repute. Each session will commence with an invited talk aimed at the theme of the session followed by the presentation of contributed papers by the delegates. The authors of all accepted papers will be invited to present their work during the conference and subsequently, the papers will be published in a Scopus index journal. The extended version of the selected papers will be published in SCI/SCIE-indexed journals after peer review.
-</p>
+                  This event is being jointly organized by the Department of Mechanical Engineering Punjab Engineering College (Deemed to be University) in association with The Design Innovation Centre, Indian Institute of Technology, Roorkee, (Uttarakhand). The three-day gala event is structured with the delivery of keynote addresses focusing on the main themes of the conference followed by parallel sessions. Keynote addresses will be delivered by experts from academia or industry of international repute. Each session will commence with an invited talk aimed at the theme of the session followed by the presentation of contributed papers by the delegates. The authors of all accepted papers will be invited to present their work during the conference and subsequently, the papers will be published in a Scopus index journal. The extended version of the selected papers will be published in SCI/SCIE-indexed journals after peer review.
+                </p>
                 <a class="text-indigo-500 inline-flex items-center" href="https://pec.ac.in/me" target="_blank">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>

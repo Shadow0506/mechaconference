@@ -5,17 +5,21 @@ export function Sponsorship()
         <div style={{backgroundColor: '#E9FFFF'}}>
             <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-      <Typewriter onInit={(typewriter) => {
-                            typewriter
-                                .typeString("Our sponsors")
-                                .pauseFor(15)
-                                .start();
-                        }} />
-      </h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">**Short desciption of Sponsorship page**</p>
-    </div>
+  <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
+                    <div className="flex flex-wrap w-full mb-4">
+                        <div className="lg:w-full lg:mb-0 pt-10 text-center">
+                            <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+                                <Typewriter onInit={(typewriter) => {
+                                    typewriter
+                                        .typeString("OUR SPONSORS")
+                                        .pauseFor(1500)
+                                        .start();
+                                }} />
+                            </h1>
+                            <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+                        </div>
+                    </div>
+                </div>
     <div class="flex flex-wrap -m-2">
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">

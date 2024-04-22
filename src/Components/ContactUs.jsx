@@ -1,14 +1,24 @@
 import './ContactUs.css'
+import Typewriter from "typewriter-effect";
 export function ContactUs() {
     return (
-        <div style={{backgroundColor: '#E9FFFF'}}>
+        <div style={{ backgroundColor: '#E9FFFF' }}>
             <section className="text-gray-600 body-font relative">
-            <div className="flex flex-col text-center w-full" style={{padding: '20px'}}>
-                <h1 className="sm:text-5xl text-2xl font-medium title-font  text-gray-900">
-                    CONTACT US
-                </h1>
-            </div>
-
+                <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
+                    <div className="flex flex-wrap w-full mb-4">
+                        <div className="lg:w-full lg:mb-0 pt-10 text-center">
+                            <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+                                <Typewriter onInit={(typewriter) => {
+                                    typewriter
+                                        .typeString("CONTACT US")
+                                        .pauseFor(1500)
+                                        .start();
+                                }} />
+                            </h1>
+                            <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+                        </div>
+                    </div>
+                </div>
                 <div className="container px-5 py-5 mx-auto flex sm:flex-nowrap flex-wrap justify-center">
                     <div className="div-with-line lg:w-2/3 md:w-1/2 flex flex-col items-center justify-center">
                         <iframe
