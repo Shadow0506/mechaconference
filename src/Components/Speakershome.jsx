@@ -2,6 +2,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
+import inderdeep from './inderdeep.jpeg'
+import rahul_vaish from './rahul_vaish.jpeg'
+import akshay_dv from './akshay_dv.jpeg'
+import pradeep_dixit from './pradeep_dixit.jpeg'
+import Sunil_pandey from './Sunil_pandey.jpeg'
 export function Speakershome() {
     const navigate = useNavigate();
     const settings = {
@@ -40,7 +45,7 @@ export function Speakershome() {
             
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
                 <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
-                  <img src='./src/Components/inderdeep.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                  <img src={inderdeep} alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
                   <p className="text-xl font-semibold mb-2">Inderdeep Singh</p>
@@ -51,7 +56,7 @@ export function Speakershome() {
               </div>
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
                 <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
-                  <img src='./src/Components/akshay_dv.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                  <img src={akshay_dv} alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
                   <p className="text-xl font-semibold mb-2">Akshay Dvivedi</p>
@@ -62,7 +67,7 @@ export function Speakershome() {
               </div>
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
                 <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
-                  <img src='./src/Components/rahul_vaish.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                  <img src={rahul_vaish} alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
                   <p className="text-xl font-semibold mb-2">Rahul Vaish</p>
@@ -73,7 +78,7 @@ export function Speakershome() {
               </div>
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
                 <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
-                  <img src='./src/Components/Sunil_pandey.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                  <img src={Sunil_pandey} alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
                   <p className="text-xl font-semibold mb-2">Sunil Pandey</p>
@@ -84,7 +89,7 @@ export function Speakershome() {
               </div>
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
                 <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
-                  <img src='./src/Components/pradeep_dixit.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                  <img src={pradeep_dixit.jpeg} alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
                   <p className="text-xl font-semibold mb-2">Pradeep Dixit</p>
