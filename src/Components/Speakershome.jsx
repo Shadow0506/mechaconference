@@ -89,7 +89,7 @@ export function Speakershome() {
               </div>
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
                 <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
-                  <img src={pradeep_dixit.jpeg} alt="" className="h-44 w-44 rounded-full" />
+                  <img src={pradeep_dixit} alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
                   <p className="text-xl font-semibold mb-2">Pradeep Dixit</p>
