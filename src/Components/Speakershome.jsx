@@ -22,13 +22,12 @@ export function Speakershome() {
             },
         ],
     };
-    const text = "Keynote Speakers";
     return (
 
         <div className="w-3/4 m-auto">
-        <div className="container px-5 py-5 mx-auto flex flex-col">
-                <div className="flex flex-wrap w-full mb-4 mx-auto">
-                    <div className="lg:w-full lg:mb-0 pt-10">
+        <div className="container lg:px-5 lg:py-5 mx-auto flex flex-col">
+                <div className="flex flex-wrap w-full mx-auto">
+                    <div className="lg:w-full lg:mb-0 ">
                         <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
                             KEYNOTE SPEAKERS
                         </h1>
@@ -38,19 +37,62 @@ export function Speakershome() {
             </div>
         <div className="mt-20">
           <Slider {...settings}>
-            {data.map((d) => (
-              <div key={d.name} className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+            
+              <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
                 <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
-                  <img src={d.img} alt="" className="h-44 w-44 rounded-full" />
+                  <img src='./src/Components/inderdeep.jpeg' alt="" className="h-44 w-44 rounded-full" />
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-xl font-semibold mb-2">{d.name}</p>
-                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">{d.designation}</h3>
-                  <p className="text-gray-700 mt-2">{d.institute}</p>
-                  <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" href={d.linkedin}>Read More</button>
+                  <p className="text-xl font-semibold mb-2">Inderdeep Singh</p>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+                  <p className="text-gray-700 mt-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
+                  <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
                 </div>
               </div>
-            ))}
+              <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+                <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
+                  <img src='./src/Components/akshay_dv.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                </div>
+                <div className="p-4 text-center">
+                  <p className="text-xl font-semibold mb-2">Akshay Dvivedi</p>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+                  <p className="text-gray-700 mt-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
+                  <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+                </div>
+              </div>
+              <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+                <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
+                  <img src='./src/Components/rahul_vaish.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                </div>
+                <div className="p-4 text-center">
+                  <p className="text-xl font-semibold mb-2">Rahul Vaish</p>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+                  <p className="text-gray-700 mt-2">School of Engineering, IIT Mandi</p>
+                  <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+                </div>
+              </div>
+              <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+                <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
+                  <img src='./src/Components/Sunil_pandey.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                </div>
+                <div className="p-4 text-center">
+                  <p className="text-xl font-semibold mb-2">Sunil Pandey</p>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
+                  <p className="text-gray-700 mt-2">Department of Mechanical Engineering, IIT Delhi</p>
+                  <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+                </div>
+              </div>
+              <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+                <div className="h-56 flex justify-center items-center rounded-t-xl" style={{backgroundColor: '#1a3e60'}}>
+                  <img src='./src/Components/pradeep_dixit.jpeg' alt="" className="h-44 w-44 rounded-full" />
+                </div>
+                <div className="p-4 text-center">
+                  <p className="text-xl font-semibold mb-2">Pradeep Dixit</p>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Associate Professor</h3>
+                  <p className="text-gray-700 mt-2">Department of Mechanical Engineering, IIT Bombay</p>
+                  <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+                </div>
+              </div>
           </Slider>
         </div>
         <div className="flex justify-center">

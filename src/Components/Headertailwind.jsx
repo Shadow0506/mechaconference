@@ -16,20 +16,20 @@ export function Headertailwind() {
     };
 
     return (
-        <nav className="border-gray-200 bg-gray-900 md:pb-5 ">
-            <div className="max-w-screen-xl flex items-center justify-between mx-auto pb-0">
-    <div className="flex items-center justify-center md:justify-between space-x-8 mx-auto">
-        <img className="h-16 md:h-25 mx-auto" src={pec_nobg} alt="peclogo" />
-        <img className="h-16 md:h-25 mx-auto" src={logo_nobg} alt="peclogo" />
-        <img className="h-16 md:h-24 mx-auto" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
-    </div>
-
+        <nav className="bg-gray-900 md:pb-5">
+             <div className="container mx-10 lg:mx-auto flex items-center justify-between py-4 lg:max-w-screen-xl lg:flex lg:items-center lg:justify-between lg:p-5">
+             <div className="flex items-center space-x-4 lg:flex lg:items-center lg:justify-center md:justify-between lg:space-x-8 lg:mx-auto">
+                    <img className="h-12 md:h-16" src={pec_nobg} alt="peclogo" />
+                    <img className="h-12 md:h-16" src={logo_nobg} alt="peclogo" />
+                    <img className="h-12 md:h-16" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
     <button onClick={toggleMobileMenu} className="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 focus:ring-gray-600 ml-4" aria-controls="navbar-sticky" aria-expanded="false">
         <span className="sr-only">Open main menu</span>
         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
         </svg>
     </button>
+                </div>
+
 </div>
 
 

@@ -6,7 +6,7 @@ export function Impdates_main() {
     const navigate = useNavigate();
     return (
         <div style={{ backgroundColor: '#E9FFFF' }}>
-            <div className="container px-5 py-5 mx-auto flex flex-col">
+            <div className="container lg:px-5 lg:py-5 mx-auto flex flex-col">
                 <div className="flex flex-wrap w-full mb-4 mx-auto">
                     <div className="lg:w-full lg:mb-0 pt-10">
                         <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
@@ -16,9 +16,9 @@ export function Impdates_main() {
                     </div>
                 </div>
             </div>
-            <div className="min-h-screen">
-                <div className="min-h-screen flex justify-center">
-                    <div className="w-2/3 mx-auto">
+            <div className="min-h-screen lg:px-14">
+                <div className="min-h-screen flex justify-center lg:px-14">
+                    <div className="w-full mx-auto lg:px-12">
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -35,7 +35,7 @@ export function Impdates_main() {
                                         
                                     </div>
                                 </div>
-                                <div className="w-1/5 flex justify-center py-0">
+                                <div className="w-1/5 flex justify-center py-0 ">
                                     <div className="relative flex h-full w-1 items-center justify-center" style={{ backgroundColor: '#f8d0c2' }}>
                                         <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 leading-none text-center z-10 bg-white font-thick" style={{ borderWidth: '3px', borderColor: '#f8d0c2' }}>
                                             <div>31st</div>
