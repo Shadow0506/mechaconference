@@ -27,8 +27,8 @@ export function Callforpapers_home() {
 
     return (
         <div id="default-carousel" className="relative w-full" data-carousel="slide">
-            <div className="container px-5 py-5 mx-auto flex flex-col">
-                <div className="flex flex-wrap w-full mb-4 mx-auto">
+            <div className="container  mx-auto flex flex-col">
+                <div className="flex flex-wrap w-full mx-auto">
                     <div className="lg:w-full lg:mb-0 pt-10">
                         <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
                             CALL FOR PAPERS
@@ -42,16 +42,17 @@ export function Callforpapers_home() {
                     <div className='mx-auto relative'>
                     <section className="container relative">
                         <div className="slider-wrapper relative">
-                            <div className="slider relative">
-                                <img id="slide-1" src={t1} className={currentSlide === 1 ? 'block' : 'hidden'} />
-                                <img id="slide-2" src={t2} className={currentSlide === 2 ? 'block' : 'hidden'} />
-                                <img id="slide-3" src={t3} className={currentSlide === 3 ? 'block' : 'hidden'} />
-                                <img id="slide-4" src={t4} className={currentSlide === 4 ? 'block' : 'hidden'} />
-                                <img id="slide-5" src={t5} className={currentSlide === 5 ? 'block' : 'hidden'} />
-                                <img id="slide-6" src={t6} className={currentSlide === 6 ? 'block' : 'hidden'} />
-                                <img id="slide-7" src={t7} className={currentSlide === 7 ? 'block' : 'hidden'} />
-                                <img id="slide-8" src={t8} className={currentSlide === 8 ? 'block' : 'hidden'} />
-                            </div>
+                        <div className="slider relative">
+    <img id="slide-1" src={t1} className={`block w-64 h-64 ${currentSlide === 1 ? 'block' : 'hidden'}`} />
+    <img id="slide-2" src={t2} className={`block w-64 h-64 ${currentSlide === 2 ? 'block' : 'hidden'}`} />
+    <img id="slide-3" src={t3} className={`block w-64 h-64 ${currentSlide === 3 ? 'block' : 'hidden'}`} />
+    <img id="slide-4" src={t4} className={`block w-64 h-64 ${currentSlide === 4 ? 'block' : 'hidden'}`} />
+    <img id="slide-5" src={t5} className={`block w-64 h-64 ${currentSlide === 5 ? 'block' : 'hidden'}`} />
+    <img id="slide-6" src={t6} className={`block w-64 h-64 ${currentSlide === 6 ? 'block' : 'hidden'}`} />
+    <img id="slide-7" src={t7} className={`block w-64 h-64 ${currentSlide === 7 ? 'block' : 'hidden'}`} />
+    <img id="slide-8" src={t8} className={`block w-64 h-64 ${currentSlide === 8 ? 'block' : 'hidden'}`} />
+</div>
+
                         </div>
                         
                     </section>

@@ -4,10 +4,10 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 export function ContactUs_home() {
     return (
         <div>
-            <section className="text-gray-600 body-font relative my-20">
-                <div className="container lg:px-5 lg:py-5 mx-auto flex flex-col">
+            <section className="text-gray-600 body-font relative">
+                <div className="container  mx-auto flex flex-col">
                     <div className="flex flex-wrap w-full mb-4 mx-auto">
-                        <div className="lg:w-full lg:mb-0 pt-10">
+                        <div className="lg:w-full lg:mb-0 ">
                             <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
                                 CONTACT US
                             </h1>

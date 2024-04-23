@@ -40,7 +40,7 @@ export function Speakershome() {
                     </div>
                 </div>
             </div>
-        <div className="pt-5">
+        <div>
           <Slider {...settings}>
             
               <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">

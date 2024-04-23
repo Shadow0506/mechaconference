@@ -6,9 +6,9 @@ export function Impdates_main() {
     const navigate = useNavigate();
     return (
         <div style={{ backgroundColor: '#E9FFFF' }}>
-            <div className="container lg:px-5 lg:py-5 mx-auto flex flex-col">
+            <div className="container  mx-auto flex flex-col">
                 <div className="flex flex-wrap w-full mb-4 mx-auto">
-                    <div className="lg:w-full lg:mb-0 pt-10">
+                    <div className="lg:w-full lg:mb-0 ">
                         <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
                             IMPORTANT DATES
                         </h1>
@@ -28,7 +28,7 @@ export function Impdates_main() {
                                 <div className="w-2/5 px-1 py-10">
                                     <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5" style={{ borderWidth: '1px', borderColor: '#f8d0c2' }}>
                                         <div className="text-gray-600 mb-2 flex justify-between">
-                                            <div className="font-bold">
+                                            <div className="lg:text-2xl text-xl">
                                             Full Paper Submission
                                             </div>
                                         </div>
@@ -64,7 +64,7 @@ export function Impdates_main() {
                                 <div className="w-2/5 px-2 py-10 ">
                                     <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5" style={{ borderWidth: '1px', borderColor: '#f8d0c2' }}>
                                         <div className="text-gray-600 mb-2 flex justify-between">
-                                            <div className="font-bold">
+                                            <div className="lg:text-2xl text-xl">
                                             Notification of Acceptance
                                             </div>
                                         </div>
@@ -82,7 +82,7 @@ export function Impdates_main() {
                                 <div className="w-2/5 px-2 py-10">
                                     <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5" style={{ borderWidth: '1px', borderColor: '#f8d0c2' }}>
                                         <div className="text-gray-600 mb-2 flex justify-between">
-                                            <div className="font-bold">
+                                            <div className="lg:text-2xl text-xl">
                                             Submission of Camera-Ready Paper
                                             </div>
                                         </div>
@@ -118,7 +118,7 @@ export function Impdates_main() {
                                 <div className="w-2/5 px-2 py-10 ">
                                     <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5" style={{ borderWidth: '1px', borderColor: '#f8d0c2' }}>
                                         <div className="text-gray-600 mb-2 flex justify-between">
-                                            <div className="font-bold">
+                                            <div className="lg:text-2xl text-xl">
                                             Registration Commences on
                                             </div>
                                         </div>
@@ -136,7 +136,7 @@ export function Impdates_main() {
                                 <div className="w-2/5 px-2 py-10">
                                     <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5" style={{ borderWidth: '1px', borderColor: '#f8d0c2' }}>
                                         <div className="text-gray-600 mb-2 flex justify-between">
-                                            <div className="font-bold">
+                                            <div className="lg:text-2xl text-xl">
                                             Last Date of Registration
                                             </div>
                                         </div>

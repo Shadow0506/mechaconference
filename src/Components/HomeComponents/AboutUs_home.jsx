@@ -2,13 +2,14 @@ export function AboutUs_home() {
   return (
     <div>
       <div className="container mx-auto">
-        <div className="text-center pt-10 mb-10">
-          <h1 className="sm:text-5xl text-3xl font-medium title-font mb-4 text-gray-900">
+    <div className=" mb-10">
+        <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
             ABOUT INSTITUTE
-          </h1>
-          <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
-        </div>
-      </div>
+        </h1>
+        <div className="h-1 w-20  bg-indigo-500 rounded"></div>
+    </div>
+</div>
+
       <section className="text-gray-600 body-font">
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">
@@ -21,13 +22,13 @@ export function AboutUs_home() {
                   <img src="https://latestgovtjobs.in/wp-content/uploads/2017/11/PEC-Logo-150x150.png" alt="Pec Logo" className="w-16 h-16" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
-                  <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">Punjab Engineering College</h2>
-                  <h2 className="font-medium title-font mt-1 text-gray-900 text-lg">Chandigarh</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Punjab Engineering College</h2>
+                  <h2 className="font-medium title-font mt-1 text-gray-900 text-xl">Chandigarh</h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p className="leading-relaxed text-lg mb-4 text-justify" style={{ fontSize: '15px' }}>The institute offers 11 Undergraduate (B. Tech.) Programmes and 14 Post graduate (M. Tech.) Programmes in various disciplines of Engineering and Technology. After becoming University, the institute has also started PhD programme in various disciplines of engineering, sciences, management, humanities and social sciences. The admission to UG and PG programmes are made through national level examinations namely JEE (Mains) and GATE respectively. There are 9 academic departments and 2 centers of excellence. The institute collaborates very closely with research organizations, industries, alumni and other academic institutions both India and abroad, and has signed MoUs to pursue joint research in niche areas. The students graduating from this institute are placed in highly reputed companies with handsome salary packages. With a history of 100 Years now, the institute has produced a number of alumni who have earned name and fame both for themselves and the institute.
+                <p className="leading-relaxed text-xl mb-4 text-justify" >The institute offers 11 Undergraduate (B. Tech.) Programmes and 14 Post graduate (M. Tech.) Programmes in various disciplines of Engineering and Technology. After becoming University, the institute has also started PhD programme in various disciplines of engineering, sciences, management, humanities and social sciences. The admission to UG and PG programmes are made through national level examinations namely JEE (Mains) and GATE respectively. There are 9 academic departments and 2 centers of excellence. The institute collaborates very closely with research organizations, industries, alumni and other academic institutions both India and abroad, and has signed MoUs to pursue joint research in niche areas. The students graduating from this institute are placed in highly reputed companies with handsome salary packages. With a history of 100 Years now, the institute has produced a number of alumni who have earned name and fame both for themselves and the institute.
                 </p>
                 <a className="text-indigo-500 inline-flex items-center" href="https://pec.ac.in/" target="_blank" rel="noopener noreferrer">
                   Learn More
@@ -53,13 +54,13 @@ export function AboutUs_home() {
                   <img src="https://pec.ac.in/hydro-2022/assets/images/pec_logo.png" alt="PEC logo" className="w-16 h-16" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
-                  <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">Mechanical Engineering Department</h2>
-                  <h3 className="font-medium title-font mt-1 text-gray-900 text-lg">PEC , Chandigarh</h3>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Mechanical Engineering Department</h2>
+                  <h3 className="font-medium title-font mt-1 text-gray-900 text-xl">PEC , Chandigarh</h3>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p className="leading-relaxed text-lg mb-4 text-justify" style={{ fontSize: '15px' }}>The Department of Mechanical Engineering at Punjab Engineering College is as old as the Institute itself. The Department is continuously striving to achieve excellence in education, academic and industry-oriented research to prepare the manpower that are globally competitive and capable of leading in industry, academia and government organizations in both India and abroad. Besides the Bachelor degree, Department offer Master and Ph.D. programme also. From session 2014-15 onward, the Department has an intake of 75 students at B.E. level and 25 students at M.E. level. Under Ph.D. programme at the Department, the major research areas include Advanced /non-traditional machining processes, Micro-manufacturing, CAD/CAM, MEMS, Soft computing in Design and Manufacturing, Composites, Bio-materials, and so on.
+                <p className="leading-relaxed text-xl mb-4 text-justify" >The Department of Mechanical Engineering at Punjab Engineering College is as old as the Institute itself. The Department is continuously striving to achieve excellence in education, academic and industry-oriented research to prepare the manpower that are globally competitive and capable of leading in industry, academia and government organizations in both India and abroad. Besides the Bachelor degree, Department offer Master and Ph.D. programme also. From session 2014-15 onward, the Department has an intake of 75 students at B.E. level and 25 students at M.E. level. Under Ph.D. programme at the Department, the major research areas include Advanced /non-traditional machining processes, Micro-manufacturing, CAD/CAM, MEMS, Soft computing in Design and Manufacturing, Composites, Bio-materials, and so on.
                 </p>
                 <a className="text-indigo-500 inline-flex items-center" href="https://pec.ac.in/me" target="_blank" rel="noopener noreferrer">
                   Learn More
@@ -84,12 +85,13 @@ export function AboutUs_home() {
                   <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Indian_Institute_of_Technology_Roorkee_logo.png" alt="IIT-R Logo" className="w-16 h-16" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
-                  <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">IIT Roorkee</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Mechanical Engineering Department</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-xl">IIT Roorkee</h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p className="leading-relaxed text-lg mb-4 text-justify" style={{ fontSize: '15px' }}>Indian Institute of Technology - Roorkee is among the foremost of institutes of national importance in higher technological education and in engineering, basic and applied research. Since its establishment, the Institute has played a vital role in providing the technical manpower and know-how to the country and in pursuit of research. The Institute ranks amongst the best technological institutions in the world and has contributed to all sectors of technological development. It has also been considered a trend-setter in the area of education and research in the field of science, technology, and engineering.
+                <p className="leading-relaxed text-xl mb-4 text-justify" >Indian Institute of Technology - Roorkee is among the foremost of institutes of national importance in higher technological education and in engineering, basic and applied research. Since its establishment, the Institute has played a vital role in providing the technical manpower and know-how to the country and in pursuit of research. The Institute ranks amongst the best technological institutions in the world and has contributed to all sectors of technological development. It has also been considered a trend-setter in the area of education and research in the field of science, technology, and engineering.
                   The Institute offers Bachelor's Degree courses in 10 disciplines of Engineering and Architecture and Postgraduate's Degree in 55 disciplines of Engineering, Applied Science, Architecture and planning. The Institute has facility for doctoral work in all Departments and Research Centres.
                   The Institute admits students to B.Tech. and B.Arch. courses through the Joint Entrance Examination (JEE) conducted at various centres all over India.
                 </p>

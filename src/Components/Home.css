@@ -173,3 +173,9 @@
     background: #fff;
   }
   
+  .word-art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
