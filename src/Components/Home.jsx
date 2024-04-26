@@ -1,14 +1,14 @@
 import Marquee from "react-fast-marquee";
-import { Impdates } from './Impdates'
+import { Impdates } from './Impdates';
 import { Speakershome } from "./Speakershome";
 import { AboutUs_home } from "./HomeComponents/AboutUs_home";
 import { Callforpapers_home } from "./HomeComponents/Callforpapers_home";
 import { Registration_home } from "./HomeComponents/Registration_home";
 import { Committees_home } from "./HomeComponents/Committees_home";
 import { ContactUs_home } from "./HomeComponents/ContactUs_home";
-import { Impdates_main } from "./Impdates_main"
-import './Home.css'
-import main_logo from './main_logo.jpeg'
+import { Impdates_main } from "./Impdates_main";
+import './Home.css';
+import main_logo from './main_logo.jpeg';
 import React, { useState, useEffect } from 'react';
 
 export function Home() {
@@ -44,7 +44,7 @@ export function Home() {
                                 Department Of Mechanical Engineering
                             </h1>
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
-                                Punjab Engineering College, Chandigarh 
+                                Punjab Engineering College, Chandigarh
                             </h1>
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
                                 &
