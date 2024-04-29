@@ -38,7 +38,7 @@ export function Committees() {
 
                         <div className="p-4 lg:w-1/3 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201" />
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://pec.ac.in/sites/default/files/images/sanjeev_1.jpg" />
                                 <div className="w-full">
                                     <h2 className="title-font font-medium text-lg text-gray-900">Prof. Sanjeev Kumar</h2>
                                     <h3 className="text-gray-500 mb-3">Department of Mechanical Engineering PEC, CHD</h3>
@@ -48,7 +48,7 @@ export function Committees() {
                         </div>
                         <div className="p-4 lg:w-1/3 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202" />
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://pec.ac.in/sites/default/files/images/parminderjit.jpg" />
                                 <div className="w-full">
                                     <h2 className="title-font font-medium text-lg text-gray-900">Prof. Perminderjit Singh</h2>
                                     <h3 className="text-gray-500 mb-3">Department of Mechanical Engineering PEC, CHD</h3>
@@ -87,7 +87,7 @@ export function Committees() {
                     <div className="flex flex-wrap -m-2">
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/sanjeev_1.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sanjeev Kumar</h2>
                                     <p className="leading-relaxed text-base">Chairman, Department of Mechanical Engineering, PEC, CHD</p>
@@ -97,7 +97,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/parminderjit.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Perminderjit Singh</h2>
                                     <p className="leading-relaxed text-base">Co-Chairman, Department of Mechanical Engineering, PEC, CHD</p>
@@ -159,7 +159,7 @@ export function Committees() {
                     <div className="flex flex-wrap -m-2">
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/alakesh.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Alakesh Manna</h2>
                                     <p className="leading-relaxed text-base">Professor</p>
@@ -168,7 +168,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/sanjeev_1.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sanjeev Kumar</h2>
                                     <p className="leading-relaxed text-base">Professor</p>
@@ -177,7 +177,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/parminderjit.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Perminderjit Singh</h2>
                                     <p className="leading-relaxed text-base">Professor</p>
@@ -186,7 +186,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/sanjay.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sanjay Kumar Mangal</h2>
                                     <p className="leading-relaxed text-base">Professor</p>
@@ -195,7 +195,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/SSAMIR.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sushant Samir</h2>
                                     <p className="leading-relaxed text-base">Professor</p>
@@ -204,7 +204,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/drprajapati.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. D R Prajapati</h2>
                                     <p className="leading-relaxed text-base">Professor</p>
@@ -213,7 +213,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/styles/medium/public/faculty_profile/images/S_K_Soni.jpg?itok=7AFWan85" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. S K Soni</h2>
                                     <p className="leading-relaxed text-base">Associate Professor</p>
@@ -222,7 +222,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/rajesh_kanda.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Rajesh Kumar Kanda</h2>
                                     <p className="leading-relaxed text-base">Associate Professor</p>
@@ -231,7 +231,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/rakesh_0.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Rajesh Kumar Dang</h2>
                                     <p className="leading-relaxed text-base">Associate Professor</p>
@@ -240,7 +240,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/C4D03AQE42i-386BrMQ/profile-displayphoto-shrink_400_400/0/1662231484166?e=1720051200&v=beta&t=LZoFq4P-kupYb6l0Q9hdKxj6d2nm9r1qIt_A2z1xp_4" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Kamal Kumar</h2>
                                     <p className="leading-relaxed text-base">Associate Professor</p>
@@ -249,7 +249,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/styles/medium/public/faculty_profile/images/MPGARG.jpg?itok=Kcauczl8" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. M.P Garg</h2>
                                     <p className="leading-relaxed text-base">Associate Professor</p>
@@ -258,16 +258,16 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/sandeep.jpg" />
                                 <div className="flex-grow">
-                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sandeep Salodkar</h2>
+                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sandeep Selodkar</h2>
                                     <p className="leading-relaxed text-base">Associate Professor</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/tejbir.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Tejbir Kaur</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
@@ -276,7 +276,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/styles/medium/public/faculty_profile/images/Lokesh.jpg?itok=hlQ2hePd" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Lokesh</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
@@ -285,7 +285,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/achitanand.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Achitanand Dubey</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
@@ -294,7 +294,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/ankit.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Ankit Yadav</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
@@ -303,7 +303,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/GURJEET%20SINGH-3.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Gurjeet Singh</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
@@ -312,16 +312,16 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/images/chander_kant.jpg" />
                                 <div className="flex-grow">
-                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Chanderkant Sudheel</h2>
+                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Chanderkant Susheel</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://pec.ac.in/sites/default/files/styles/medium/public/faculty_profile/images/Photograph.jpg?itok=sOF47TEy" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Harshit Khandewal</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
@@ -330,7 +330,7 @@ export function Committees() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/C5103AQEr_CaCXbsmEg/profile-displayphoto-shrink_400_400/0/1579867642090?e=1720051200&v=beta&t=iXpG4niX5zGgSvaeBsMkh_MkCR5tKm62-iNoc8tIqoo" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Nitin Dixit</h2>
                                     <p className="leading-relaxed text-base">Assistant Professor</p>
