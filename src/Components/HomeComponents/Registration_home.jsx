@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import { Table } from "flowbite-react";
 export function Registration_home() {
     const navigate = useNavigate();
     return (
@@ -14,64 +14,38 @@ export function Registration_home() {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-2/3 w-full mr-3 ml-2 lg:mx-auto">
-                <div className="rounded-lg overflow-hidden">
-                    <div className="relative overflow-x-auto">
-                        <table className="w-full lg:text-2xl text-xs text-left rtl:text-right text-gray-500">
-                            <thead className="text-sm uppercase bg-gray-700 text-gray-400">
-                                <tr>
-                                    <th scope="col" className="px-2 sm:px-3 py-3"> {/* Adjusted padding */}
-                                        CATEGORY
-                                    </th>
-                                    <th scope="col" className="px-2 sm:px-3 py-3"> {/* Adjusted padding */}
-                                        Indian Participants
-                                    </th>
-                                    <th scope="col" className="px-2 sm:px-3 py-3"> {/* Adjusted padding */}
-                                        Foreign Participants
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr className="border-b bg-gray-800 border-gray-700">
-                                    <th scope="row" className="px-2 sm:px-3 py-4 font-medium whitespace-nowrap"> {/* Adjusted padding */}
-                                        Students
-                                    </th>
-                                    <td className="px-2 sm:px-3 py-4">
-                                        Rs. 2,500/-
-                                    </td>
-                                    <td className="px-2 sm:px-3 py-4">
-                                        USD 150
-                                    </td>
-                                </tr>
-                                <tr className="border-b bg-gray-800 border-gray-700">
-                                    <th scope="row" className="px-2 sm:px-3 py-4 font-medium whitespace-nowrap"> {/* Adjusted padding */}
-                                        Faculty/ Academia
-                                    </th>
-                                    <td className="px-2 sm:px-3 py-4">
-                                        Rs. 5,000/-
-                                    </td>
-                                    <td className="px-2 sm:px-3 py-4">
-                                        USD 250
-                                    </td>
-                                </tr>
-                                <tr className="bg-gray-800 border-gray-700">
-                                    <th scope="row" className="px-2 sm:px-3 py-4 font-medium whitespace-nowrap"> {/* Adjusted padding */}
-                                        Industry/R&D Organization
-                                    </th>
-                                    <td className="px-2 sm:px-3 py-4">
-                                        Rs. 10,000/-
-                                    </td>
-                                    <td className="px-2 sm:px-3 py-4">
-                                        USD 450
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div className="sm:mx-auto overflow-x-auto">
+                <Table hoverable className="border border-gray-300 rounded-lg relative">
+                    <div className="absolute inset-0 z-0">
+                        <img src="https://img.freepik.com/free-photo/view-arrangement-with-keyboard-notebooks_23-2148847749.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1715212800&semt=ais_user" alt="background" className="object-cover w-full h-full opacity-10 rounded-lg" />
                     </div>
-                </div>
+                    <Table.Head className="relative z-10">
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 rounded-t-lg sm:p-10">Category</Table.HeadCell>
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 sm:p-10">Indian Participants</Table.HeadCell>
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 sm:p-10">Foreign Participants</Table.HeadCell>
+                    </Table.Head>
+                    <Table.Body className="divide-y">
+                        <Table.Row className="bg-white">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Students</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Rs. 2,500/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">USD 150</Table.Cell>
+                        </Table.Row>
+                        <Table.Row className="bg-white">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Faculty/ Academia</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Rs. 5,000/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">USD 250</Table.Cell>
+                        </Table.Row>
+                        <Table.Row className="bg-white">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Industry/R&D Organization</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Rs. 10,000/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">USD 450</Table.Cell>
+                        </Table.Row>
+                    </Table.Body>
+                </Table>
             </div>
+
             <div className="flex justify-center">
-                <a className="text-indigo-500 inline-flex items-center mt-10" onClick={() => { navigate('/registration') }} target="_blank">Learn More
+                <a className="text-indigo-500 inline-flex items-center sm:mt-10 mt-5" onClick={() => { navigate('/registration') }} target="_blank">Proceed To Register
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>

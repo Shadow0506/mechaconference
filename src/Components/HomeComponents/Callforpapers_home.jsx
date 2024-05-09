@@ -1,13 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import t1 from './t1.png';
-import t2 from './t2.png';
-import t3 from './t3.png';
-import t4 from './t4.png';
-import t5 from './t5.png';
-import t6 from './t6.png';
-import t7 from './t7.png';
-import t8 from './t8.png';
+
 "use client";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -50,6 +43,9 @@ export function Callforpapers_home() {
                 <Slider {...settings} className='pt-10 px-0 mx-0 '>
 
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl ">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://www.aiche.org/sites/default/files/styles/aiche_content/public/images/pageset/lead/materials.jpg?itok=jJc3j1x6" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -108,10 +104,13 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                        <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScnWaMAHNPWLwyf4R1ORyxZxJb7quDSpE_0YoOp5KUweF6IYwd8s512BY3SLplcTv1sQg&usqp=CAU" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -120,50 +119,53 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Nanocomposites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Nanocomposites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Hybrid composites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Hybrid composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Bio-composites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Bio-composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Green Composites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Green Composites
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Multi-functional composites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Multi-functional composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Recycled waste-based composites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Recycled waste-based composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Delamination, damage, fracture, failure, fatigue and durability of composites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Delamination, damage, fracture, failure, fatigue and durability of composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-minimize pr-3"></i>Metal matrix composites
+                                        <i class="fa-solid fa-minimize pr-3"></i>Metal matrix composites
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://www.shutterstock.com/image-illustration/regenerative-medicine-therapeutic-stem-cell-600nw-2024620991.jpg" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -172,50 +174,53 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3"></i>Biomaterials
+                                        <i class="fa-solid fa-dna pr-3"></i>Biomaterials
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3 pt-3"></i>Advanced biomaterials
+                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Advanced biomaterials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3 pt-3"></i>Biodegradable biomaterials
+                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Biodegradable biomaterials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3 pt-3"></i>Bone Scaffolds
+                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Bone Scaffolds
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3 pt-3"></i>Biodevice materials
+                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Biodevice materials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3 pt-3"></i>Medical implant materials
+                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Medical implant materials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3 pt-3"></i>Biomaterials in drug delivery system
+                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Biomaterials in drug delivery system
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-solid fa-dna pr-3"></i>Biosensors
+                                        <i class="fa-solid fa-dna pr-3"></i>Biosensors
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://t3.ftcdn.net/jpg/03/21/87/58/360_F_321875802_aAtoxcTHoEMkI2lwcJXh6r4NVdyjh6y8.jpg" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -224,50 +229,53 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Finite Element Analysis
+                                        <i class="fa-regular fa-object-group pr-3"></i>Finite Element Analysis
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Differential/Dynamical systems
+                                        <i class="fa-regular fa-object-group pr-3"></i>Differential/Dynamical systems
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Modelling & Simulation
+                                        <i class="fa-regular fa-object-group pr-3"></i>Modelling & Simulation
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Cryogenic Materials
+                                        <i class="fa-regular fa-object-group pr-3"></i>Cryogenic Materials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Multi-scale analysis
+                                        <i class="fa-regular fa-object-group pr-3"></i>Multi-scale analysis
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Advanced Numerical Techniques in Engineering Structures
+                                        <i class="fa-regular fa-object-group pr-3"></i>Advanced Numerical Techniques in Engineering Structures
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Tribology, Nano mechanics and MEMS
+                                        <i class="fa-regular fa-object-group pr-3"></i>Tribology, Nano mechanics and MEMS
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                    <i class="fa-regular fa-object-group pr-3"></i>Fracture and Failure Mechanics
+                                        <i class="fa-regular fa-object-group pr-3"></i>Fracture and Failure Mechanics
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/700E4D82-4F55-4EE1-9B6CA0C194C84956/182DC208-2737-40B8-A720EEBF9FA9B88F/WebsiteJpg_XL-FMTEC_Main%20Visual_Red_Website.jpg" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -310,10 +318,13 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://png.pngtree.com/thumb_back/fh260/background/20230415/pngtree-ai-robot-innovation-high-tech-ppt-robot-template-background-image-image_2207016.jpg" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -362,10 +373,13 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://www.ecpi.edu/sites/default/files/Mechatronics%20Tech%20Dec%2028.png" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -413,10 +427,13 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                        <div className="absolute inset-0 z-0">
+                            <img src="https://nenews.in/wp-content/uploads/2022/12/Railway-Coach-Factory.jpg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
+                        </div>
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
@@ -456,7 +473,7 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={()=>{navigate("/callforpapers")}}>Read More</button>
+                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
 

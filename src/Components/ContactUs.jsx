@@ -2,7 +2,7 @@ import './ContactUs.css'
 import Typewriter from "typewriter-effect";
 export function ContactUs() {
     return (
-        <div style={{ backgroundColor: '#E9FFFF' }}>
+        <div style={{ backgroundColor: '#F0F8FF' }}>
             <section className="text-gray-600 body-font relative">
                 <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
                     <div className="flex flex-wrap w-full mb-4">

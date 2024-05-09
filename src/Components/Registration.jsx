@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect"
+import { Table } from "flowbite-react";
 export function Registration() {
     return (
         <div style={{ backgroundColor: '#E9FFFF' }}>
@@ -19,60 +20,33 @@ export function Registration() {
                         </div>
                     </div>
                 <div className="lg:w-5/6 mx-auto">
-                    <div className="rounded-lg overflow-hidden">
-                        <div className="relative overflow-x-auto">
-                            <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                <thead className="text-xs text-gray-700 uppercase bg-gray-700 dark:text-gray-400">
-                                    <tr>
-                                        <th scope="col" className="px-2 sm:px-6 py-3">
-                                            CATEGORY
-                                        </th>
-                                        <th scope="col" className="px-2 sm:px-6 py-3">
-                                            Indian Participants
-                                        </th>
-                                        <th scope="col" className="px-2 sm:px-6 py-3">
-                                            Foreign Participants
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr className="border-b bg-gray-800 border-gray-700">
-                                        <th scope="row" className="px-2 sm:px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Students
-                                        </th>
-                                        <td className="px-2 sm:px-6 py-4">
-                                            Rs. 2,500/-
-                                        </td>
-                                        <td className="px-2 sm:px-6 py-4">
-                                            USD 150
-                                        </td>
-                                    </tr>
-                                    <tr className="border-b bg-gray-800 border-gray-700">
-                                        <th scope="row" className="px-2 sm:px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Faculty/ Academia
-                                        </th>
-                                        <td className="px-2 sm:px-6 py-4">
-                                            Rs. 5,000/-
-                                        </td>
-                                        <td className="px-2 sm:px-6 py-4">
-                                            USD 250
-                                        </td>
-                                    </tr>
-                                    <tr className="bg-gray-800 border-gray-700">
-                                        <th scope="row" className="px-2 sm:px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Industry/R&D Organization
-                                        </th>
-                                        <td className="px-2 sm:px-6 py-4">
-                                            Rs. 10,000/-
-                                        </td>
-                                        <td className="px-2 sm:px-6 py-4">
-                                            USD 450
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                <div className="sm:mx-auto overflow-x-auto">
+                <Table hoverable className="border border-gray-300 rounded-lg relative">
+                    
+                    <Table.Head className="relative z-10">
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 rounded-t-lg p-10">Category</Table.HeadCell>
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 p-10">Indian Participants</Table.HeadCell>
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 p-10">Foreign Participants</Table.HeadCell>
+                    </Table.Head>
+                    <Table.Body className="divide-y">
+                        <Table.Row className="bg-white">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">Students</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">Rs. 2,500/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">USD 150</Table.Cell>
+                        </Table.Row>
+                        <Table.Row className="bg-white">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">Faculty/ Academia</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">Rs. 5,000/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">USD 250</Table.Cell>
+                        </Table.Row>
+                        <Table.Row className="bg-white">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">Industry/R&D Organization</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">Rs. 10,000/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 p-8">USD 450</Table.Cell>
+                        </Table.Row>
+                    </Table.Body>
+                </Table>
+            </div>
                     <div className="flex flex-col sm:flex-row mt-10">
                         <div className="sm:pl-8 sm:py-8 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                             <p className="text-lg mb-4">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>

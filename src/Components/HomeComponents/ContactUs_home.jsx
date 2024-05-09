@@ -31,7 +31,7 @@ export function ContactUs_home() {
                         ></iframe>
                     </div>
 
-                    <div className="lg:w-1/2 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 justify-center items-center" style={{ backgroundColor: '#E9FFFF' }}>
+                    <div className="lg:w-1/2 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 justify-center items-center" style={{ backgroundColor: '#F0F8FF' }}>
                         <div className="bg-gray-300 rounded-lg overflow-hidden p-6 flex flex-col items-start justify-center shadow-md">
                             <div className="flex items-center mb-4">
                                 <FaMapMarkerAlt className="text-gray-600 mr-2" />

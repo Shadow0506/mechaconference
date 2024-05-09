@@ -25,7 +25,7 @@ export function Home() {
     }, []);
 
     return (
-        <div style={{ backgroundColor: '#E9FFFF' }}>
+        <div style={{ backgroundColor: '#F0F8FF' }}>
             <section className="text-gray-600 body-font">
                 <Marquee className="text-red-500 p-4">
                     <i className="fa-solid fa-bullhorn px-4"></i>Important Announcements
