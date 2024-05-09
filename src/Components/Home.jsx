@@ -10,6 +10,8 @@ import { Impdates_main } from "./Impdates_main";
 import './Home.css';
 import main_logo from './main_logo.jpeg';
 import React, { useState, useEffect } from 'react';
+"use client";
+import { Carousel } from "flowbite-react";
 
 export function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -62,7 +64,7 @@ export function Home() {
                     </div>
                 </div>
             </section>
-
+        
             <section className="text-gray-600 body-font">
                 <div className="container lg:px-5 mx-auto flex flex-col">
                     <section className="container">
