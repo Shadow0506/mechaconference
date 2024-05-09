@@ -54,7 +54,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2 text-2xl">Track -1 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:sm:text-5xl text-2xl text-2xl title-font pt-5 mb-8">Materials</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Materials</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className='sm:text-2xl text-xl'>
