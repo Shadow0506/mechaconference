@@ -47,9 +47,9 @@ export function Callforpapers_home() {
                 </div>
             </div>
             <div>
-                <Slider {...settings}>
+                <Slider {...settings} className='pt-10 px-0 mx-0 '>
 
-                    <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                    <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl ">
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
