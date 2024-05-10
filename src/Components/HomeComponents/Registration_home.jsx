@@ -45,10 +45,8 @@ export function Registration_home() {
             </div>
 
             <div className="flex justify-center">
-                <a className="text-indigo-500 inline-flex items-center sm:mt-10 mt-5" onClick={() => { navigate('/registration') }} target="_blank">Proceed To Register
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
+                <a className="bg-indigo-500 hover:bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl inline-block mt-10 mb-5" href="/registration">Proceed To Register
+                   
                 </a>
             </div>
         </div>

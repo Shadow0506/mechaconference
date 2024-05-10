@@ -16,6 +16,7 @@ import { Footer } from './Components/Footer';
 import { Headertailwind } from './Components/Headertailwind';
 import { Impdates_main } from './Components/Impdates_main';
 import Loading from './Components/Loading';
+import NotFound from './Components/NotFound';
 import { inject } from '@vercel/analytics';
 import { injectSpeedInsights } from '@vercel/speed-insights';
 injectSpeedInsights();
@@ -48,6 +49,7 @@ function App() {
               <Route path='/registration' element={<Registration />} />
               <Route path='/sponsorship' element={<Sponsorship />} />
               <Route path='/venue' element={<Venue />} />
+              <Route path='*' element={<NotFound />} />
             </Routes>
           )}
         </div>

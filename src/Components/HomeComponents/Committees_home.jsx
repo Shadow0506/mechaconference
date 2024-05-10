@@ -293,13 +293,11 @@ export function Committees_home() {
 
             </section>
 
-            <div className="flex justify-center mt-10">
-                <button onClick={() => navigate('/committees')} className="text-indigo-500 inline-flex items-center">
-                    View All
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                </button>
+            <div className="flex justify-center items-center mt-10 pt-2">
+                <a href="/committees" className="bg-indigo-500 hover:bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl inline-block mb-5">
+                    View All Tracks
+                   
+                </a>
             </div>
         </div>
     );

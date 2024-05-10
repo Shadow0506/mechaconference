@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import { useNavigate } from "react-router-dom";
+import { Carousel } from "flowbite-react";
 export function Callforpapers() {
     const navigate = useNavigate();
     return (
@@ -1108,26 +1109,43 @@ export function Callforpapers() {
                 <h1>Link for submission/Registration is ____</h1>
             </div>
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-5 mx-auto">
-                    <div className="flex flex-col text-center w-full mb-20">
+                <div className="container mx-auto">
+                    <div className="flex flex-col text-center w-full ">
                         <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">Accepted papers will be published in the journals of following publishers </h1>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">(Approval is pending)</p>
                     </div>
-                    <div className="flex flex-wrap justify-center -m-4">
-                        <div className="p-4 lg:w-1/2">
-                            <div className="h-full flex flex-wrap justify-center items-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://bioone.org/images/publishers/fullsize/SAGE.png" />
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-53 h-48 object-cover object-center mb-4 mr-0" src="https://icssmt.com/2023/Springer.png" />
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-50 object-cover object-center mb-4 mr-0" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Elsevier_logo_2019.svg/800px-Elsevier_logo_2019.svg.png" />
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://assets.materialstoday.com/wpimg/float/6ec9dec2-a9ce-415f-80db-fe6bd7027d22.jpg" />
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-50 h-48 object-cover object-center mb-4 mr-0" src="https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png" />
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://sciencecouncil.org/web/wp-content/uploads/2016/02/iop-logo.jpg" />
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
             </section>
+            <div className="grid h-56 grid-cols-5 gap-4 sm:h-64 xl:h-80 2xl:h-96">
+                <Carousel ></Carousel>
+                <Carousel indicators={false} slideInterval={3000}>
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-53 h-48 object-cover object-center mb-4 mr-0" src="https://icssmt.com/2023/Springer.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://bioone.org/images/publishers/fullsize/SAGE.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://assets.materialstoday.com/wpimg/float/6ec9dec2-a9ce-415f-80db-fe6bd7027d22.jpg" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-50 object-cover object-center mb-4 mr-0" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Elsevier_logo_2019.svg/800px-Elsevier_logo_2019.svg.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://sciencecouncil.org/web/wp-content/uploads/2016/02/iop-logo.jpg" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-50 h-48 object-cover object-center mb-4 mr-0" src="https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png" />
+                </Carousel>
+                <Carousel indicators={false} slideInterval={3000}>
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-50 object-cover object-center mb-4 mr-0" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Elsevier_logo_2019.svg/800px-Elsevier_logo_2019.svg.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-50 h-48 object-cover object-center mb-4 mr-0" src="https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://bioone.org/images/publishers/fullsize/SAGE.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-53 h-48 object-cover object-center mb-4 mr-0" src="https://icssmt.com/2023/Springer.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://assets.materialstoday.com/wpimg/float/6ec9dec2-a9ce-415f-80db-fe6bd7027d22.jpg" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://sciencecouncil.org/web/wp-content/uploads/2016/02/iop-logo.jpg" />
+                </Carousel>
+                <Carousel indicators={false} slideInterval={3000}>
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://assets.materialstoday.com/wpimg/float/6ec9dec2-a9ce-415f-80db-fe6bd7027d22.jpg" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-53 h-48 object-cover object-center mb-4 mr-0" src="https://icssmt.com/2023/Springer.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-50 h-48 object-cover object-center mb-4 mr-0" src="https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://sciencecouncil.org/web/wp-content/uploads/2016/02/iop-logo.jpg" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center mb-4 mr-0" src="https://bioone.org/images/publishers/fullsize/SAGE.png" />
+                    <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-50 object-cover object-center mb-4 mr-0" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Elsevier_logo_2019.svg/800px-Elsevier_logo_2019.svg.png" />
+                </Carousel>
+                <Carousel></Carousel>
+            </div>
 
         </div>
     )
