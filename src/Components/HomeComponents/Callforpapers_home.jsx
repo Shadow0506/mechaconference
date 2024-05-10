@@ -104,7 +104,6 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -159,7 +158,6 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -214,7 +212,6 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -269,7 +266,6 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -318,7 +314,6 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -373,7 +368,6 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -427,7 +421,6 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -473,19 +466,18 @@ export function Callforpapers_home() {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="mt-7 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl" onClick={() => { navigate("/callforpapers") }}>Read More</button>
                         </div>
                     </div>
 
                 </Slider>
+
             </div>
-            <div className="flex justify-center">
-                <a className="text-indigo-500 inline-flex items-center mt-10" onClick={() => { navigate('/callforpapers') }} target="_blank">View All
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
+            <div className="flex justify-center items-center mt-10 pt-2">
+                <a href="/callforpapers" className="bg-indigo-500 hover:bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl inline-block">
+                    View All Tracks
                 </a>
             </div>
+
         </div>
     );
 }

@@ -2,7 +2,7 @@ import './Venue.css'
 import Typewriter from "typewriter-effect";
 export function Venue() {
     return (
-        <div style={{ backgroundColor: '#E9FFFF' }}>
+        <div style={{ backgroundColor: '#F0F8FF' }}>
             <div className="container mx-auto px-4 py-10">
                 <div className="max-w-3xl mx-auto text-center mb-8">
                     <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">

@@ -5,7 +5,7 @@ export function Impdates_main() {
 
   const navigate = useNavigate();
   return (
-    <div style={{ backgroundColor: '#E9FFFF' }}>
+    <div style={{ backgroundColor: '#F0F8FF' }}>
       <div className="container  mx-auto flex flex-col">
         <div className="flex flex-wrap w-full mb-4 mx-auto">
           <div className="lg:w-full lg:mb-0 ">
@@ -71,7 +71,7 @@ export function Impdates_main() {
               <h3 class="title">Submission of Camera-Ready Paper</h3>
               <p class="description">
               Authors for ICDMT 2024 finalize their papers according to conference guidelines. This ensures accepted papers are ready for publication in proceedings, maintaining quality standards.</p>
-              <a className="text-indigo-500 inline-flex items-center " onClick={() => navigate('/callforpapers')} target="_blank">
+              <a className="text-indigo-500 inline-flex items-center " onClick={() => navigate('/callforpapers')} >
                     Read More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>

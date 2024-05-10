@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 import main_logo from './main_logo.jpeg'
 export function AboutUs() {
   return (
-    <div style={{ backgroundColor: '#E9FFFF', padding: '40px' }}>
+    <div style={{ backgroundColor: '#F0F8FF' }}>
       <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
         <div className="flex flex-wrap w-full mb-4">
           <div className="lg:w-full lg:mb-0 pt-10 text-center">
