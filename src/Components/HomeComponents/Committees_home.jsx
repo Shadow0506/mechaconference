@@ -295,7 +295,7 @@ export function Committees_home() {
 
             <div className="flex justify-center items-center mt-10 pt-2">
                 <a href="/committees" className="bg-indigo-500 hover:bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl inline-block mb-5">
-                    View All Tracks
+                    View All Committees
                    
                 </a>
             </div>

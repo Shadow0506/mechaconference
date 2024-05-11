@@ -6,7 +6,7 @@ export function Callforpapers() {
     return (
         <div style={{ backgroundColor: '#F0F8FF' }}>
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto">
+                <div className="container px-5  mx-auto">
                     <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
                         <div className="flex flex-wrap w-full mb-4">
                             <div className="lg:w-full lg:mb-0 pt-10 text-center">

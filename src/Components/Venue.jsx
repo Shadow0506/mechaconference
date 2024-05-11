@@ -27,10 +27,10 @@ export function Venue() {
                 <div className='flex justify-center'>
                     <div className="flex flex-col sm:flex-row justify-center items-center">
                         <div className="w-full sm:w-1/2 md:p-4">
-                            <img src="https://dummyimage.com/400x200" alt="Venue Image 1" className="rounded-lg shadow-lg mb-4" />
+                            <img src="https://ieeeindiscon.org/assets/images/college/nab.jpg" alt="Venue Image 1" className="rounded-lg shadow-lg mb-4" />
                         </div>
                         <div className="w-full sm:w-1/2 md:p-4">
-                            <img src="https://dummyimage.com/400x200" alt="Venue Image 2" className="rounded-lg shadow-lg mb-4" />
+                            <img src="https://ieeeindiscon.org/assets/images/college/senate.png" alt="Venue Image 2" className="rounded-lg shadow-lg mb-4" />
                         </div>
                     </div>
                 </div>
