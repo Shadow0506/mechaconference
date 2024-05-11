@@ -45,7 +45,7 @@ export function Home() {
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
                                 Department Of Mechanical Engineering
                             </h1>
-                            <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
+                            <h1 className="pt-3 sm:text-3xl text-xl title-font mb-2 text-blue-900 font-bold">
                                 Punjab Engineering College, Chandigarh
                             </h1>
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
@@ -54,11 +54,11 @@ export function Home() {
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
                                 Department of Design
                             </h1>
-                            <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
+                            <h1 className="pt-3 sm:text-3xl text-xl title-font mb-2 text-blue-900 font-bold ">
                                 Indian Institute Of Technology, Roorkee
                             </h1>
                             <h1 className="sm:text-3xl text-2xl pt-4 font-medium title-font mb-2 text-red-500">
-                                08th-10th November, 2024
+                                November 8th to 10th
                             </h1>
                         </div>
                     </div>
