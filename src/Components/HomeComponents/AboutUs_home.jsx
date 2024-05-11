@@ -85,7 +85,7 @@ export function AboutUs_home() {
                   <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Indian_Institute_of_Technology_Roorkee_logo.png" alt="IIT-R Logo" className="w-16 h-16" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
-                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Mechanical Engineering Department</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl"> Department of Design</h2>
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-xl">IIT Roorkee</h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
                 </div>

@@ -52,7 +52,7 @@ export function Home() {
                                 &
                             </h1>
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
-                                Department Of Mechanical Engineering
+                                Department of Design
                             </h1>
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
                                 Indian Institute Of Technology, Roorkee
