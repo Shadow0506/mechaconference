@@ -44,6 +44,21 @@ export function Registration_home() {
                 </Table>
             </div>
 
+            <div className="flex flex-col sm:flex-row mt-10 mx-auto">
+                        <div className="sm:pl-8 sm:pt-8 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                            <p className="text-lg"> Conference registration fee includes paper presentation through online mode, online entry to all sessions and keynote speeches, conference presentation certificate and publication in conference proceedings. The additional cost may be applicable for publication in SCOPUS or Web of Science indexed / UGC care journals. The details are available below.</p>
+                            
+                        </div>
+                    </div>
+                        <div className="sm:pl-8  sm:border-t-0 border-t sm:mt-0 text-center sm:text-left">
+                            <p className="text-lg mb-4">The registration fees mentioned are applicable for conference registration and authors need to complete the registration after the acceptance of abstract. The conference fee once paid is non-refundable.</p>
+                            
+                        </div>
+                        <div className="sm:pl-8  sm:border-t-0 border-t sm:mt-0 text-center sm:text-left">
+                            <p className="text-lg mb-4">The decision about the acceptance of paper for final publication will be entirely taken by the Editor in Chief. Conference organizers and or journal editors reserve the right to remove the paper at any stage from the publication process because of non ensuring the paper quality and or ethical guidelines by the authors.</p>
+                            
+                        </div>
+
             <div className="flex justify-center">
                 <a className="bg-indigo-500 hover:bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl inline-block mt-10 mb-5" href="/registration">Proceed To Register
                    
