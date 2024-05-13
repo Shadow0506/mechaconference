@@ -54,7 +54,7 @@ export function AboutUs_home() {
                   <img src="https://pec.ac.in/hydro-2022/assets/images/pec_logo.png" alt="PEC logo" className="w-16 h-16" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
-                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Mechanical Engineering Department</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Department of Mechanical Engineering</h2>
                   <h3 className="font-medium title-font mt-1 text-gray-900 text-xl">PEC , Chandigarh</h3>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
                 </div>
