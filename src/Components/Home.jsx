@@ -43,11 +43,12 @@ export function Home() {
                             <p className="text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Organized by</p>
 
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
-                                Department Of Mechanical Engineering
+                                Department of Mechanical Engineering
                             </h1>
                             <h1 className="pt-3 sm:text-3xl text-xl title-font mb-2 text-blue-900 font-bold">
-                                Punjab Engineering College, Chandigarh
+                                Punjab Engineering College (Deemed to be University), Chandigarh
                             </h1>
+                            <p className="text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Funded by Chandigarh Administration (Govt. of India)</p>
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
                                 &
                             </h1>
@@ -55,10 +56,11 @@ export function Home() {
                                 Department of Design
                             </h1>
                             <h1 className="pt-3 sm:text-3xl text-xl title-font mb-2 text-blue-900 font-bold ">
-                                Indian Institute Of Technology, Roorkee
+                                Indian Institute of Technology, Roorkee
                             </h1>
+                            <p className="text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Funded by MHRD (Govt. of India)</p>
                             <h1 className="sm:text-3xl text-2xl pt-4 font-medium title-font mb-2 text-red-500">
-                                November 8th to 10th
+                                November 8-10, 2024
                             </h1>
                         </div>
                     </div>
@@ -94,7 +96,7 @@ export function Home() {
                         </div>
                         <div className="flex flex-col sm:flex-row">
                             <div className=" sm:border-t-0 border-t sm:mt-0 text-center sm:text-center">
-                                <p className="text-xl text-justify px-4">The goal of the "International Conference on Design and Manufacturing Technologies” (ICDMT-2024) scheduled for 08th -10th Nov 2024 is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing with a focus on advanced materials to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view to product design, process design and analysis as well as to create, and manufacture goods.</p>
+                                <p className="text-xl text-justify px-4">The goal of the "International Conference on Design and Manufacturing Technologies” (ICDMT-2024) scheduled from November 8-10, 2024 is to bring together the experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing with a focus on advanced materials to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view to product design, process design and analysis as well as to create, and manufacture goods.</p>
                             </div>
                         </div>
                     </div>
