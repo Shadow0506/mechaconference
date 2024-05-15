@@ -4,7 +4,7 @@ export function AboutUs_home() {
       <div className="container mx-auto">
     <div className=" mb-10">
         <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
-            ABOUT INSTITUTE
+            About Institute
         </h1>
         <div className="h-1 w-20  bg-indigo-500 rounded"></div>
     </div>
@@ -28,7 +28,7 @@ export function AboutUs_home() {
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p className="leading-relaxed text-xl mb-4 text-justify" >The institute has an experience of 115 years and offers 11 Undergraduate (B. Tech.) Programmes and 14 Post graduate (M. Tech.) Programmes in various disciplines of Engineering and Technology. After becoming University, the institute has also started PhD programme in various disciplines of engineering, sciences, management, humanities and social sciences. The admission to UG and PG programmes are made through national level examinations namely JEE (Mains) and GATE respectively. There are 9 academic departments and 2 centers of excellence. The institute collaborates very closely with research organizations, industries, alumni and other academic institutions both India and abroad, and has signed MoUs to pursue joint research in niche areas. The students graduating from this institute are placed in highly reputed companies with handsome salary packages. With a history of 100 Years now, the institute has produced a number of alumni who have earned name and fame both for themselves and the institute.
+                <p className="leading-relaxed text-xl mb-4 text-justify" >Punjab Engineering College (Deemed to be University) (PEC) having its roots in Lahore as Mugalpura Engineering College since 1921, moved to its present campus in 1953 as PEC affiliated to Panjab University. The institute became Deemed University in 2003 through a MHRD notification and rechristened as PEC University of Technology in 2009. The institute offers 12 Undergraduate B. Tech. Programmes and 14 Post graduate M. Tech. Programmes in various disciplines of engineering and technology. After becoming University, the institute has also started PhD programme in various disciplines of engineering, science, management, humanities and social sciences. The admission to UG and PG programmes are made through national level examinations namely JEE (Mains) and GATE respectively.
                 </p>
                 <a className="text-indigo-500 inline-flex items-center" href="https://pec.ac.in/" target="_blank" rel="noopener noreferrer">
                   Learn More
@@ -55,12 +55,12 @@ export function AboutUs_home() {
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Department of Mechanical Engineering</h2>
-                  <h3 className="font-medium title-font mt-1 text-gray-900 text-xl">PEC , Chandigarh</h3>
+                  <h3 className="font-medium title-font mt-1 text-gray-900 text-xl">Punjab Engineering College , Chandigarh</h3>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p className="leading-relaxed text-xl mb-4 text-justify" >The Department of Mechanical Engineering at Punjab Engineering College is as old as the Institute itself. The Department is continuously striving to achieve excellence in education, academic and industry-oriented research to prepare the manpower that are globally competitive and capable of leading in industry, academia and government organizations in both India and abroad. Besides the Bachelor degree, Department offer Master and Ph.D. programme also. From session 2014-15 onward, the Department has an intake of 120 students at B.E. level and 25 students at M.E. level. Under Ph.D. programme at the Department, the major research areas include Advanced /non-traditional machining processes, Micro-manufacturing, CAD/CAM, MEMS, Soft computing in Design and Manufacturing, Composites, Bio-materials, and so on.
+                <p className="leading-relaxed text-xl mb-4 text-justify" >The Department of Mechanical Engineering at Punjab Engineering College is as old as the Institute itself. The Department is continuously striving to achieve excellence in education, academic and industry-oriented research to prepare the manpower that are globally competitive and capable of leading in industry, academia and government organizations in both India and abroad. Besides the Bachelor degree, Department offer Master and Ph.D. programme also. Currently, the Department has an intake of 120 students at B. Tech level and 25 students at M. Tech. level. Under Ph.D. programme at the Department, the major research areas include Advanced /non-traditional machining processes, Micro-manufacturing, CAD/CAM, MEMS, Soft computing in Design and Manufacturing, Composites, Bio-materials, and so on.
                 </p>
                 <a className="text-indigo-500 inline-flex items-center" href="https://pec.ac.in/me" target="_blank" rel="noopener noreferrer">
                   Learn More
@@ -86,7 +86,7 @@ export function AboutUs_home() {
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl"> Department of Design</h2>
-                  <h2 className="font-medium title-font mt-4 text-gray-900 text-xl">IIT Roorkee</h2>
+                  <h2 className="font-medium title-font mt-4 text-gray-900 text-xl">Indian Institute of Technology, Roorkee</h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-4 mb-2 mx-auto"></div>
                 </div>
               </div>
