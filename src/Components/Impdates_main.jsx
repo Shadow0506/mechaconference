@@ -11,7 +11,7 @@ export function Impdates_main() {
         <div className="flex flex-wrap w-full mb-4 mx-auto">
           <div className="lg:w-full lg:mb-0 ">
             <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
-              IMPORTANT DATES
+              Important Dates
             </h1>
             <div className="h-1 w-20 bg-indigo-500 rounded"></div>
           </div>
@@ -24,7 +24,7 @@ export function Impdates_main() {
               <div class="main-timeline">
                 <div class="timeline">
                   <a class="timeline-content">
-                    <span class="timeline-year">31st June</span>
+                    <span class="timeline-year">31st July</span>
                     <div class="timeline-icon">
                       <i class="fa-regular fa-newspaper"></i>
                     </div>
@@ -44,7 +44,7 @@ export function Impdates_main() {
                 </div>
                 <div class="timeline">
                   <a class="timeline-content">
-                    <span class="timeline-year">30th July</span>
+                    <span class="timeline-year">31st August</span>
                     <div class="timeline-icon">
                       <i class="fa-solid fa-envelope"></i>
                     </div>
@@ -64,7 +64,7 @@ export function Impdates_main() {
                 </div>
                 <div class="timeline">
                   <a class="timeline-content">
-                    <span class="timeline-year">30th September</span>
+                    <span class="timeline-year">15th September</span>
                     <div class="timeline-icon">
                       <i class="fa-brands fa-readme"></i>
                     </div>
@@ -84,7 +84,7 @@ export function Impdates_main() {
                 </div>
                 <div class="timeline">
                   <a class="timeline-content">
-                    <span class="timeline-year">15th August</span>
+                    <span class="timeline-year">1st September</span>
                     <div class="timeline-icon">
                       <i class="fa-solid fa-address-card"></i>
                     </div>
@@ -103,12 +103,12 @@ export function Impdates_main() {
                 </div>
                 <div class="timeline">
                   <a class="timeline-content">
-                    <span class="timeline-year">30th August</span>
+                    <span class="timeline-year">15th October</span>
                     <div class="timeline-icon">
                       <i class="fa-solid fa-bullhorn"></i>
                     </div>
                     <div class="content">
-                      <h3 class="title">Last Date of Registration</h3>
+                      <h3 class="title">Last Date of Online Registration</h3>
                       <p class="description">
                         The final deadline for participants to register for ICDMT 2024. After this date, registration closes, and attendees cannot enroll for the conference. It's crucial to complete registration before this deadline to ensure participation.</p>
                       <a className="text-indigo-500 inline-flex items-center " href="/registration">
