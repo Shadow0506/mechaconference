@@ -24,7 +24,7 @@ export function Callforpapers() {
                     </div>
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 1 MATERIALS </h2>
+                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 1 Materials </h2>
                             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                                 <a>
                                     <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -181,7 +181,7 @@ export function Callforpapers() {
                             </nav>
                         </div>
                         <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 2 COMPOSITES</h2>
+                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 2 Composites</h2>
                             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                                 <a>
                                     <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -334,7 +334,7 @@ export function Callforpapers() {
                             </nav>
                         </div>
                         <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 3 BIOMATERIALS</h2>
+                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 3 Biomaterials</h2>
                             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                                 <a>
                                     <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -565,7 +565,7 @@ export function Callforpapers() {
                             </nav>
                         </div>
                         <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 5 MANUFACTURING TECHNIQUES</h2>
+                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 5 Manufacturing Techniques</h2>
                             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                                 <a>
                                     <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -696,7 +696,7 @@ export function Callforpapers() {
                             </nav>
                         </div>
                         <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 6 ROBOTICS</h2>
+                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 6 Robotics</h2>
                             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                                 <a>
                                     <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -832,7 +832,7 @@ export function Callforpapers() {
                 <div className="container px-5 py-10 mx-auto">
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 7 MECHATRONICS AND AUTOMATION </h2>
+                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 7 Mechatronics And Automation </h2>
                             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                                 <a>
                                     <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -967,7 +967,7 @@ export function Callforpapers() {
                             </nav>
                         </div>
                         <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 8 RELATED TO RAILWAY COACH FACTORY</h2>
+                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 8 Railway Vehicle Dynamics</h2>
                             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                                 <a>
                                     <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
