@@ -9,7 +9,7 @@ export function Committees_home() {
             <div className="container mx-auto">
                 <div className="text-center mb-10">
                     <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">
-                        CHIEF PATRON
+                        Chief Patron
                     </h1>
                     <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
                 </div>
@@ -31,7 +31,7 @@ export function Committees_home() {
             <div className="container mx-auto">
                 <div className="text-center mb-10">
                     <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 pt-5 text-gray-900">
-                        CHAIRMAN
+                        Chairman
                     </h1>
                     <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
                 </div>
@@ -51,7 +51,7 @@ export function Committees_home() {
             </div>
             <div className="text-center mb-10">
                 <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 pt-5 text-gray-900">
-                    CO-CHAIRMAN
+                    Co-Chairman
                 </h1>
                 <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
             </div>
@@ -77,7 +77,7 @@ export function Committees_home() {
                 <div className="container mx-auto">
                     <div className="text-center mb-10">
                         <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 pt-7 text-gray-900">
-                            ORGANIZING COMMITTEE
+                            Organizing Committee
                         </h1>
                         <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
                     </div>
@@ -283,14 +283,6 @@ export function Committees_home() {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
 
             </section>
 
