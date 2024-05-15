@@ -34,7 +34,7 @@ export function Speakershome() {
         <div className="flex flex-wrap w-full mx-auto">
           <div className="lg:w-full lg:mb-0 ">
             <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
-              KEYNOTE SPEAKERS
+              Keynote Speakers
             </h1>
             <div className="h-1 w-20 bg-indigo-500 rounded"></div>
           </div>
