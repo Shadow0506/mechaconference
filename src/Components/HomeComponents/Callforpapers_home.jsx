@@ -50,7 +50,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2 text-2xl">Track -1 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Materials</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Materials</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className='sm:text-2xl text-xl'>
@@ -114,7 +114,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 2 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Composites</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Composites</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
@@ -168,7 +168,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 3 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-9">Biomaterials</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-9">Biomaterials</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
@@ -222,7 +222,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 4 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Design</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Design</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
@@ -276,7 +276,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 5 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Manufacturing Technologies</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Manufacturing Technologies</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
@@ -324,7 +324,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 6 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Robotics</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Robotics</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
@@ -378,7 +378,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 7 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Mechatronics and Automation</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Mechatronics and Automation</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
@@ -431,7 +431,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 8 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Railway Vehicle Dynamics</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Railway Vehicle Dynamics</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
