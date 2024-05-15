@@ -42,6 +42,40 @@ export function Registration_home() {
                         </Table.Row>
                     </Table.Body>
                 </Table>
+            <p className="text-xl pt-5 mt-5">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
+                <div className="overflow-x-auto overflow-y-hidden ">
+                    <Table hoverable className="w-full mt-8 border border-gray-300 rounded-lg">
+                    <div className="absolute inset-0 z-0">
+                        <img src="https://img.lovepik.com/photo/45009/7675.jpg_wh860.jpg" alt="background" className="object-cover w-full h-full opacity-5 rounded-lg" />
+                    </div>
+                        <Table.Head>
+                            <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Beneficiary Name</Table.HeadCell>
+                            <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Punjab Engineering College (Registration / Applications A/c)</Table.HeadCell>
+                        </Table.Head>
+                        <Table.Body>
+                            <Table.Row className="bg-white">
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Bank</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">State Bank of India</Table.Cell>
+                            </Table.Row>
+                            <Table.Row className="bg-white">
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Account No.</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">39083056639</Table.Cell>
+                            </Table.Row>
+                            <Table.Row className="bg-white">
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">IFSC</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">SBIN0002452</Table.Cell>
+                            </Table.Row>
+                            <Table.Row className="bg-white">
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">MICRO</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">160002008</Table.Cell>
+                            </Table.Row>
+                            <Table.Row className="bg-white">
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Address</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">PEC Market, Sector 12, Chandigarh</Table.Cell>
+                            </Table.Row>
+                        </Table.Body>
+                    </Table>
+                </div>
             </div>
             <div class="px-4 md:px-10 flex justify-center items-center h-full mx-auto">
                 <div class="mx-auto">

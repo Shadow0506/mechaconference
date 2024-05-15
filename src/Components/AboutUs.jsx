@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import main_logo from './main_logo.jpeg'
+
 export function AboutUs() {
   return (
     <div style={{ backgroundColor: '#F0F8FF' }}>

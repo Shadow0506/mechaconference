@@ -30,10 +30,10 @@ export function Impdates_main() {
                     </div>
                     <div class="content">
                       <h3 class="title">Full Paper Submission</h3>
-                      <p class="description">
+                      <p class="description hidden md:block">
                         Submit your completed research paper for peer review and potential publication in academic journals or conference proceedings. View more about the tracks and paper submission process here.
                       </p>
-                      <a className="text-indigo-500 inline-flex items-center " href="/callforpapers">
+                      <a className="text-indigo-500 inline-flex items-center pb-12  " href="/callforpapers">
                         Read More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                           <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -50,10 +50,10 @@ export function Impdates_main() {
                     </div>
                     <div class="content">
                       <h3 class="title">Notification of Acceptance</h3>
-                      <p class="description">
+                      <p class="description hidden md:block">
                         Participants will recieve a formal notice confirming approval after submitting a paper for any track. View more about the tracks and paper submission process here.
                       </p>
-                      <a className="text-indigo-500 inline-flex items-center " href="/callforpapers">
+                      <a className="text-indigo-500 inline-flex items-center pb-12 " href="/callforpapers">
                         Read More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                           <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -70,9 +70,9 @@ export function Impdates_main() {
                     </div>
                     <div class="content">
                       <h3 class="title">Submission of Camera-Ready Paper</h3>
-                      <p class="description">
+                      <p class="description hidden md:block">
                         Authors for ICDMT 2024 finalize their papers according to conference guidelines. This ensures accepted papers are ready for publication in proceedings, maintaining quality standards.</p>
-                      <a className="text-indigo-500 inline-flex items-center " href="/callforpapers" >
+                      <a className="text-indigo-500 inline-flex items-center pb-12 " href="/callforpapers" >
                         Read More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                           <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -90,9 +90,9 @@ export function Impdates_main() {
                     </div>
                     <div class="content">
                       <h3 class="title">Registration Commences</h3>
-                      <p class="description">
+                      <p class="description hidden md:block" >
                         The opening of registration for ICDMT 2024, allowing participants to enroll for the conference. Attendees can secure their spots, access event details, and plan their participation in advance.</p>
-                      <a className="text-indigo-500 inline-flex items-center " href="/registration">
+                      <a className="text-indigo-500 inline-flex items-center pb-12 " href="/registration">
                         Read More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                           <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -109,9 +109,9 @@ export function Impdates_main() {
                     </div>
                     <div class="content">
                       <h3 class="title">Last Date of Online Registration</h3>
-                      <p class="description">
+                      <p class="description hidden md:block">
                         The final deadline for participants to register for ICDMT 2024. After this date, registration closes, and attendees cannot enroll for the conference. It's crucial to complete registration before this deadline to ensure participation.</p>
-                      <a className="text-indigo-500 inline-flex items-center " href="/registration">
+                      <a className="text-indigo-500 inline-flex items-center pb-12 " href="/registration">
                         Read More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                           <path d="M5 12h14M12 5l7 7-7 7"></path>
