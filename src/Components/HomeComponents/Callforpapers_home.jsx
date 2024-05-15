@@ -33,7 +33,7 @@ export function Callforpapers_home() {
                 <div className="flex flex-wrap w-full mx-auto">
                     <div className="lg:w-full lg:mb-0 ">
                         <h1 className="sm:text-6xl text-2xl font-medium title-font mb-2 text-gray-900">
-                            CALL FOR PAPERS
+                            Call For Papers
                         </h1>
                         <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
@@ -431,7 +431,7 @@ export function Callforpapers_home() {
                         </div>
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 8 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Related to Railway Coach Factory</h3>
+                            <h3 className="tracking-widest text-indigo-500 sm:text-5xl text-2xl title-font pt-5 mb-8">Railway Vehicle Dynamics</h3>
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
