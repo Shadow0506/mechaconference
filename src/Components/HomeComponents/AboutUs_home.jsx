@@ -43,41 +43,41 @@ export function AboutUs_home() {
         </div>
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <section >
-          <div class="bg-white transition-colors duration-500" style={{ backgroundColor: '#F0F8FF' }}>
-            <h2 class="font-medium text-gray-900 text-2xl text-center mt-4 pb-5 ">Timeline about Punjab Engineering College</h2>
-            <div class="w-full mx-auto 2xl:max-w-7xl items-center flex flex-col  justify-center " >
-              <div class=" border-t pb-8">
-                <div class="bg-white rounded-2xl p-8 border">
-                  <div class="mx-auto grid grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:grid-cols-5 px-6">
-                    <div> <time datetime="August 2021" class="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
+          <div className="bg-white transition-colors duration-500" style={{ backgroundColor: '#F0F8FF' }}>
+            <h2 className="font-medium text-gray-900 text-2xl text-center mt-4 pb-5 ">Timeline about Punjab Engineering College</h2>
+            <div className="w-full mx-auto 2xl:max-w-7xl items-center flex flex-col  justify-center " >
+              <div className=" border-t pb-8">
+                <div className="bg-white rounded-2xl p-8 border">
+                  <div className="mx-auto grid grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:grid-cols-5 px-6">
+                    <div> <time datetime="August 2021" className="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" className="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-                    </svg> 1921 <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
-                      <p class="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900   "> Established in Lahore </p>
-                      <p class="mt-1 text-xl text-pretty leading-7 text-black-500   "> Punjab Engineering College established in Lahore, Pakistan as Mugalpura Engineering college.</p>
+                    </svg> 1921 <div className="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
+                      <p className="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900   "> Established in Lahore </p>
+                      <p className="mt-1 text-xl text-pretty leading-7 text-black-500   "> Punjab Engineering College established in Lahore, Pakistan as Mugalpura Engineering college.</p>
                     </div>
-                    <div> <time datetime="December 2021" class="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
+                    <div> <time datetime="December 2021" className="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" className="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-                    </svg> 1953 <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
-                      <p class="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900  "> Moved to Chandigarh </p>
-                      <p class="mt-1 text-xl text-pretty leading-7 text-black-500   "> Moved to its present campus in as Punjab Engineering College affiliated to Panjab University, Chandigarh. </p>
+                    </svg> 1953 <div className="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
+                      <p className="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900  "> Moved to Chandigarh </p>
+                      <p className="mt-1 text-xl text-pretty leading-7 text-black-500   "> Moved to its present campus in as Punjab Engineering College affiliated to Panjab University, Chandigarh. </p>
                     </div>
-                    <div> <time datetime="February 2022" class="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
+                    <div> <time datetime="February 2022" className="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" className="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-                    </svg> 2003 <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
-                      <p class="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900   "> Deemed University </p>
-                      <p class="mt-1 text-xl text-pretty leading-7 text-black-500   "> The institute became Deemed University through a MHRD notification.</p>
+                    </svg> 2003 <div className="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
+                      <p className="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900   "> Deemed University </p>
+                      <p className="mt-1 text-xl text-pretty leading-7 text-black-500   "> The institute became Deemed University through a MHRD notification.</p>
                     </div>
-                    <div> <time datetime="December 2022" class="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
+                    <div> <time datetime="December 2022" className="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" className="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-                    </svg> 2009 <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
-                      <p class="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900   "> Rechristened</p>
-                      <p class="mt-1 text-xl text-pretty leading-7 text-black-500  "> Punjab Engineering College rechristened as PEC University of Technology.</p>
+                    </svg> 2009 <div className="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
+                      <p className="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900   "> Rechristened</p>
+                      <p className="mt-1 text-xl text-pretty leading-7 text-black-500  "> Punjab Engineering College rechristened as PEC University of Technology.</p>
                     </div>
-                    <div> <time datetime="December 2022" class="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
+                    <div> <time datetime="December 2022" className="flex items-center text-2xl font-semibold leading-6 text-orange-600  "> <svg viewBox="0 0 4 4" className="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-                    </svg> 2017 <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
-                      <p class="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900  "> Name Restored  </p>
-                      <p class="mt-1 text-xl text-pretty leading-7 text-black-500  "> The original name of the institute i.e. Punjab Engineering College with Deemed to be University in parenthesis is restored.</p>
+                    </svg> 2017 <div className="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10    sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div> </time>
+                      <p className="mt-6 text-2xl font-semibold leading-8 tracking-tight text-gray-900  "> Name Restored  </p>
+                      <p className="mt-1 text-xl text-pretty leading-7 text-black-500  "> The original name of the institute i.e. Punjab Engineering College with Deemed to be University in parenthesis is restored.</p>
                     </div>
                   </div>
                 </div>

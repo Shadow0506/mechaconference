@@ -17,20 +17,20 @@ export function Impdates_main() {
           </div>
         </div>
       </div>
-      <div class="flex justify-center items-center ">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="main-timeline">
-                <div class="timeline">
-                  <a class="timeline-content">
-                    <span class="timeline-year">31st July</span>
-                    <div class="timeline-icon">
-                      <i class="fa-regular fa-newspaper"></i>
+      <div className="flex justify-center items-center ">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <div className="main-timeline">
+                <div className="timeline">
+                  <a className="timeline-content">
+                    <span className="timeline-year">31st July</span>
+                    <div className="timeline-icon">
+                      <i className="fa-regular fa-newspaper"></i>
                     </div>
-                    <div class="content">
-                      <h3 class="title">Full Paper Submission</h3>
-                      <p class="description hidden md:block">
+                    <div className="content">
+                      <h3 className="title">Full Paper Submission</h3>
+                      <p className="description hidden md:block">
                         Submit your completed research paper for peer review and potential publication in academic journals or conference proceedings. View more about the tracks and paper submission process here.
                       </p>
                       <a className="text-indigo-500 inline-flex items-center pb-12  " href="/callforpapers">
@@ -42,15 +42,15 @@ export function Impdates_main() {
                     </div>
                   </a>
                 </div>
-                <div class="timeline">
-                  <a class="timeline-content">
-                    <span class="timeline-year">31st August</span>
-                    <div class="timeline-icon">
-                      <i class="fa-solid fa-envelope"></i>
+                <div className="timeline">
+                  <a className="timeline-content">
+                    <span className="timeline-year">31st August</span>
+                    <div className="timeline-icon">
+                      <i className="fa-solid fa-envelope"></i>
                     </div>
-                    <div class="content">
-                      <h3 class="title">Notification of Acceptance</h3>
-                      <p class="description hidden md:block">
+                    <div className="content">
+                      <h3 className="title">Notification of Acceptance</h3>
+                      <p className="description hidden md:block">
                         Participants will recieve a formal notice confirming approval after submitting a paper for any track. View more about the tracks and paper submission process here.
                       </p>
                       <a className="text-indigo-500 inline-flex items-center pb-12 " href="/callforpapers">
@@ -62,15 +62,15 @@ export function Impdates_main() {
                     </div>
                   </a>
                 </div>
-                <div class="timeline">
-                  <a class="timeline-content">
-                    <span class="timeline-year">15th September</span>
-                    <div class="timeline-icon">
-                      <i class="fa-brands fa-readme"></i>
+                <div className="timeline">
+                  <a className="timeline-content">
+                    <span className="timeline-year">15th September</span>
+                    <div className="timeline-icon">
+                      <i className="fa-brands fa-readme"></i>
                     </div>
-                    <div class="content">
-                      <h3 class="title">Submission of Camera-Ready Paper</h3>
-                      <p class="description hidden md:block">
+                    <div className="content">
+                      <h3 className="title">Submission of Camera-Ready Paper</h3>
+                      <p className="description hidden md:block">
                         Authors for ICDMT 2024 finalize their papers according to conference guidelines. This ensures accepted papers are ready for publication in proceedings, maintaining quality standards.</p>
                       <a className="text-indigo-500 inline-flex items-center pb-12 " href="/callforpapers" >
                         Read More
@@ -82,15 +82,15 @@ export function Impdates_main() {
 
                   </a>
                 </div>
-                <div class="timeline">
-                  <a class="timeline-content">
-                    <span class="timeline-year">1st September</span>
-                    <div class="timeline-icon">
-                      <i class="fa-solid fa-address-card"></i>
+                <div className="timeline">
+                  <a className="timeline-content">
+                    <span className="timeline-year">1st September</span>
+                    <div className="timeline-icon">
+                      <i className="fa-solid fa-address-card"></i>
                     </div>
-                    <div class="content">
-                      <h3 class="title">Registration Commences</h3>
-                      <p class="description hidden md:block" >
+                    <div className="content">
+                      <h3 className="title">Registration Commences</h3>
+                      <p className="description hidden md:block" >
                         The opening of registration for ICDMT 2024, allowing participants to enroll for the conference. Attendees can secure their spots, access event details, and plan their participation in advance.</p>
                       <a className="text-indigo-500 inline-flex items-center pb-12 " href="/registration">
                         Read More
@@ -101,15 +101,15 @@ export function Impdates_main() {
                     </div>
                   </a>
                 </div>
-                <div class="timeline">
-                  <a class="timeline-content">
-                    <span class="timeline-year">15th October</span>
-                    <div class="timeline-icon">
-                      <i class="fa-solid fa-bullhorn"></i>
+                <div className="timeline">
+                  <a className="timeline-content">
+                    <span className="timeline-year">15th October</span>
+                    <div className="timeline-icon">
+                      <i className="fa-solid fa-bullhorn"></i>
                     </div>
-                    <div class="content">
-                      <h3 class="title">Last Date of Online Registration</h3>
-                      <p class="description hidden md:block">
+                    <div className="content">
+                      <h3 className="title">Last Date of Online Registration</h3>
+                      <p className="description hidden md:block">
                         The final deadline for participants to register for ICDMT 2024. After this date, registration closes, and attendees cannot enroll for the conference. It's crucial to complete registration before this deadline to ensure participation.</p>
                       <a className="text-indigo-500 inline-flex items-center pb-12 " href="/registration">
                         Read More
@@ -120,29 +120,29 @@ export function Impdates_main() {
                     </div>
                   </a>
                 </div>
-                {/* <div class="timeline">
-          <a   class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-apple" aria-hidden="true"></i>
+                {/* <div className="timeline">
+          <a   className="timeline-content">
+            <span className="timeline-year">2017</span>
+            <div className="timeline-icon">
+              <i className="fa fa-apple" aria-hidden="true"></i>
             </div>
-            <div class="content">
-              <h3 class="title">Laravel</h3>
-              <p class="description">
+            <div className="content">
+              <h3 className="title">Laravel</h3>
+              <p className="description">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
               </p>
             </div>
           </a>
         </div> */}
-                {/* <div class="timeline">
-          <a   class="timeline-content">
-            <span class="timeline-year">2017</span>
-            <div class="timeline-icon">
-              <i class="fa fa-edit" aria-hidden="true"></i>
+                {/* <div className="timeline">
+          <a   className="timeline-content">
+            <span className="timeline-year">2017</span>
+            <div className="timeline-icon">
+              <i className="fa fa-edit" aria-hidden="true"></i>
             </div>
-            <div class="content">
-              <h3 class="title">Creapure</h3>
-              <p class="description">
+            <div className="content">
+              <h3 className="title">Creapure</h3>
+              <p className="description">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
               </p>
             </div>

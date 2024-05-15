@@ -77,23 +77,23 @@ export function Registration_home() {
                     </Table>
                 </div>
             </div>
-            <div class="px-4 md:px-10 flex justify-center items-center h-full mx-auto">
-                <div class="mx-auto">
-                    <div class="flex flex-col mt-6">
-                        <div class="border-t border-gray-300 mt-4 pt-4  text-left">
-                            <p class="text-lg text-justify px-4">
-                                <i class="fa-solid fa-hand-point-right pr-2"></i> Conference registration fee includes paper presentation, entry to all sessions and keynote speeches, conference presentation certificate and publication in conference proceedings. The additional cost may be applicable for publication in SCOPUS or Web of Science indexed / UGC care journals. The details are available below.
+            <div className="px-4 md:px-10 flex justify-center items-center h-full mx-auto">
+                <div className="mx-auto">
+                    <div className="flex flex-col mt-6">
+                        <div className="border-t border-gray-300 mt-4 pt-4  text-left">
+                            <p className="text-lg text-justify px-4">
+                                <i className="fa-solid fa-hand-point-right pr-2"></i> Conference registration fee includes paper presentation, entry to all sessions and keynote speeches, conference presentation certificate and publication in conference proceedings. The additional cost may be applicable for publication in SCOPUS or Web of Science indexed / UGC care journals. The details are available below.
                             </p>
                         </div>
                     </div>
-                    <div class="border-t border-gray-300 pt-4 text-left px-4">
-                        <p class="text-lg mb-4 text-justify">
-                            <i class="fa-solid fa-hand-point-right pr-2"></i> The registration fees mentioned are applicable for conference registration and authors need to complete the registration after the acceptance of paper. The conference fee once paid is non-refundable.
+                    <div className="border-t border-gray-300 pt-4 text-left px-4">
+                        <p className="text-lg mb-4 text-justify">
+                            <i className="fa-solid fa-hand-point-right pr-2"></i> The registration fees mentioned are applicable for conference registration and authors need to complete the registration after the acceptance of paper. The conference fee once paid is non-refundable.
                         </p>
                     </div>
-                    <div class="border-t border-gray-300 pt-4 text-left px-4">
-                        <p class="text-lg mb-4 text-justify">
-                            <i class="fa-solid fa-hand-point-right pr-2"></i> The decision about the acceptance of paper for final publication will be entirely taken by the Editor in Chief. Conference organizers and or journal editors reserve the right to remove the paper at any stage from the publication process because of non ensuring the paper quality and or ethical guidelines by the authors.
+                    <div className="border-t border-gray-300 pt-4 text-left px-4">
+                        <p className="text-lg mb-4 text-justify">
+                            <i className="fa-solid fa-hand-point-right pr-2"></i> The decision about the acceptance of paper for final publication will be entirely taken by the Editor in Chief. Conference organizers and or journal editors reserve the right to remove the paper at any stage from the publication process because of non ensuring the paper quality and or ethical guidelines by the authors.
                         </p>
                     </div>
 

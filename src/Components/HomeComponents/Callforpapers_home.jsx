@@ -54,51 +54,51 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className='sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i> Materials behaviour
+                                        <i className="fa-solid fa-atom pr-3"></i> Materials behaviour
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className='sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Metals and Alloys
+                                        <i className="fa-solid fa-atom pr-3"></i>Metals and Alloys
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Ceramic Materials
+                                        <i className="fa-solid fa-atom pr-3"></i>Ceramic Materials
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Polymeric Materials
+                                        <i className="fa-solid fa-atom pr-3"></i>Polymeric Materials
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Advanced Nanomaterials
+                                        <i className="fa-solid fa-atom pr-3"></i>Advanced Nanomaterials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Smart Materials and their Applications
+                                        <i className="fa-solid fa-atom pr-3"></i>Smart Materials and their Applications
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Sustainable and Recycled Materials
+                                        <i className="fa-solid fa-atom pr-3"></i>Sustainable and Recycled Materials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Functionally graded materials
+                                        <i className="fa-solid fa-atom pr-3"></i>Functionally graded materials
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-atom pr-3"></i>Superconductors
+                                        <i className="fa-solid fa-atom pr-3"></i>Superconductors
 
 
                                     </a>
@@ -118,43 +118,43 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Nanocomposites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Nanocomposites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Hybrid composites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Hybrid composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Bio-composites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Bio-composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Green Composites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Green Composites
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Multi-functional composites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Multi-functional composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Recycled waste-based composites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Recycled waste-based composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Delamination, damage, fracture, failure, fatigue and durability of composites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Delamination, damage, fracture, failure, fatigue and durability of composites
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-minimize pr-3"></i>Metal matrix composites
+                                        <i className="fa-solid fa-minimize pr-3"></i>Metal matrix composites
                                     </a>
                                 </li>
                             </ul>
@@ -172,43 +172,43 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3"></i>Biomaterials
+                                        <i className="fa-solid fa-dna pr-3"></i>Biomaterials
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Advanced biomaterials
+                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Advanced biomaterials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Biodegradable biomaterials
+                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Biodegradable biomaterials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Bone Scaffolds
+                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Bone Scaffolds
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Biodevice materials
+                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Biodevice materials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Medical implant materials
+                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Medical implant materials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3 pt-3"></i>Biomaterials in drug delivery system
+                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Biomaterials in drug delivery system
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-dna pr-3"></i>Biosensors
+                                        <i className="fa-solid fa-dna pr-3"></i>Biosensors
                                     </a>
                                 </li>
                             </ul>
@@ -226,43 +226,43 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Finite Element Analysis
+                                        <i className="fa-regular fa-object-group pr-3"></i>Finite Element Analysis
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Differential/Dynamical systems
+                                        <i className="fa-regular fa-object-group pr-3"></i>Differential/Dynamical systems
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Modelling & Simulation
+                                        <i className="fa-regular fa-object-group pr-3"></i>Modelling & Simulation
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Cryogenic Materials
+                                        <i className="fa-regular fa-object-group pr-3"></i>Cryogenic Materials
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Multi-scale analysis
+                                        <i className="fa-regular fa-object-group pr-3"></i>Multi-scale analysis
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Advanced Numerical Techniques in Engineering Structures
+                                        <i className="fa-regular fa-object-group pr-3"></i>Advanced Numerical Techniques in Engineering Structures
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Tribology, Nano mechanics and MEMS
+                                        <i className="fa-regular fa-object-group pr-3"></i>Tribology, Nano mechanics and MEMS
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-regular fa-object-group pr-3"></i>Fracture and Failure Mechanics
+                                        <i className="fa-regular fa-object-group pr-3"></i>Fracture and Failure Mechanics
                                     </a>
                                 </li>
                             </ul>
@@ -280,37 +280,37 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-industry pr-3"></i>Advanced finishing Processes
+                                        <i className="fa-solid fa-industry pr-3"></i>Advanced finishing Processes
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-industry pr-3"></i>Metal Joining Processes
+                                        <i className="fa-solid fa-industry pr-3"></i>Metal Joining Processes
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-industry pr-3"></i>Metal Forming Processes
+                                        <i className="fa-solid fa-industry pr-3"></i>Metal Forming Processes
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-industry pr-3"></i>Powder Metallurgy
+                                        <i className="fa-solid fa-industry pr-3"></i>Powder Metallurgy
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-industry pr-3"></i>Additive Manufacturing
+                                        <i className="fa-solid fa-industry pr-3"></i>Additive Manufacturing
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-industry pr-3"></i>Modelling, Simulation and Optimisation of manufacturing processes
+                                        <i className="fa-solid fa-industry pr-3"></i>Modelling, Simulation and Optimisation of manufacturing processes
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-industry pr-3"></i>Quality & Reliability in manufacturing
+                                        <i className="fa-solid fa-industry pr-3"></i>Quality & Reliability in manufacturing
                                     </a>
                                 </li>
                             </ul>
@@ -328,43 +328,43 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Reconfigurable manipulator
+                                        <i className="fa-solid fa-robot pr-3"></i>Reconfigurable manipulator
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Human Centric Robotics
+                                        <i className="fa-solid fa-robot pr-3"></i>Human Centric Robotics
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Soft Robotics
+                                        <i className="fa-solid fa-robot pr-3"></i>Soft Robotics
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Industrial Robotics
+                                        <i className="fa-solid fa-robot pr-3"></i>Industrial Robotics
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Agriculture and Field Robotics
+                                        <i className="fa-solid fa-robot pr-3"></i>Agriculture and Field Robotics
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Bionic robotics, autonomous and evolutionary robotics
+                                        <i className="fa-solid fa-robot pr-3"></i>Bionic robotics, autonomous and evolutionary robotics
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Robotics and Mechanical Engineering
+                                        <i className="fa-solid fa-robot pr-3"></i>Robotics and Mechanical Engineering
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-robot pr-3"></i>Mobile and Autonomous Systems
+                                        <i className="fa-solid fa-robot pr-3"></i>Mobile and Autonomous Systems
                                     </a>
                                 </li>
                             </ul>
@@ -382,41 +382,41 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-lightbulb pr-3"></i>Mechatronic system Design
+                                        <i className="fa-solid fa-lightbulb pr-3"></i>Mechatronic system Design
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-lightbulb pr-3"></i>Industrial Control
+                                        <i className="fa-solid fa-lightbulb pr-3"></i>Industrial Control
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-lightbulb pr-3"></i>Manufacturing mechatronics
+                                        <i className="fa-solid fa-lightbulb pr-3"></i>Manufacturing mechatronics
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-lightbulb pr-3"></i>Real Time Supervisory Control
+                                        <i className="fa-solid fa-lightbulb pr-3"></i>Real Time Supervisory Control
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-lightbulb pr-3"></i>Micro and Nano Mechatronics
+                                        <i className="fa-solid fa-lightbulb pr-3"></i>Micro and Nano Mechatronics
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-lightbulb pr-3"></i>Industry 4.0 and 5.0 technologies and its applications
+                                        <i className="fa-solid fa-lightbulb pr-3"></i>Industry 4.0 and 5.0 technologies and its applications
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-lightbulb pr-3"></i>Information Technology in Automation
+                                        <i className="fa-solid fa-lightbulb pr-3"></i>Information Technology in Automation
 
                                     </a>
                                 </li>
@@ -435,32 +435,32 @@ export function Callforpapers_home() {
                             <ul className='text-left'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-train pr-3"></i>Real-time monitoring of rail coaches
+                                        <i className="fa-solid fa-train pr-3"></i>Real-time monitoring of rail coaches
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-train pr-3"></i>Automation in railway coaches
-
-
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-train pr-3"></i>Sustainable and green materials
+                                        <i className="fa-solid fa-train pr-3"></i>Automation in railway coaches
 
 
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-train pr-3"></i>Sensors and actuators for railway coach
+                                        <i className="fa-solid fa-train pr-3"></i>Sustainable and green materials
+
+
                                     </a>
                                 </li>
                                 <li className='pt-2'>
                                     <a className=' sm:text-2xl text-xl'>
-                                        <i class="fa-solid fa-train pr-3"></i>Risk assessment and mitigation strategies
+                                        <i className="fa-solid fa-train pr-3"></i>Sensors and actuators for railway coach
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className=' sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-train pr-3"></i>Risk assessment and mitigation strategies
 
 
                                     </a>

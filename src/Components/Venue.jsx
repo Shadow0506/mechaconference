@@ -106,83 +106,83 @@ export function Venue() {
                 </div>
 
                 <div className='Attractions py-20'>
-                    <section class="text-gray-600 body-font">
-                        <div class="container px-5 py-2 mx-auto">
-                            <div class="flex flex-wrap -m-4">
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Sukhna Lake" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.chandigarhx.com/wp-content/uploads/2018/04/sukhna-lake-drying-1.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Sukhna Lake</h2>
-                                            <p class="mb-4 text-justify">A tranquil reservoir offering boating and breathtaking views.</p>
+                    <section className="text-gray-600 body-font">
+                        <div className="container px-5 py-2 mx-auto">
+                            <div className="flex flex-wrap -m-4">
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Sukhna Lake" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.chandigarhx.com/wp-content/uploads/2018/04/sukhna-lake-drying-1.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Sukhna Lake</h2>
+                                            <p className="mb-4 text-justify">A tranquil reservoir offering boating and breathtaking views.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Rose Garden" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://im.whatshot.in/img/2019/Dec/rose-garden-1575289885.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Rose Garden</h2>
-                                            <p class="mb-4 text-justify">The largest rose garden in Asia, boasting thousands of varieties.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Rose Garden" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://im.whatshot.in/img/2019/Dec/rose-garden-1575289885.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Rose Garden</h2>
+                                            <p className="mb-4 text-justify">The largest rose garden in Asia, boasting thousands of varieties.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Rock Garden" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.adotrip.com/public/images/areas/5e41376d80313-Rock%20Garden%20Sight%20Seeing%20Tour.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Rock Garden</h2>
-                                            <p class="mb-4 text-justify">A unique sculpture garden crafted from recycled materials.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Rock Garden" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.adotrip.com/public/images/areas/5e41376d80313-Rock%20Garden%20Sight%20Seeing%20Tour.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Rock Garden</h2>
+                                            <p className="mb-4 text-justify">A unique sculpture garden crafted from recycled materials.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Bird Park" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://avesdojorge.com/wp-content/uploads/2020/12/avesdojorge_loroparquefundacion-scaled.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Bird Park</h2>
-                                            <p class="mb-4 text-justify">Located in the Nepli Reserve Forest, it offers a peaceful retreat for birdwatchers within the lush Sukhna Wildlife Sanctuary.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Bird Park" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://avesdojorge.com/wp-content/uploads/2020/12/avesdojorge_loroparquefundacion-scaled.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Bird Park</h2>
+                                            <p className="mb-4 text-justify">Located in the Nepli Reserve Forest, it offers a peaceful retreat for birdwatchers within the lush Sukhna Wildlife Sanctuary.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="container px-5 py-0 mx-auto">
-                            <div class="flex flex-wrap -m-4">
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Le Corbusier Centre" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://chandigarhmetro.com/wp-content/uploads/2017/03/Le-corbusier-chandigarh.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Le Corbusier Centre</h2>
-                                            <p class="mb-4 text-justify">Provides insights into the life and works of Le Corbusier.</p>
+                        <div className="container px-5 py-0 mx-auto">
+                            <div className="flex flex-wrap -m-4">
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Le Corbusier Centre" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://chandigarhmetro.com/wp-content/uploads/2017/03/Le-corbusier-chandigarh.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Le Corbusier Centre</h2>
+                                            <p className="mb-4 text-justify">Provides insights into the life and works of Le Corbusier.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Capitol Complex" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://cdn.thespaces.com/wp-content/uploads/2020/04/Chandigarh_RC_6-1024x683.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Capitol Complex</h2>
-                                            <p class="mb-4 text-justify">An architectural marvel by Le Corbusier housing government offices.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Capitol Complex" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://cdn.thespaces.com/wp-content/uploads/2020/04/Chandigarh_RC_6-1024x683.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Capitol Complex</h2>
+                                            <p className="mb-4 text-justify">An architectural marvel by Le Corbusier housing government offices.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Government Museum and Art Gallery" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://edge.ixigo.com/ixi-api/img/512d9ca2e4b09b831bf79fcb_600x315.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Government Museum and Art Gallery</h2>
-                                            <p class="mb-4 text-justify">Home to Gandharan sculptures and modern Indian art.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Government Museum and Art Gallery" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://edge.ixigo.com/ixi-api/img/512d9ca2e4b09b831bf79fcb_600x315.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Government Museum and Art Gallery</h2>
+                                            <p className="mb-4 text-justify">Home to Gandharan sculptures and modern Indian art.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Cactus Garden" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://themedmatter.in/wp-content/uploads/2023/02/cactus-garden-in-chandigarh-city-featured-1024x576.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Cactus Garden</h2>
-                                            <p class="mb-4 text-justify">One of Asia's largest succulent gardens located in nearby Panchkula.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Cactus Garden" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://themedmatter.in/wp-content/uploads/2023/02/cactus-garden-in-chandigarh-city-featured-1024x576.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Cactus Garden</h2>
+                                            <p className="mb-4 text-justify">One of Asia's largest succulent gardens located in nearby Panchkula.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -200,64 +200,64 @@ export function Venue() {
                 </div>
 
                 <div className='Attractions py-20'>
-                    <section class="text-gray-600 body-font">
-                        <div class="container px-5 py-2 mx-auto">
-                            <div class="flex flex-wrap -m-4">
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Shimla" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://topranked.in/wp-content/uploads/2020/05/Kufri-2048x1536.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Shimla</h2>
-                                            <p class="mb-4 text-justify">Situated at the height of 2200m, the hill station still retains its old-world charm with beautiful colonial architecture, pedestrian-friendly Mall Road and the ridge lined up with multiple shops, cafes and restaurants.</p>
+                    <section className="text-gray-600 body-font">
+                        <div className="container px-5 py-2 mx-auto">
+                            <div className="flex flex-wrap -m-4">
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Shimla" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://topranked.in/wp-content/uploads/2020/05/Kufri-2048x1536.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Shimla</h2>
+                                            <p className="mb-4 text-justify">Situated at the height of 2200m, the hill station still retains its old-world charm with beautiful colonial architecture, pedestrian-friendly Mall Road and the ridge lined up with multiple shops, cafes and restaurants.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Kasauli" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://i1.wp.com/travelshoebum.com/wp-content/uploads/2017/10/dsc_6628.jpg?resize=1000%2C662&ssl=1" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Kasauli</h2>
-                                            <p class="mb-4 text-justify">Explore Kasauli, a quiet hill station in Himachal Pradesh, with its scenic views, temples, churches and breweries.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Kasauli" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://i1.wp.com/travelshoebum.com/wp-content/uploads/2017/10/dsc_6628.jpg?resize=1000%2C662&ssl=1" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Kasauli</h2>
+                                            <p className="mb-4 text-justify">Explore Kasauli, a quiet hill station in Himachal Pradesh, with its scenic views, temples, churches and breweries.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Chail" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://cdn.businesstraveller.com/wp-content/uploads/fly-images/1102198/WelcomHotel-916x515.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Chail</h2>
-                                            <p class="mb-4 text-justify">Chail is a quiet hill station close (44km) to Shimla, known for the world's highest cricket ground and a heritage hotel, Chail Palace. Surrounded by pine and deodar trees, Chail is located at an altitude of 2,250m above sea level.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Chail" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://cdn.businesstraveller.com/wp-content/uploads/fly-images/1102198/WelcomHotel-916x515.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Chail</h2>
+                                            <p className="mb-4 text-justify">Chail is a quiet hill station close (44km) to Shimla, known for the world's highest cricket ground and a heritage hotel, Chail Palace. Surrounded by pine and deodar trees, Chail is located at an altitude of 2,250m above sea level.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Dharamshala" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.tripsavvy.com/thmb/Q31XiZ7CMED31Z9uprSmMXhIVhI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/india--dharamsala-105137790-3c6e2f8cc6a7456bad0b24d3118c905f.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Dharamshala</h2>
-                                            <p class="mb-4 text-justify">Dharamshala is a picturesque hill town in the lap of the Dhauladhar range.Often overshadowed by the more popular suburb of McLeodganj, Dharamshala is more of a laid-back and calm destination to spend a long weekend.</p>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Dharamshala" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.tripsavvy.com/thmb/Q31XiZ7CMED31Z9uprSmMXhIVhI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/india--dharamsala-105137790-3c6e2f8cc6a7456bad0b24d3118c905f.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Dharamshala</h2>
+                                            <p className="mb-4 text-justify">Dharamshala is a picturesque hill town in the lap of the Dhauladhar range.Often overshadowed by the more popular suburb of McLeodganj, Dharamshala is more of a laid-back and calm destination to spend a long weekend.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="container px-5 py-0 mx-auto">
-                            <div class="flex flex-wrap -m-4">
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Timber Trail" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.holidify.com/images/cmsuploads/compressed/Timber_Trail_at_Parwanoo,_Himachal_Pradesh_20170407195818.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Timber Trail</h2>
-                                            <p class="mb-4 text-justify">Wrapped in the quiet charms of Himachal Pradesh, Timber Trail in the city of Kasauli is a quiet little hill station</p>
+                        <div className="container px-5 py-0 mx-auto">
+                            <div className="flex flex-wrap -m-4">
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Timber Trail" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://www.holidify.com/images/cmsuploads/compressed/Timber_Trail_at_Parwanoo,_Himachal_Pradesh_20170407195818.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Timber Trail</h2>
+                                            <p className="mb-4 text-justify">Wrapped in the quiet charms of Himachal Pradesh, Timber Trail in the city of Kasauli is a quiet little hill station</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 lg:w-1/2">
-                                    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="Toy Train" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/r04ped.jpg" />
-                                        <div class="flex-grow sm:pl-8">
-                                            <h2 class="title-font font-medium text-lg text-gray-900">Toy Train</h2>
+                                <div className="p-4 lg:w-1/2">
+                                    <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                        <img alt="Toy Train" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/r04ped.jpg" />
+                                        <div className="flex-grow sm:pl-8">
+                                            <h2 className="title-font font-medium text-lg text-gray-900">Toy Train</h2>
                                             <p class="mb-4 text-justify">Kalka to Shimla toy train runs on a narrow-gauge track and is known for its dramatic views of the hills and surrounding villages.</p>
                                         </div>
                                     </div>

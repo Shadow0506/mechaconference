@@ -28,7 +28,7 @@ export function Headertailwind() {
                     <a href="/">
                         <img className="h-12 md:h-20 lg:h-24" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
                     </a>
-                    <button onClick={toggleMobileMenu} className="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 focus:ring-gray-600 ml-4" aria-controls="navbar-sticky" aria-expanded="false">
+                    <button onClick={toggleMobileMenu} className="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 ml-4" aria-controls="navbar-sticky" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
