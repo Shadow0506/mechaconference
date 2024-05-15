@@ -31,9 +31,6 @@ export function Home() {
                     <i className="fa-solid fa-bullhorn px-4"></i>Important Announcements
                 </Marquee>
                 <div className="container mx-auto font-serif">
-                    <div className="flex justify-center items-center">
-                        <img src={main_logo} alt="Main Logo" className="w-full max-w-md rounded-lg shadow-lg " />
-                    </div>
                     <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
                         <div className="rounded-box lg:p-3 rounded w-full">
                             <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
@@ -42,7 +39,7 @@ export function Home() {
                             <p className="text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Design, Develop and Manufacture</p>
                             <p className="text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Organized by</p>
 
-                            <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
+                            <h1 className="pt-3 sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
                                 Department of Mechanical Engineering
                             </h1>
                             <h1 className="pt-3 sm:text-3xl text-xl title-font mb-2 text-blue-900 font-bold">
@@ -52,7 +49,7 @@ export function Home() {
                             <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
                                 &
                             </h1>
-                            <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
+                            <h1 className="pt-3 sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
                                 Department of Design
                             </h1>
                             <h1 className="pt-3 sm:text-3xl text-xl title-font mb-2 text-blue-900 font-bold ">
@@ -89,7 +86,7 @@ export function Home() {
                         <div className="flex flex-wrap w-full">
                             <div className="lg:w-full lg:mb-0 pt-10">
                                 <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
-                                    ABOUT ICDMT-2024
+                                    About ICDMT-2024
                                 </h1>
                                 <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                             </div>
