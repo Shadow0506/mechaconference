@@ -15,7 +15,7 @@ export function AboutUs_home() {
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">
             <div className="rounded-lg overflow-hidden">
-              <img alt="content" className="object-cover object-center h-64 w-full" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"></img>
+              <img alt="content" className="object-cover object-center h-96 w-full" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"></img>
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -96,7 +96,7 @@ export function AboutUs_home() {
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:pt-12">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                  <img src="https://pec.ac.in/hydro-2022/assets/images/pec_logo.png" alt="PEC logo" className="w-16 h-16" />
+                  <img src="https://latestgovtjobs.in/wp-content/uploads/2017/11/PEC-Logo-150x150.png" alt="PEC logo" className="w-16 h-16" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl">Department of Mechanical Engineering</h2>

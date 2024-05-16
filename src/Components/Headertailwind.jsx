@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import main_logo from './main_logo.jpeg'
 import logo_nobg from './logo_nobg.png'
 import pec_nobg from './pec_nobg.png'
+import pec_circle from './pec_circle.png'
 export function Headertailwind() {
     const navigate = useNavigate();
 
@@ -20,13 +21,13 @@ export function Headertailwind() {
             <div className="container mx-10 lg:mx-auto flex items-center justify-between py-4 lg:max-w-screen-xl lg:flex lg:items-center lg:justify-between ">
                 <div className="flex items-center space-x-2 lg:flex lg:items-center lg:justify-center md:justify-between lg:space-x-8 lg:mx-auto">
                     <a href="/">
-                        <img className="h-12 md:h-20 lg:h-24" src={logo_nobg} alt="peclogo" />
+                        <img className="h-12 md:h-20 lg:h-36" src={pec_circle} alt="peclogo" />
                     </a>
                     <a href="/">
-                        <img className="h-12 md:h-20 lg:h-24" src={pec_nobg} alt="peclogo" />
+                        <img className="h-12 md:h-20 lg:h-36" src={logo_nobg} alt="peclogo" />
                     </a>
                     <a href="/">
-                        <img className="h-12 md:h-20 lg:h-24" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
+                        <img className="h-12 md:h-20 lg:h-36" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
                     </a>
                     <button onClick={toggleMobileMenu} className="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 ml-4" aria-controls="navbar-sticky" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>

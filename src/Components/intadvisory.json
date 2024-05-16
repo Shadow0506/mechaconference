@@ -1,0 +1,94 @@
+{
+    "intfaculty": [
+        {
+            "name": "Dr. Sunil Agrawal",
+            "designation": "Professor",
+            "institute": "Columbia University, New York"
+        },
+        {
+            "name": "Dr. Marco Amabili",
+            "designation": "Professor",
+            "institute": "McGill University"
+        },
+        {
+            "name": "Dr. Ahn, Sung-Hoon",
+            "designation": "Professor",
+            "institute": "Seoul National University"
+        },
+        {
+            "name": "Dr. Cho, Maenghyo",
+            "designation": "Professor",
+            "institute": "Seoul National University"
+        },
+        {
+            "name": "Dr. Noguchi Shoji",
+            "designation": "Professor",
+            "institute": "Tokyo University of Science"
+        },
+        {
+            "name": "Dr. Gregory S. Chirikjian",
+            "designation": "Professor",
+            "institute": "National University of Singapore"
+        },
+        {
+            "name": "Dr. Daizhong Su",
+            "designation": "Professor",
+            "institute": "Nottingham Trent University"
+        },
+        {
+            "name": "Dr. Phani, Anasavarapu Srikantha",
+            "designation": "Professor",
+            "institute": "University of British Columbia"
+        },
+        {
+            "name": "Dr. J. Keith Nisbett",
+            "designation": "Associate Professor",
+            "institute": "Missouri Institute of Science and Tech."
+        },
+        {
+            "name": "Dr. Chen Y.H.",
+            "designation": "Associate Professor",
+            "institute": "University of Hong Kong"
+        },
+        {
+            "name": "Dr. YAO Haimin",
+            "designation": "Associate Professor",
+            "institute": "Hong Kong Polytechnic University"
+        },
+        {
+            "name": "Dr. Girish Krishnan",
+            "designation": "Associate Professor",
+            "institute": "The Grainer College of Engineering"
+        },
+        {
+            "name": "Dr. Souma Chowdhury",
+            "designation": "Assistant Professor",
+            "institute": "University of Buffallo"
+        },
+        {
+            "name": "Dr. Hayden Taylor",
+            "designation": "Assistant Professor",
+            "institute": "University of California, Berkely"
+        },
+        {
+            "name": "Dr. Mokarram Hossain",
+            "designation": "Assistant Professor",
+            "institute": "Swansea University, UK"
+        },
+        {
+            "name": "Dr. YU Xiang",
+            "designation": "Assistant Professor",
+            "institute": "Hong Kong Polytechnic University"
+        },
+        {
+            "name": "Dr. Andy Lung",
+            "designation": "Assistant Professor",
+            "institute": "Kingston University, London"
+        },
+        {
+            "name": "Dr. Mahdis Bisheban",
+            "designation": "Assistant Professor",
+            "institute": "University of Calgary"
+        }
+    ]
+}
