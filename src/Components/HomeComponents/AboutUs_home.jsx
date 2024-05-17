@@ -1,7 +1,7 @@
 
 export function AboutUs_home() {
   return (
-    <div>
+    <div className="pt-10">
       <div className="container mx-auto">
         <div className=" mb-10">
           <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
@@ -44,7 +44,7 @@ export function AboutUs_home() {
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <section >
           <div className="bg-white transition-colors duration-500" style={{ backgroundColor: '#F0F8FF' }}>
-            <h2 className="font-medium text-gray-900 text-2xl text-center mt-4 pb-5 ">Timeline about Punjab Engineering College</h2>
+            <h2 className="font-medium text-gray-900 text-2xl text-center mt-4 pb-5 ">History of Punjab Engineering College</h2>
             <div className="w-full mx-auto 2xl:max-w-7xl items-center flex flex-col  justify-center " >
               <div className=" border-t pb-8">
                 <div className="bg-white rounded-2xl p-8 border">

@@ -42,7 +42,9 @@ export function Registration_home() {
                         </Table.Row>
                     </Table.Body>
                 </Table>
-            <p className="text-xl pt-5 mt-5">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
+                </div>
+                <div>
+            <p className="text-xl pt-5 mt-5 mx-5 sm:mx-72">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
                 <div className="overflow-x-auto overflow-y-hidden ">
                     <Table hoverable className="w-full mt-8 border border-gray-300 rounded-lg">
                     <div className="absolute inset-0 z-0">

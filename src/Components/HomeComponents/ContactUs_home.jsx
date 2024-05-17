@@ -37,7 +37,7 @@ export function ContactUs_home() {
                                 <FaMapMarkerAlt className="text-gray-600 mr-2" />
                                 <div>
                                     <h2 className="font-semibold text-gray-900 text-sm">ADDRESS</h2>
-                                    <p className="text-gray-700">Sector 12, Chandigarh, 160012</p>
+                                    <p className="text-gray-700">Punjab Engineering College, Sector 12, Chandigarh, 160012</p>
                                 </div>
                             </div>
                             <div className="flex items-center mb-4">
