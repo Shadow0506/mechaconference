@@ -4,13 +4,13 @@ export const Menuitems = [
         url : "/",
         cName : "nav-links",
         icon : "fa-solid fa-house-user pr-1"
-
+        
     },
     {
-        title : "About Us",
-        url : "/aboutus",
+        title : "Call For Papers",
+        url : "/callforpapers",
         cName : "nav-links",
-        icon : "fa-solid fa-address-card pr-1"
+        icon : "fa-solid fa-newspaper pr-1"
 
     },
     {
@@ -21,20 +21,6 @@ export const Menuitems = [
 
     },
     {
-        title : "Speakers",
-        url : "/speakers",
-        cName : "nav-links",
-        icon : "fa-solid fa-user pr-1"
-
-    },
-    {
-        title : "Call For Papers",
-        url : "/callforpapers",
-        cName : "nav-links",
-        icon : "fa-solid fa-newspaper pr-1"
-
-    },
-    {
         title : "Committees",
         url : "/committees",
         cName : "nav-links",
@@ -42,10 +28,10 @@ export const Menuitems = [
 
     },
     {
-        title : "Contact Us",
-        url : "/contactus",
+        title : "Speakers",
+        url : "/speakers",
         cName : "nav-links",
-        icon : "fa-solid fa-envelope pr-1"
+        icon : "fa-solid fa-user pr-1"
 
     },
     {
@@ -68,6 +54,13 @@ export const Menuitems = [
         cName : "nav-links",
         icon : "fa-solid fa-id-card pr-1"
 
-    }
+    },    
+    {
+        title : "Contact Us",
+        url : "/contactus",
+        cName : "nav-links",
+        icon : "fa-solid fa-envelope pr-1"
+
+    },
 ]
 // home, call for paper, important dates, committees, speakers, sponsors, venue, registration, contact us

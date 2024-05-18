@@ -42,7 +42,7 @@ export function AboutUs_home() {
           </div>
         </div>
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <section >
+        <section className="sm:p-0 p-10" >
           <div className="bg-white transition-colors duration-500" style={{ backgroundColor: '#F0F8FF' }}>
             <h2 className="font-medium text-gray-900 text-2xl text-center mt-4 pb-5 ">History of Punjab Engineering College</h2>
             <div className="w-full mx-auto 2xl:max-w-7xl items-center flex flex-col  justify-center " >

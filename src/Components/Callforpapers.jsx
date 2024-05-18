@@ -2,6 +2,18 @@ import Typewriter from "typewriter-effect";
 import { useNavigate } from "react-router-dom";
 import { Carousel } from "flowbite-react";
 export function Callforpapers() {
+    const handleDownload = () => {
+        // URL to the Word document
+        const url = './icdmt_template.docx';
+
+        // Create a link element
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'icdmt_template.docx'; // Specify the name of the file to be downloaded
+
+        // Programmatically click the link to trigger the download
+        link.click();
+    };
     const navigate = useNavigate();
     return (
         <div style={{ backgroundColor: '#F0F8FF' }}>
@@ -1094,23 +1106,52 @@ export function Callforpapers() {
                     </div>
                 </div>
             </section>
-            <div className="text-center mb-20">
-                <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-0 mt-10">
-                    <Typewriter
-                        onInit={(typewriter) => {
-                            typewriter
-                                .typeString("Paper Submission")
-                                .pauseFor(1500)
-                                .start();
-                        }}
-                    />
-                </h1>
-                <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Authors are required to adhere strictly to the manuscript preparation guidelines. You can access the MS Word Template and a Sample Paper for reference on the conference website. Manuscript submissions should be made through the Microsoft CMT online system. All submitted manuscripts will undergo a peer-review process and mandatory plagiarism screening for publication eligibility. Accepted papers following peer review will be published as a standalone proceeding by a Scopus Indexed publication. Best Paper Awards will be given for the top Five papers presented.</p>
-                <h1>Link for submission/Registration is ____</h1>
+            <div className="text-center pb-5">
+            <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
+                        <div className="flex flex-wrap w-full mb-4">
+                            <div className="lg:w-full lg:mb-0 pt-10 text-center">
+                                <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900">
+                                    Paper Submission
+                                </h1>
+                                <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div className=" leading-relaxed lg:w-3/4 mx-auto text-left sm:text-2xl text-xl">
+                    <ul>
+                        <li> <i class="fa-regular fa-hand-point-right px-2 py-3"></i>Authors must strictly follow the manuscript preparation guidelines.</li>
+
+
+                        <li>
+                            <i class="fa-regular fa-hand-point-right px-2 py-3"></i> Access the MS Word Template and a Sample Paper for reference on the conference website.
+                        </li>
+
+                        <li> <i class="fa-regular fa-hand-point-right px-2 py-3"></i>Manuscript submissions should be made through the Microsoft CMT online system.</li>
+                        <li> <i class="fa-regular fa-hand-point-right px-2 py-3"></i>All submitted manuscripts will undergo:
+                            <ul className="ml-10">
+                                <li> <i class="fa-regular fa-hand-point-right px-2 py-3"></i>A peer-review process</li>
+                                <li> <i class="fa-regular fa-hand-point-right px-2 py-3"></i>Mandatory plagiarism screening for publication eligibility</li>
+                            </ul>
+                        </li>
+                        <li><i class="fa-regular fa-hand-point-right px-2 py-3"></i>Accepted papers, following peer review, will be published as a standalone proceeding by a Scopus Indexed publication.
+                        </li>
+                    </ul>
+                    <div className="flex justify-center mt-4 space-x-20 flex-wrap ">
+
+                        <a onClick={handleDownload} className="inline-block px-3 py-2 mb-2 mr-4 ml-4 text-white bg-blue-500 border border-transparent rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white">
+                            Download MS Word Template
+                        </a>
+                        {/* give link for submission */}
+                        <a href="/callforpapers" className="inline-block px-3 py-2 mb-2 ml-4 mr-4 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white">
+                            Submit Your Paper
+                        </a>
+
+                    </div>
+                </div>
             </div>
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto">
-                    <div className="flex flex-col text-center w-full ">
+                    <div className="flex-col text-center w-full ">
                         <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">Accepted papers will be published in the journals of following publishers </h1>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">(Approval is pending)</p>
                     </div>

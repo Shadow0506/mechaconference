@@ -6,7 +6,7 @@ export function Impdates_main() {
 
   const navigate = useNavigate();
   return (
-    <div style={{ backgroundColor: '#F0F8FF' }}>
+    <div style={{ backgroundColor: '#F0F8FF' }} className="pt-10">
       <div className="container  mx-auto flex flex-col">
         <div className="flex flex-wrap w-full mb-4 mx-auto">
           <div className="lg:w-full lg:mb-0 ">

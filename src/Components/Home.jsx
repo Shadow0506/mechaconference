@@ -8,10 +8,7 @@ import { Committees_home } from "./HomeComponents/Committees_home";
 import { ContactUs_home } from "./HomeComponents/ContactUs_home";
 import { Impdates_main } from "./Impdates_main";
 import './Home.css';
-import main_logo from './main_logo.jpeg';
 import React, { useState, useEffect } from 'react';
-"use client";
-import { Carousel } from "flowbite-react";
 
 export function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
