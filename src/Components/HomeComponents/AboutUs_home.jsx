@@ -86,7 +86,7 @@ export function AboutUs_home() {
           </div>
         </section>
       </section>
-
+      
       <section className="text-gray-600 body-font">
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">

@@ -7,6 +7,10 @@ import rahul_vaish from './rahul_vaish.jpeg'
 import akshay_dv from './akshay_dv.jpeg'
 import pradeep_dixit from './pradeep_dixit.jpeg'
 import Sunil_pandey from './Sunil_pandey.jpeg'
+import kiran_guleria from './kiran_guleria.png'
+import catalin from './catalin.png'
+import fernando from './fernando.png'
+import paulo from './paulo.png'
 export function Speakershome() {
   const navigate = useNavigate();
   const settings = {
@@ -97,6 +101,67 @@ export function Speakershome() {
               <p className="text-gray-700 mt-2">Department of Mechanical Engineering, IIT Bombay</p>
               <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
             </div>
+
+          </div>
+          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+            <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
+              <img src={kiran_guleria} alt="" className="h-44 w-44 rounded-full" />
+            </div>
+            <div className="p-4 text-center">
+              <p className="text-xl font-semibold mb-2">Dr. Kiran Gulia</p>
+              <p className="text-gray-700 mt-8">Senior Academic University Of Wolverhampton
+                West Midlands, England, United Kingdom
+              </p>
+              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+            </div>
+
+          </div>
+          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+            <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
+              <img src={catalin} alt="" className="h-44 w-44 rounded-full" />
+            </div>
+            <div className="p-4 text-center">
+              <p className="text-xl font-semibold mb-2">Dr. Catalin Iulian Pruncu</p>
+
+              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">PhD, CEng MIMeche, MInstP, MASME
+              </h3>
+              <p className="text-gray-700 mt-2">Senior Academic University Of Wolverhampton
+                West Midlands, England, United Kingdom
+              </p>
+              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+            </div>
+
+          </div>
+          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+            <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
+              <img src={fernando} alt="" className="h-44 w-44 rounded-full" />
+            </div>
+            <div className="p-4 text-center">
+              <p className="text-xl font-semibold mb-2">Dr. Fernando Fraternali</p>
+
+              <p className="text-gray-700 mt-8">Department of Civil Engineering, University of Salerno, Italy.
+
+              </p>
+              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+            </div>
+
+          </div>
+          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+            <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
+              <img src={paulo} alt="" className="h-44 w-44 rounded-full" />
+            </div>
+            <div className="p-4 text-center">
+              <p className="text-xl font-semibold mb-2">Prof. J. Paulo Davim</p>
+
+              <p className="text-gray-700 mt-4">University of Aveiro
+ Department of Mechanical Engineering
+ Campus Universitário de Santiago ,  3810-193 AVEIRO (PORTUGAL)
+
+
+              </p>
+              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+            </div>
+
           </div>
         </Slider>
       </div>

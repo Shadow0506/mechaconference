@@ -15,16 +15,12 @@ export function Committees() {
 
             <section className="text-gray-600 body-font ">
                 <div className="container  mx-auto">
-                    <div className="flex flex-col text-center w-full">
-                        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                            <Typewriter onInit={(typewriter) => {
-                                typewriter
-                                    .typeString("Advisory Committee")
-                                    .pauseFor(1500)
-                                    .start();
-                            }} />
-                        </h1>
-                    </div>
+                <div className="text-center mb-10 pt-10">
+                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
+                        Advisory Committee
+                    </h1>
+                    <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
+                </div>
                     <div className="overflow-x-auto">
                         <Table hoverable className=" border border-gray-300 rounded-lg">
                             <Table.Head>
