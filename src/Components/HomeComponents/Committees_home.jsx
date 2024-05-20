@@ -58,14 +58,14 @@ export function Committees_home() {
             </div>
             <div className="flex flex-wrap justify-center p-10">
                 <div className="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-auto lg:w-1/2 xl:w-1/3 transform hover:shadow-xl lg:mr-4">
-                    <img alt={`Committee Member `} className="lg:w-72 lg:h-80 w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src='https://pec.ac.in/sites/default/files/faculty_profile/images/parminderjit.jpg' />
+                    <img alt={`Committee Member `} className="lg:w-72 lg:h-96 w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src='https://pec.ac.in/sites/default/files/faculty_profile/images/parminderjit.jpg' />
                     <div className="text-center">
                         <h2 className="text-lg font-medium text-gray-900">Professor Perminderjit Singh</h2>
                         <h3 className="text-gray-500 mb-2">Department of Mechanical Engineering PEC, CHD</h3>
                     </div>
                 </div>
                 <div className="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-auto lg:w-1/2 xl:w-1/3 transform hover:shadow-xl lg:ml-4">
-                    <img alt={`Committee Member `} className="lg:w-72 lg:h-80 w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={inderdeep} />
+                    <img alt={`Committee Member `} className="lg:w-72 lg:h-96 w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={inderdeep} />
                     <div className="text-center">
                         <h2 className="text-lg font-medium text-gray-900">Professor Inderdeep Singh</h2>
                         <h3 className="text-gray-500 mb-2">Department of Mechanical Engineering, IIT Roorkee</h3>

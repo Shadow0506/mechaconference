@@ -40,7 +40,7 @@ export function Home() {
                             alt="background"
                             maxRetries={3} // Number of retry attempts
                             retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
-                            className="object-cover w-full h-full opacity-15 rounded-xl" // Tailwind CSS classes for the image
+                            className="object-cover w-full h-full opacity-25 rounded-xl" // Tailwind CSS classes for the image
                         />
                         <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
                     </div>

@@ -54,9 +54,9 @@ export function Speakershome() {
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Inderdeep Singh</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
-              <p className="text-gray-700 mt-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
-            </div>
+              <p className="text-gray-700 mt-2 mb-4">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
+              <a href="https://www.iitr.ac.in/~ME/Singh_Inderdeep" target="_blank" className="bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
+</div>
           </div>
           <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
@@ -65,8 +65,8 @@ export function Speakershome() {
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Akshay Dvivedi</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
-              <p className="text-gray-700 mt-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <p className="text-gray-700 mb-4 mt-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
+              <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
           </div>
           <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
@@ -76,8 +76,8 @@ export function Speakershome() {
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Rahul Vaish</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
-              <p className="text-gray-700 mt-2">School of Engineering, IIT Mandi</p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <p className="text-gray-700 mt-2 mb-4">School of Engineering, IIT Mandi</p>
+              <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
           </div>
           <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
@@ -87,8 +87,8 @@ export function Speakershome() {
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Sunil Pandey</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
-              <p className="text-gray-700 mt-2">Department of Mechanical Engineering, IIT Delhi</p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <p className="text-gray-700 mt-2 mb-4">Department of Mechanical Engineering, IIT Delhi</p>
+              <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
           </div>
           <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
@@ -98,8 +98,8 @@ export function Speakershome() {
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Pradeep Dixit</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Associate Professor</h3>
-              <p className="text-gray-700 mt-2">Department of Mechanical Engineering, IIT Bombay</p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <p className="text-gray-700 mt-2 mb-4">Department of Mechanical Engineering, IIT Bombay</p>
+              <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
           </div>
@@ -108,11 +108,11 @@ export function Speakershome() {
               <img src={kiran_guleria} alt="" className="h-44 w-44 rounded-full" />
             </div>
             <div className="p-4 text-center">
-              <p className="text-xl font-semibold mb-2">Dr. Kiran Gulia</p>
-              <p className="text-gray-700 mt-8">Senior Academic University Of Wolverhampton
+              <p className="text-xl font-semibold mb-2 ">Dr. Kiran Gulia</p>
+              <p className="text-gray-700 mt-8 mb-4">Senior Academic University Of Wolverhampton
                 West Midlands, England, United Kingdom
               </p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
           </div>
@@ -125,10 +125,10 @@ export function Speakershome() {
 
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">PhD, CEng MIMeche, MInstP, MASME
               </h3>
-              <p className="text-gray-700 mt-2">Senior Academic University Of Wolverhampton
+              <p className="text-gray-700 mt-2 mb-4">Senior Academic University Of Wolverhampton
                 West Midlands, England, United Kingdom
               </p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <a className=" bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
           </div>
@@ -137,12 +137,12 @@ export function Speakershome() {
               <img src={fernando} alt="" className="h-44 w-44 rounded-full" />
             </div>
             <div className="p-4 text-center">
-              <p className="text-xl font-semibold mb-2">Dr. Fernando Fraternali</p>
+              <p className="text-xl font-semibold mb-2 ">Dr. Fernando Fraternali</p>
 
-              <p className="text-gray-700 mt-8">Department of Civil Engineering, University of Salerno, Italy.
+              <p className="text-gray-700 mt-8 mb-4">Department of Civil Engineering, University of Salerno, Italy.
 
               </p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <a className=" bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
           </div>
@@ -153,13 +153,13 @@ export function Speakershome() {
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Prof. J. Paulo Davim</p>
 
-              <p className="text-gray-700 mt-4">University of Aveiro
- Department of Mechanical Engineering
- Campus Universitário de Santiago ,  3810-193 AVEIRO (PORTUGAL)
+              <p className="text-gray-700 mt-4 mb-4">University of Aveiro
+                Department of Mechanical Engineering
+                Campus Universitário de Santiago ,  3810-193 AVEIRO (PORTUGAL)
 
 
               </p>
-              <button className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</button>
+              <a className=" bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
           </div>

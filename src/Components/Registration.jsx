@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import { Table } from "flowbite-react";
-
+import reg_qr from './reg_qr.png'
 export function Registration() {
     return (
         <div className="bg-blue-50 mx-auto flex flex-col text-gray-900">
@@ -27,59 +27,65 @@ export function Registration() {
                         <Table.Body>
                             <Table.Row className="bg-white">
                                 <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Students</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Rs. 2,500/-</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Rs. 4,720/-</Table.Cell>
                                 <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">USD 150</Table.Cell>
                             </Table.Row>
                             <Table.Row className="bg-white">
                                 <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Faculty/Academia</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Rs. 5,000/-</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Rs. 8,260/-</Table.Cell>
                                 <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">USD 250</Table.Cell>
                             </Table.Row>
                             <Table.Row className="bg-white">
                                 <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Industry/R&D Organization</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Rs. 10,000/-</Table.Cell>
+                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Rs. 11,800/-</Table.Cell>
                                 <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">USD 450</Table.Cell>
                             </Table.Row>
                         </Table.Body>
                     </Table>
                 </div>
-
-                <p className="text-xl pt-5 mt-5">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
-                <div className="overflow-x-auto overflow-y-hidden ">
-                    <Table hoverable className="w-full mt-8 border border-gray-300 rounded-lg">
-                        <Table.Head>
-                            <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Beneficiary Name</Table.HeadCell>
-                            <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Punjab Engineering College (Registration / Applications A/c)</Table.HeadCell>
-                        </Table.Head>
-                        <Table.Body>
-                            <Table.Row className="bg-white">
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Bank</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">State Bank of India</Table.Cell>
-                            </Table.Row>
-                            <Table.Row className="bg-white">
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Account No.</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">39083056639</Table.Cell>
-                            </Table.Row>
-                            <Table.Row className="bg-white">
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">IFSC</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">SBIN0002452</Table.Cell>
-                            </Table.Row>
-                            <Table.Row className="bg-white">
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">MICRO</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">160002008</Table.Cell>
-                            </Table.Row>
-                            <Table.Row className="bg-white">
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Address</Table.Cell>
-                                <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">PEC Market, Sector 12, Chandigarh</Table.Cell>
-                            </Table.Row>
-                        </Table.Body>
-                    </Table>
+                <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black">
+                    <div className="sm:overflow-hidden overflow-x-auto w-full lg:w-2/3 p-4">
+                        <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
+                        <Table hoverable className="w-full mt-8 border border-gray-300 rounded-lg">
+                            <Table.Head>
+                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Beneficiary Name</Table.HeadCell>
+                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Punjab Engineering College (Registration / Applications A/c)</Table.HeadCell>
+                            </Table.Head>
+                            <Table.Body>
+                                <Table.Row className="bg-white">
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Bank</Table.Cell>
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">State Bank of India</Table.Cell>
+                                </Table.Row>
+                                <Table.Row className="bg-white">
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Account No.</Table.Cell>
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">39083056639</Table.Cell>
+                                </Table.Row>
+                                <Table.Row className="bg-white">
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">IFSC</Table.Cell>
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">SBIN0002452</Table.Cell>
+                                </Table.Row>
+                                <Table.Row className="bg-white">
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">MICRO</Table.Cell>
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">160002008</Table.Cell>
+                                </Table.Row>
+                                <Table.Row className="bg-white">
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Address</Table.Cell>
+                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">PEC Market, Sector 12, Chandigarh</Table.Cell>
+                                </Table.Row>
+                            </Table.Body>
+                        </Table>
+                    </div>
+                    <div className="px-4 lg:px-24 py-4 lg:py-24 flex flex-col items-center">
+                        <p className="text-xl pt-5 mt-5 text-center">You can also scan this QR code to register</p>
+                        <img src={reg_qr} className="h-48 w-48 lg:h-64 lg:w-64 mt-4" />
+                    </div>
                 </div>
 
+
                 <div className="mt-8 text-center">
-                    <button className="inline-block px-8 py-4 text-white bg-blue-500 border border-transparent rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white">
+                    <a href="https://forms.gle/vdvAZifaNYkDavrz6" target="_blank" className="inline-block px-8 py-4 text-white bg-blue-500 border border-transparent rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white">
                         Register
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -10,44 +10,87 @@ export function Committees() {
             <div className="pt-10">
 
                 <Committees_home />
-                <New_committee/>
+                <New_committee />
             </div>
-
             <section className="text-gray-600 body-font ">
                 <div className="container  mx-auto">
-                <div className="text-center mb-10 pt-10">
-                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
-                        Advisory Committee
-                    </h1>
-                    <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
-                </div>
-                    <div className="overflow-x-auto">
-                        <Table hoverable className=" border border-gray-300 rounded-lg">
-                            <Table.Head>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-2 md:p-4">Name</Table.HeadCell>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-2 md:p-4">Designation</Table.HeadCell>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-2 md:p-4">Institute</Table.HeadCell>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-2 md:p-4">Email</Table.HeadCell>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-2 md:p-4">Mobile Number</Table.HeadCell>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-2 md:p-4">Area of Research</Table.HeadCell>
-                            </Table.Head>
-                            <Table.Body>
-                                {faculty.map((item, index) => (
-                                    <Table.Row key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                                        <Table.Cell className="whitespace-nowrap font-medium text-base text-gray-900 border border-gray-300 p-2 md:p-4">{item.name}</Table.Cell>
-                                        <Table.Cell className="whitespace-nowrap font-medium text-base text-gray-900 border border-gray-300 p-2 md:p-4">{item.designation}</Table.Cell>
-                                        <Table.Cell className="whitespace-nowrap font-medium text-base text-gray-900 border border-gray-300 p-2 md:p-4">{item.institute}</Table.Cell>
-                                        <Table.Cell className="whitespace-nowrap font-medium text-base text-gray-900 border border-gray-300 p-2 md:p-4">{item.emailid}</Table.Cell>
-                                        <Table.Cell className="whitespace-nowrap font-medium text-base text-gray-900 border border-gray-300 p-2 md:p-4">{item.mobile_number}</Table.Cell>
-                                        <Table.Cell className="whitespace-wrap font-medium text-base text-gray-900 border border-gray-300 p-2 md:p-4">{item.area_of_research}</Table.Cell>
-                                    </Table.Row>
-                                ))}
-                            </Table.Body>
-                        </Table>
+                    <div className="text-center mb-10 pt-10">
+                        <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
+                            International Advisory Committee
+                        </h1>
+                        <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
+                    </div>
+                    <div >
+
+
+                        <section className="text-gray-600 body-font">
+                            <div className="container mx-auto">
+                                <div className="flex flex-wrap -m-2">
+                                    
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                                <div className="flex-grow">
+                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Prof. Daizhong Su</h2>
+                                                    <p className="leading-relaxed text-lg">Professor</p>
+                                                    <p className="leading-relaxed text-lg">Nottingham Trent University</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                                <div className="flex-grow">
+                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Dr. ANJU R. GUPTA</h2>
+                                                    <p className="leading-relaxed text-lg">ASSISTANT PROFESSOR</p>
+                                                    <p className="leading-relaxed text-lg">The University of Toledo</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                </div>
+                            </div>
+                        </section>
+
                     </div>
 
                 </div>
             </section>
+            <section className="text-gray-600 body-font ">
+                <div className="container  mx-auto">
+                    <div className="text-center mb-10 pt-10">
+                        <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
+                            National Advisory Committee
+                        </h1>
+                        <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
+                    </div>
+                    <div >
+
+
+                        <section className="text-gray-600 body-font">
+                            <div className="container mx-auto">
+                                <div className="flex flex-wrap -m-2">
+                                    {faculty.map((item, index) => (
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                                <div className="flex-grow">
+                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">{item.name}</h2>
+                                                    <p className="leading-relaxed text-lg">{item.designation}</p>
+                                                    <p className="leading-relaxed text-lg">{item.institute}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    ))}
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+
+                </div>
+            </section>
+            
 
         </div>
     )
