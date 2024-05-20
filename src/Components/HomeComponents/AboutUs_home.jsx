@@ -1,5 +1,23 @@
 
+
+import useImageWithRetry from "../useImageWithRetry"
 export function AboutUs_home() {
+  const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {
+    const { currentSrc, handleError, errorCount } = useImageWithRetry(src, maxRetries, retryInterval);
+
+    return (
+      <div>
+        {errorCount < maxRetries ? (
+          <img src={currentSrc} alt={alt} onError={handleError} className={className} />
+        ) : (
+          <p className="text-red-500">Failed to load image after {maxRetries} attempts.</p>
+        )}
+      </div>
+    );
+  };
+
+
+
   return (
     <div className="pt-10">
       <div className="container mx-auto">
@@ -15,7 +33,14 @@ export function AboutUs_home() {
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">
             <div className="rounded-lg overflow-hidden">
-              <img alt="content" className="object-cover object-center h-96 w-full" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"></img>
+              <RetryImageComponent
+                src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"
+                alt="content"
+                maxRetries={3} // Number of retry attempts
+                retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
+                className="object-cover object-center h-96 w-full" // Tailwind CSS classes for the image
+              />
+              {/* <img alt="content" className="object-cover object-center h-96 w-full" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"></img> */}
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -86,7 +111,7 @@ export function AboutUs_home() {
           </div>
         </section>
       </section>
-      
+
       <section className="text-gray-600 body-font">
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">

@@ -9,17 +9,25 @@ import { ContactUs_home } from "./HomeComponents/ContactUs_home";
 import { Impdates_main } from "./Impdates_main";
 import './Home.css';
 import React, { useState, useEffect } from 'react';
+import useImageWithRetry from './useImageWithRetry';
 
+
+const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {
+    const { currentSrc, handleError, errorCount } = useImageWithRetry(src, maxRetries, retryInterval);
+
+    return (
+        <div>
+            {errorCount < maxRetries ? (
+                <img src={currentSrc} alt={alt} onError={handleError} className={className} />
+            ) : (
+                <p className="text-red-500">Failed to load image after {maxRetries} attempts.</p>
+            )}
+        </div>
+    );
+};
 export function Home() {
-    const [currentSlide, setCurrentSlide] = useState(0);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide(prevSlide => (prevSlide + 1) % 3); // Assuming you have 3 slides
-        }, 3000); // Change slide every 3 seconds
 
-        return () => clearInterval(interval);
-    }, []);
 
     return (
         <div style={{ backgroundColor: '#F0F8FF' }}>
@@ -27,6 +35,13 @@ export function Home() {
 
                 <div className="relative overflow-hidden rounded-xl ">
                     <div className="absolute inset-0 z-0 overflow-hidden rounded-xl">
+                        <RetryImageComponent
+                            src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg"
+                            alt="background"
+                            maxRetries={3} // Number of retry attempts
+                            retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
+                            className="object-cover w-full h-full opacity-15 rounded-xl" // Tailwind CSS classes for the image
+                        />
                         <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
                     </div>
                     <Marquee className="text-red-500 p-4">
@@ -67,10 +82,10 @@ export function Home() {
                 </div>
             </section>
 
-            <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex flex-col lg:flex-row">
-                    <div className="  flex flex-col items-center lg:items-start lg:px-0">
-                        <div className="pt-10 lg:pt-20 w-full">
+            <section className="text-gray-600 body-font pb-8">
+                <div className="container mx-auto pt-4 lg:flex lg:items-start lg:justify-center lg:space-x-16">
+                    <div className="lg:flex-1 lg:max-w-1/2">
+                        <div className="pt-10 lg:pt-10 w-full">
                             <h1 className="sm:text-5xl text-2xl font-medium title-font mb-2 text-gray-900 text-center lg:text-left">
                                 About ICDMT-2024
                             </h1>
@@ -80,34 +95,36 @@ export function Home() {
                             </p>
                         </div>
                     </div>
-                    {/* <div className="lg:w-1/2 w-full flex flex-col items-center lg:items-end px-4 lg:px-0 py-10 lg:py-16">
-                        <div className="border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden w-full lg:max-w-lg">
-                            <div className="p-6">
-                                <h1 className="title-font font-medium text-gray-900 mb-3 text-4xl">Important Updates</h1>
-                                <div className="w-full flex justify-center overflow-hidden">
-                                    <div className="w-full h-40 overflow-hidden flex items-center">
-                                        <Marquee>
-
-                                        <p className="mb-3 break-words text-2xl">Update 1 djoaldmalpdkawpfkawpdkawlwpdawpkdopawesk</p>
-                                        <p className="mb-3 break-words text-2xl">Update 2 malwkdwapkdaw,dadap</p>
-                                        <p className="mb-3 break-words text-2xl">Update 3</p>
-                                        <p className="mb-3 break-words text-2xl">Update 4</p>
-                                        </Marquee>
-
-                                    </div>
-                                </div>
-                                <div className="flex items-center flex-wrap mt-4">
-                                    <a className="text-indigo-500 inline-flex items-center">Learn More
-                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
+                    <div className="lg:flex-1 lg:max-w-lg flex items-center justify-center mt-10 lg:mt-0 h-80 lg:pt-20 ">
+                        <div className="w-full lg:max-w-md bg-gray-200 shadow-md h-80 ">
+                            <div className="pt-4 bg-gray-900 rounded-t-2xl">
+                                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center lg:text-center">
+                                    Important Updates
+                                </h1>
+                                <div className="flex justify-center">
+                                    <div className="h-1 w-20 bg-indigo-500 rounded mx-auto lg:mx-0"></div>
                                 </div>
                             </div>
+
+                            <div className="h-full w-full shadow-xl rounded-b-2xl p-4" style={{ backgroundColor: '#72A0C1' }}>
+                                <marquee behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();" className="h-full w-full">
+                                    <ul className=" text-xl text-white h-full flex flex-col justify-start items-start py-4 px-2 ">
+
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 1</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 2</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 3</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 4</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 5</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 6</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 7</li>
+                                    </ul>
+                                </marquee>
+                            </div>
                         </div>
-                    </div> */}
+                    </div>
+
                 </div>
+
             </section>
 
 
