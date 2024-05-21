@@ -88,7 +88,7 @@ export function ContactUs() {
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sarbjit Singh</h2>
                                     <p className="leading-relaxed text-base">Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
-                                    <p className="leading-relaxed text-base pt-4">Contact Number : </p>
+                                    <p className="leading-relaxed text-base pt-4">Contact Number : +91 9888785760</p>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ export function ContactUs() {
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. M.P Garg</h2>
                                     <p className="leading-relaxed text-base">Joint-Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
-                                    <p className="leading-relaxed text-base pt-4">Contact Number : </p>
+                                    <p className="leading-relaxed text-base pt-4">Contact Number : +91 8283811022</p>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ export function ContactUs() {
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
                                     <p className="leading-relaxed text-base">Joint-Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
-                                    <p className="leading-relaxed text-base pt-4">Contact Number : </p>
+                                    <p className="leading-relaxed text-base pt-4">Contact Number : +91 </p>
                                 </div>
                             </div>
                         </div>

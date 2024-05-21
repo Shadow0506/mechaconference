@@ -169,7 +169,7 @@ export function Callforpapers_home() {
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 3 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-9">Biomaterials</h3>
-                            <ul className='text-left'>
+                            <ul className='text-left sm:mt-4'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
                                         <i className="fa-solid fa-dna pr-3"></i>Biomaterials
@@ -325,7 +325,7 @@ export function Callforpapers_home() {
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 6 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Robotics</h3>
-                            <ul className='text-left'>
+                            <ul className='text-left sm:mt-4'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
                                         <i className="fa-solid fa-robot pr-3"></i>Reconfigurable manipulator
@@ -379,7 +379,7 @@ export function Callforpapers_home() {
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 7 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Mechatronics and Automation</h3>
-                            <ul className='text-left'>
+                            <ul className='text-left sm:mt-20'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
                                         <i className="fa-solid fa-lightbulb pr-3"></i>Mechatronic system Design
@@ -432,7 +432,7 @@ export function Callforpapers_home() {
                         <div className="p-4 text-center" >
                             <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 8 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Railway Vehicle Dynamics</h3>
-                            <ul className='text-left'>
+                            <ul className='text-left sm:mt-24'>
                                 <li>
                                     <a className=' sm:text-2xl text-xl'>
                                         <i className="fa-solid fa-train pr-3"></i>Real-time monitoring of rail coaches
