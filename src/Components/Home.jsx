@@ -107,16 +107,16 @@ export function Home() {
                             </div>
 
                             <div className="h-full w-full shadow-xl rounded-b-2xl p-4" style={{ backgroundColor: '#72A0C1' }}>
-                                <marquee behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();" className="h-full w-full">
+                                <marquee behavior="scroll" direction="up" scrollamount="5" onMouseOver={(e)=>{e.target.stop()}} onMouseOut={(e)=>{e.target.start()}} className="h-full w-full">
                                     <ul className=" text-xl text-white h-full flex flex-col justify-start items-start py-4 px-2 ">
 
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 1</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 2</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 3</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 4</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 5</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 6</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i class="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 7</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 1</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 2</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 3</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 4</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 5</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 6</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 7</li>
                                     </ul>
                                 </marquee>
                             </div>

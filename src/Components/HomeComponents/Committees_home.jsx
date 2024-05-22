@@ -40,7 +40,7 @@ export function Committees_home() {
                 <div className="flex flex-col items-center gap-8">
                     {/* Chief Patron (Centered) */}
                     <div className="flex flex-col items-center bg-white rounded-lg p-6 shadow-md lg:w-2/3 w-full transition duration-300 transform hover:shadow-xl">
-                        <img alt="Chief Patron" className="lg:w-72 lg:h-80 w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://pec.ac.in/sites/default/files/faculty_profile/images/sanjeev_1.jpg" />
+                        <img alt="Chief Patron" className="lg:w-72 lg:h-80 w-48 h-60 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://pec.ac.in/sites/default/files/faculty_profile/images/sanjeev_1.jpg" />
                         <div className="text-center">
                             <h2 className="text-lg font-medium text-gray-900">Professor Sanjeev Kumar</h2>
                             <h3 className="text-gray-500 mb-2">Department of Mechanical Engineering, PEC Chandigarh</h3>
@@ -58,14 +58,14 @@ export function Committees_home() {
             </div>
             <div className="flex flex-wrap justify-center p-10">
                 <div className="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-auto lg:w-1/2 xl:w-1/3 transform hover:shadow-xl lg:mr-4">
-                    <img alt={`Committee Member `} className="lg:w-72 lg:h-96 w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src='https://pec.ac.in/sites/default/files/faculty_profile/images/parminderjit.jpg' />
+                    <img alt={`Committee Member `} className="lg:w-72 lg:h-96 w-48 h-60 rounded-3xl mb-4 object-cover object-center shadow-2xl" src='https://pec.ac.in/sites/default/files/faculty_profile/images/parminderjit.jpg' />
                     <div className="text-center">
                         <h2 className="text-lg font-medium text-gray-900">Professor Perminderjit Singh</h2>
                         <h3 className="text-gray-500 mb-2">Department of Mechanical Engineering PEC, CHD</h3>
                     </div>
                 </div>
                 <div className="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-auto lg:w-1/2 xl:w-1/3 transform hover:shadow-xl lg:ml-4">
-                    <img alt={`Committee Member `} className="lg:w-72 lg:h-96 w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={inderdeep} />
+                    <img alt={`Committee Member `} className="lg:w-72 lg:h-96 w-48 h-60 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={inderdeep} />
                     <div className="text-center">
                         <h2 className="text-lg font-medium text-gray-900">Professor Inderdeep Singh</h2>
                         <h3 className="text-gray-500 mb-2">Department of Mechanical Engineering, IIT Roorkee</h3>
@@ -86,7 +86,7 @@ export function Committees_home() {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/IMG_20190516_153729-01.jpeg" />
+                                <img alt="team" className="w-16 h-24 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/IMG_20190516_153729-01.jpeg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sarbjit Singh</h2>
                                     <p className="leading-relaxed text-base">Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>

@@ -47,7 +47,7 @@ export function Speakershome() {
       <div>
         <Slider {...settings}>
 
-          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+          {/* <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={inderdeep} alt="" className="h-44 w-44 rounded-full" />
             </div>
@@ -57,7 +57,7 @@ export function Speakershome() {
               <p className="text-gray-700 mt-2 mb-4">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
               <a href="https://www.iitr.ac.in/~ME/Singh_Inderdeep" target="_blank" className="bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
-          </div>
+          </div> */}
           <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={akshay_dv} alt="" className="h-44 w-44 rounded-full" />
@@ -91,7 +91,7 @@ export function Speakershome() {
               <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
           </div>
-          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
+          {/* <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={pradeep_dixit} alt="" className="h-44 w-44 rounded-full" />
             </div>
@@ -102,7 +102,7 @@ export function Speakershome() {
               <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
 
-          </div>
+          </div> */}
           <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={kiran_guleria} alt="" className="h-44 w-44 rounded-full" />

@@ -14,31 +14,31 @@ export function Registration_home() {
                     </div>
                 </div>
             </div>
-            <div className="sm:mx-auto overflow-x-auto">
+            <div className="sm:mx-auto overflow-x-auto px-4">
                 <Table hoverable className="border border-gray-300 rounded-lg relative">
                     <div className="absolute inset-0 z-0">
                         <img src="https://img.freepik.com/free-photo/view-arrangement-with-keyboard-notebooks_23-2148847749.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1715212800&semt=ais_user" alt="background" className="object-cover w-full h-full opacity-10 rounded-lg" />
                     </div>
                     <Table.Head className="relative z-10">
-                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 rounded-t-lg sm:p-10">Category</Table.HeadCell>
-                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 sm:p-8">Indian Participants <p className="text-xl pt-3">(Inclusive of GST)</p></Table.HeadCell>
-                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-xl border border-gray-300 bg-gray-100 sm:p-10">Foreign Participants</Table.HeadCell>
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-sm border border-gray-300 bg-gray-100 rounded-t-lg sm:p-10">Category</Table.HeadCell>
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-sm border border-gray-300 bg-gray-100 sm:p-8">Indian Participants <p className="sm:text-xl text-sm pt-3">(Inclusive of GST)</p></Table.HeadCell>
+                        <Table.HeadCell className="whitespace-nowrap font-medium sm:text-2xl text-sm border border-gray-300 bg-gray-100 sm:p-10">Foreign Participants</Table.HeadCell>
                     </Table.Head>
                     <Table.Body className="divide-y">
                         <Table.Row className="bg-white">
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Students</Table.Cell>
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Rs. 4,720/-</Table.Cell>
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">USD 150</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">Students</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">Rs. 4,720/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">USD 150</Table.Cell>
                         </Table.Row>
                         <Table.Row className="bg-white">
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Faculty/ Academia</Table.Cell>
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Rs. 8,260/-</Table.Cell>
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">USD 250</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">Faculty/ Academia</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">Rs. 8,260/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">USD 250</Table.Cell>
                         </Table.Row>
                         <Table.Row className="bg-white">
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Industry/R&D Organization</Table.Cell>
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">Rs. 11,800/-</Table.Cell>
-                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-xl border border-gray-300 sm:p-8">USD 450</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">Industry/R&D Organization</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">Rs. 11,800/-</Table.Cell>
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 sm:text-2xl text-sm border border-gray-300 sm:p-8">USD 450</Table.Cell>
                         </Table.Row>
                     </Table.Body>
                 </Table>
@@ -46,7 +46,7 @@ export function Registration_home() {
             <div>
             </div>
             <div className="px-4 md:px-10 flex justify-center items-center h-full mx-auto">
-                <div className="mx-auto px-24">
+                <div className="mx-auto sm:px-24 px-4">
                     <div className="flex flex-col mt-6">
                         <div className=" border-gray-300 mt-4 pt-4  text-left">
                             <p className="text-lg text-justify px-4">
