@@ -2,10 +2,154 @@ import Typewriter from "typewriter-effect";
 import React from 'react';
 import { Table } from "flowbite-react";
 export function Sponsorship() {
+  const platinumBenefits = [
+    {
+      title: "Exclusive Branding",
+      description: "Prominent placement of your company logo on all conference promotional materials, including website, banners, brochures, and press releases. Recognition as the exclusive Platinum Sponsor in all pre-event and on-site communications."
+    },
+    {
+      title: "Keynote Session Opportunity",
+      description: "Exclusive opportunity to present a keynote session or participate in a high-profile panel discussion during the conference. Recognition as the Platinum Sponsor during the opening and closing ceremonies."
+    },
+    {
+      title: "Digital Visibility",
+      description: "Featured spotlight on the conference website with a dedicated Platinum Sponsor profile, including a company overview, logo, and link to your website. Regular acknowledgment on conference-related social media platforms with tailored posts highlighting your Platinum Sponsorship."
+    },
+    {
+      title: "Exhibition Space",
+      description: "Premium exhibition space in a high-traffic area with a dedicated booth showcasing your products/services. Opportunity to organize product demonstrations and engage with conference attendees."
+    },
+    {
+      title: "Complimentary Registrations",
+      description: "Complimentary conference registrations for 10 representatives from your company, allowing access to all conference sessions and activities."
+    },
+    {
+      title: "Networking Opportunities",
+      description: "Exclusive access to VIP networking events, facilitating interactions with key speakers, organizers, and other influential participants. Recognition as the Platinum Sponsor in all networking materials."
+    },
+    {
+      title: "Branding in Conference Proceedings",
+      description: "Prominent recognition in the official conference proceedings, including your logo on the cover and a full-page acknowledgment of your Platinum Sponsorship."
+    },
+    {
+      title: "Customized Collaborations",
+      description: "Tailored opportunities for collaboration, such as sponsoring a specific track or workshop aligned with your company's interests. Consultation to identify and implement customized engagement strategies to maximize the impact of your sponsorship."
+    },
+    {
+      title: "Post-Event Recognition",
+      description: "Acknowledgment in post-event communications, thank-you letters, and reports. Recognition as a key contributor to the success of the conference in post-conference press releases."
+    },
+    {
+      title: "Exclusive Deliverables",
+      description: "Exclusive rights to distribute promotional materials or branded items to conference attendees. First consideration for any exclusive sponsorship-related opportunities that may arise during the planning process."
+    }
+  ];
+  const goldBenefits = [
+    {
+      title: "Keynote Session Opportunity",
+      description: "Exclusive opportunity to present a keynote session or participate in a high-profile panel discussion during the conference. Recognition as the Gold Sponsor during the opening and closing ceremonies."
+    },
+    {
+      title: "Digital Visibility",
+      description: "Featured spotlight on the conference website with a dedicated Gold Sponsor profile, including a company overview, logo, and link to your website."
+    },
+    {
+      title: "Exhibition Space",
+      description: "Exhibition space with a dedicated booth showcasing your products/services. Opportunity to organize product demonstrations and engage with conference attendees."
+    },
+    {
+      title: "Complimentary Registrations",
+      description: "Complimentary conference registrations for 5 representatives from your company, allowing access to all conference sessions and activities."
+    },
+    {
+      title: "Networking Opportunities",
+      description: "Exclusive access to VIP networking events, facilitating interactions with key speakers, organizers, and other influential participants. Recognition as the Gold Sponsor in all networking materials."
+    },
+    {
+      title: "Branding in Conference Proceedings",
+      description: "Prominent recognition in the official conference proceedings, including your logo on the back of front page and a full-page acknowledgment of your Gold Sponsorship."
+    },
+    {
+      title: "Customized Collaborations",
+      description: "Tailored opportunities for collaboration, such as sponsoring a specific track or workshop aligned with your company's interests. Consultation to identify and implement customized engagement strategies to maximize the impact of your sponsorship."
+    },
+    {
+      title: "Post-Event Recognition",
+      description: "Acknowledgment in post-event communications, thank-you letters, and reports. Recognition as a key contributor to the success of the conference in post-conference press releases."
+    },
+    {
+      title: "Exclusive Deliverables",
+      description: "Exclusive rights to distribute promotional materials or branded items to conference attendees."
+    }
+  ];
+  const silverBenefits = [
+    {
+      title: "Keynote Session Opportunity",
+      description: "Exclusive opportunity to present a keynote session or participate in a high-profile panel discussion during the conference. Recognition as the Silver Sponsor during the opening and closing ceremonies."
+    },
+    {
+      title: "Digital Visibility",
+      description: "Featured spotlight on the conference website with a dedicated Silver Sponsor profile, including a company overview, logo, and link to your website."
+    },
+    {
+      title: "Exhibition Space",
+      description: "Exhibition space with a dedicated booth showcasing your products/services. Opportunity to organize product demonstrations and engage with conference attendees."
+    },
+    {
+      title: "Complimentary Registrations",
+      description: "Complimentary conference registrations for 3 representatives from your company, allowing access to all conference sessions and activities."
+    },
+    {
+      title: "Networking Opportunities",
+      description: "Exclusive access to VIP networking events, facilitating interactions with key speakers, organizers, and other influential participants. Recognition as the Silver Sponsor in all networking materials."
+    },
+    {
+      title: "Customized Collaborations",
+      description: "Tailored opportunities for collaboration, such as sponsoring a specific track or workshop aligned with your company's interests. Consultation to identify and implement customized engagement strategies to maximize the impact of your sponsorship."
+    },
+    {
+      title: "Post-Event Recognition",
+      description: "Acknowledgment in post-event communications, thank-you letters, and reports. Recognition as a key contributor to the success of the conference in post-conference press releases."
+    },
+    {
+      title: "Exclusive Deliverables",
+      description: "Exclusive rights to distribute promotional materials or branded items to conference attendees."
+    }
+  ];
+  const bronzeBenefits = [
+    {
+      title: "Keynote Session Opportunity",
+      description: "Exclusive opportunity to present a keynote session or participate in a high-profile panel discussion during the conference. Recognition as the Bronze Sponsor during the opening and closing ceremonies."
+    },
+    {
+      title: "Exhibition Space",
+      description: "Exhibition space with a dedicated booth showcasing your products/services. Opportunity to organize product demonstrations and engage with conference attendees."
+    },
+    {
+      title: "Complimentary Registrations",
+      description: "Complimentary conference registrations for 2 representatives from your company, allowing access to all conference sessions and activities."
+    },
+    {
+      title: "Networking Opportunities",
+      description: "Exclusive access to VIP networking events, facilitating interactions with key speakers, organizers, and other influential participants. Recognition as the Bronze Sponsor in all networking materials."
+    },
+    {
+      title: "Customized Collaborations",
+      description: "Tailored opportunities for collaboration, such as sponsoring a specific track or workshop aligned with your company's interests. Consultation to identify and implement customized engagement strategies to maximize the impact of your sponsorship."
+    },
+    {
+      title: "Post-Event Recognition",
+      description: "Acknowledgment in post-event communications, thank-you letters, and reports. Recognition as a key contributor to the success of the conference in post-conference press releases."
+    },
+    {
+      title: "Exclusive Deliverables",
+      description: "Exclusive rights to distribute promotional materials or branded items to conference attendees."
+    }
+  ];
   return (
     <div style={{ backgroundColor: '#F0F8FF' }}>
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto">
+        <div className="px-10 mx-auto">
 
           <div className="  mx-auto flex flex-col items-center justify-center">
             <div className="flex flex-wrap justify-center items-center w-full mb-2">
@@ -29,10 +173,18 @@ export function Sponsorship() {
             </div>
             <div className="container mx-auto">
               <div className=" mb-10">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-                  Sponsorship Packages
-                </h1>
-                <div className="h-1 w-20  bg-indigo-500 rounded"></div>
+                <div className=" mb-10">
+                  <div className="flex flex-wrap justify-center items-center w-full mb-2">
+                    <div className="lg:w-full lg:mb-0 pt-10 text-center">
+                      <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
+                        Sponsorship Packages
+                      </h1>
+                      <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+                    </div>
+                  </div>
+
+                </div>
+
               </div>
             </div>
             <div className="overflow-x-auto">
@@ -43,69 +195,138 @@ export function Sponsorship() {
                 </Table.Head>
                 <Table.Body>
                   <Table.Row className="bg-white">
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Diamond</Table.Cell>
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 10,00,000/-</Table.Cell>
-                  </Table.Row>
-                  <Table.Row className="bg-white">
                     <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Platinum</Table.Cell>
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 7,00,000/-</Table.Cell>
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 10,00,000/-
+                    </Table.Cell>
                   </Table.Row>
                   <Table.Row className="bg-white">
                     <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Gold</Table.Cell>
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 5,00,000/-</Table.Cell>
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 7,00,000/-
+                    </Table.Cell>
+                  </Table.Row>
+                  <Table.Row className="bg-white">
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Silver</Table.Cell>
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 5,00,000/- </Table.Cell>
+                  </Table.Row>
+                  <Table.Row className="bg-white">
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Bronze</Table.Cell>
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 3,00,000/- </Table.Cell>
                   </Table.Row>
                 </Table.Body>
               </Table>
             </div>
           </div>
           <div className=" mb-10">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-              Sponsorship Benefits
-            </h1>
-            <div className="h-1 w-20  bg-indigo-500 rounded"></div>
+            <div className="flex flex-wrap justify-center items-center w-full mb-2">
+              <div className="lg:w-full lg:mb-0 pt-10 text-center">
+                <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">
+                  Sponsorship Benefits
+                </h1>
+                <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
+              </div>
+            </div>
+
           </div>
-          <section class="text-gray-600 body-font overflow-hidden">
-            <div class="container mx-auto">
-              <div class="-my-8 divide-y-2 divide-gray-100">
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">DIAMOND</span>
+          <section className="text-gray-600 body-font overflow-hidden">
+            <div className="container mx-auto">
+              <div className="-my-8 divide-y-2 divide-gray-100">
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <span className="font-semibold title-font text-gray-700 pt-5">PLATINUM</span>
+
                   </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Benefits of Diamond Sponsorship</h2>
-                    <p class="leading-relaxed">********************************Benefits************************************</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <div className="md:flex-grow">
+                    <h1 className="text-2xl font-medium text-gray-900 title-font mb-2">Benefits of Platinum Sponsorship</h1>
+                    <div className="h-1 w-20  bg-indigo-500 rounded mb-8"></div>
+                    {platinumBenefits.map((benefit, index) => (
+                      <div key={index} className="mb-4">
+                        <h2 className="text-xl font-semibold text-gray-900">{benefit.title}</h2>
+                        <p className="leading-relaxed">{benefit.description}</p>
+                      </div>
+                    ))}
+                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
                       </svg>
                     </a>
                   </div>
                 </div>
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">PLATINUM</span>
+              </div>
+            </div>
+          </section>
+          <section className="text-gray-600 body-font overflow-hidden pt-10">
+            <div className="container mx-auto">
+              <div className="-my-8 divide-y-2 divide-gray-100">
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <span className="font-semibold title-font text-gray-700 pt-5">GOLD</span>
                   </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Benefits of Platinum Sponsorship</h2>
-                    <p class="leading-relaxed">********************************Benefits************************************</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <div className="md:flex-grow">
+                    <h1 className="text-2xl font-medium text-gray-900 title-font mb-2">Benefits of Gold Sponsorship</h1>
+                    <div className="h-1 w-20  bg-indigo-500 rounded mb-4"></div>
+                    {goldBenefits.map((benefit, index) => (
+                      <div key={index} className="mb-4">
+                        <h2 className="text-xl font-semibold text-gray-900">{benefit.title}</h2>
+                        <p className="leading-relaxed">{benefit.description}</p>
+                      </div>
+                    ))}
+                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
                       </svg>
                     </a>
                   </div>
                 </div>
-                <div class="py-8 flex flex-wrap md:flex-nowrap pb-20">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">GOLD</span>
+              </div>
+            </div>
+          </section>
+          <section className="text-gray-600 body-font overflow-hidden pt-10">
+            <div className="container mx-auto">
+              <div className="-my-8 divide-y-2 divide-gray-100">
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <span className="font-semibold title-font text-gray-700 pt-5">SILVER</span>
                   </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Benefits of Gold Sponsorship</h2>
-                    <p class="leading-relaxed">********************************Benefits************************************</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <div className="md:flex-grow">
+                    <h1 className="text-2xl font-medium text-gray-900 title-font mb-2">Benefits of Silver Sponsorship</h1>
+                    <div className="h-1 w-20  bg-indigo-500 rounded mb-4"></div>
+                    {silverBenefits.map((benefit, index) => (
+                      <div key={index} className="mb-4">
+                        <h2 className="text-xl font-semibold text-gray-900">{benefit.title}</h2>
+                        <p className="leading-relaxed">{benefit.description}</p>
+                      </div>
+                    ))}
+                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="text-gray-600 body-font overflow-hidden pt-10 pb-10">
+            <div className="container mx-auto">
+              <div className="-my-8 divide-y-2 divide-gray-100">
+                <div className="py-8 flex flex-wrap md:flex-nowrap">
+                  <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                    <span className="font-semibold title-font text-gray-700 pt-5">BRONZE</span>
+                  </div>
+                  <div className="md:flex-grow">
+                    <h1 className="text-2xl font-medium text-gray-900 title-font mb-2">Benefits of Bronze Sponsorship</h1>
+                    <div className="h-1 w-20  bg-indigo-500 rounded mb-4"></div>
+                    {bronzeBenefits.map((benefit, index) => (
+                      <div key={index} className="mb-4">
+                        <h2 className="text-xl font-semibold text-gray-900">{benefit.title}</h2>
+                        <p className="leading-relaxed">{benefit.description}</p>
+                      </div>
+                    ))}
+                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                      <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
                       </svg>

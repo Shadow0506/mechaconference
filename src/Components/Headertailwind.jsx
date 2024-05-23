@@ -18,7 +18,7 @@ export function Headertailwind() {
 
     return (
         <nav className="bg-gray-900 md:pb-5 pt-5">
-            <div className="container mx-auto lg:mx-auto flex items-center justify-between py-4 lg:max-w-screen-xl lg:flex lg:items-center lg:justify-between ">
+            <div className="container mx-auto    lg:mx-auto flex items-center justify-between py-4 lg:max-w-screen-xl lg:flex lg:items-center lg:justify-between ">
                 <div className="flex items-center space-x-2 lg:flex lg:items-center lg:justify-center md:justify-between lg:space-x-8 lg:mx-auto">
                     <a href="/">
                         <img className="h-16 w-20 md:h-20 lg:h-36 lg:w-36" src={pec_circle} alt="peclogo" />
