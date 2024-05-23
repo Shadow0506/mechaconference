@@ -1,25 +1,17 @@
 import Typewriter from "typewriter-effect";
 import { useNavigate } from "react-router-dom";
 import { Carousel } from "flowbite-react";
+import "./callforpapers.css"
 export function Callforpapers() {
-    const handleDownload = async () => {
-        try {
-            const url = 'src/Components/icdmt_template.docx'; 
-            const response = await fetch(url);
-            const blob = await response.blob();
-            const blobUrl = URL.createObjectURL(blob);
-    
-            const link = document.createElement('a');
-            link.href = blobUrl;
-            link.download = 'icdmt_template.docx';
-    
-            link.click();
-            URL.revokeObjectURL(blobUrl);
-        } catch (error) {
-            console.error('Error downloading the file:', error);
-        }
-    };
-    
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/assets/icdmt_template.docx';
+        link.download = 'icdmt_template.docx';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
     const itemsTrack7 = [
         "Information Technology in Automation",
         "Industrial Control",
@@ -352,12 +344,36 @@ export function Callforpapers() {
                         </li>
                     </ul>
                     <div className="flex flex-col items-center mt-4 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-20">
-                        <a
-                            onClick={handleDownload}
-                            className="inline-block px-3 py-2 mb-2 text-white bg-blue-500 border border-transparent rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white"
-                        >
-                            Download Template
-                        </a>
+                    <button className="botao" onClick={handleDownload}>
+      <svg
+        className="mysvg"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        height="24px"
+        width="24px"
+      >
+        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+        <g
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          id="SVGRepo_tracerCarrier"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <g id="Interface / Download">
+            <path
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              stroke-width="2"
+              stroke="#f1f1f1"
+              d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+              id="Vector"
+            ></path>
+          </g>
+        </g>
+      </svg>
+      <span className="texto">Download Template</span>
+    </button>
                         <a
                             href="/callforpapers"
                             className="inline-block px-3 py-2 mb-2 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white"
