@@ -43,8 +43,8 @@ export function Registration() {
                         </Table.Body>
                     </Table>
                 </div>
-                <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black">
-                    <div className="sm:overflow-hidden overflow-x-auto w-full lg:w-2/3 p-4">
+                <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black overflow-y-hidden">
+                    <div className="sm:overflow-hidden overflow-x-auto overflow-y-hidden w-full lg:w-2/3">
                         <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
                         <Table hoverable className="w-full mt-8 border border-gray-300 rounded-lg">
                             <Table.Head>
