@@ -1,6 +1,14 @@
-
-
+import { Carousel } from "flowbite-react";
 import useImageWithRetry from "../useImageWithRetry"
+import first from './first.jpg'
+import second from "./second.jpeg"
+import third from "./third.jpeg"
+import fourth from "./fourth.jpg"
+import fifth from "./fifth.jpg"
+import sixth from "./sixth.jpg"
+import seventh from "./seventh.jpg"
+import eight from "./eight.jpg"
+import ninth from "./ninth.jpg"
 export function AboutUs_home() {
   const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {
     const { currentSrc, handleError, errorCount } = useImageWithRetry(src, maxRetries, retryInterval);
@@ -116,7 +124,21 @@ export function AboutUs_home() {
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">
             <div className="rounded-lg overflow-hidden">
-              <img alt="content" className="object-cover object-center h-64 w-full" src="https://pec.ac.in/sites/default/files/images/home_4.jpg"></img>
+
+              <div className="h-56 sm:h-96 xl:h-80 2xl:h-96">
+
+                <Carousel slideInterval={3000}>
+                  <img src={first} alt="..." />
+                  <img src={second} alt="..." />
+                  <img src={third} alt="..." />
+                  <img src={fourth} alt="..." />
+                  <img src={fifth} alt="..." />
+                  <img src={sixth} alt="..." />
+                  <img src={seventh} alt="..." />
+                  <img src={eight} alt="..." />
+                  <img src={ninth} alt="..." />
+                </Carousel>
+              </div>
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:pt-12">
