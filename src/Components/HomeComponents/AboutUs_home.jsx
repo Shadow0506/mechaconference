@@ -41,16 +41,17 @@ export function AboutUs_home() {
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">
             <div className="rounded-lg overflow-hidden">
-              <RetryImageComponent
-                src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"
-                alt="content"
-                maxRetries={3} // Number of retry attempts
-                retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
-                className="object-cover object-center h-96 w-full" // Tailwind CSS classes for the image
-              />
-              {/* <img alt="content" className="object-cover object-center h-96 w-full" src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg"></img> */}
+              <div className="relative h-[18rem] sm:h-[36rem]">
+                <Carousel slideInterval={3000} infiniteLoop={true}>
+                  <img src="https://ieeeindiscon.org/assets/images/college/audi.jpeg" alt="Audi" className="w-full h-full object-cover" />
+                  <img src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg" alt="Helicopter" className="w-full h-full object-cover" />
+                  <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="Chowk" className="w-full h-full object-cover" />
+                  <img src="https://ieeeindiscon.org/assets/images/college/century.jpeg" alt="Century" className="w-full h-full object-cover" />
+                </Carousel>
+              </div>
             </div>
-            <div className="flex flex-col sm:flex-row mt-10">
+
+            <div className="flex flex-col sm:flex-row sm:mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mt-7">
                   <img src="https://latestgovtjobs.in/wp-content/uploads/2017/11/PEC-Logo-150x150.png" alt="Pec Logo" className="w-16 h-16" />
@@ -124,10 +125,9 @@ export function AboutUs_home() {
         <div className="container  mx-auto flex flex-col">
           <div className="mx-auto">
             <div className="rounded-lg overflow-hidden">
-
-              <div className="h-56 sm:h-96 xl:h-80 2xl:h-96">
-
-                <Carousel slideInterval={3000}>
+              <div className="relative sm:h-[40rem] sm:w-full h-56">
+                <Carousel slideInterval={3000} relative h-ful>
+                  <img src={first} alt="..." />
                   <img src={second} alt="..." />
                   <img src={third} alt="..." />
                   <img src={fourth} alt="..." />
@@ -139,6 +139,7 @@ export function AboutUs_home() {
                 </Carousel>
               </div>
             </div>
+
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:pt-12">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
@@ -171,7 +172,7 @@ export function AboutUs_home() {
             <div className="rounded-lg overflow-hidden">
               <img alt="content" className="object-cover object-center h-64 w-full" src="https://topotoolbox.files.wordpress.com/2023/10/1600x-22.jpg"></img>
             </div>
-            <div className="flex flex-col sm:flex-row mt-10">
+            <div className="flex flex-col sm:flex-row sm:mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mt-10">
                   <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Indian_Institute_of_Technology_Roorkee_logo.png" alt="IIT-R Logo" className="w-16 h-16" />
