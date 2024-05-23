@@ -4,30 +4,22 @@ import { Carousel } from "flowbite-react";
 export function Callforpapers() {
     const handleDownload = async () => {
         try {
-            // URL to the Word document
-            const url = './icdmt_template.docx';
-    
-            // Fetch the file
+            const url = 'src/Components/icdmt_template.docx'; 
             const response = await fetch(url);
             const blob = await response.blob();
-    
-            // Create a URL for the Blob object
             const blobUrl = URL.createObjectURL(blob);
     
-            // Create a link element
             const link = document.createElement('a');
             link.href = blobUrl;
-            link.download = 'icdmt_template.docx'; // Specify the name of the file to be downloaded
+            link.download = 'icdmt_template.docx';
     
-            // Programmatically click the link to trigger the download
             link.click();
-    
-            // Clean up by revoking the Blob URL
             URL.revokeObjectURL(blobUrl);
         } catch (error) {
             console.error('Error downloading the file:', error);
         }
     };
+    
     const itemsTrack7 = [
         "Information Technology in Automation",
         "Industrial Control",
