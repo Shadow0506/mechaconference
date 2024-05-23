@@ -128,7 +128,6 @@ export function AboutUs_home() {
               <div className="h-56 sm:h-96 xl:h-80 2xl:h-96">
 
                 <Carousel slideInterval={3000}>
-                  <img src={first} alt="..." />
                   <img src={second} alt="..." />
                   <img src={third} alt="..." />
                   <img src={fourth} alt="..." />

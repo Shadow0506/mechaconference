@@ -14,10 +14,38 @@ const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, c
         </div>
     );
 };
+
 export function Venue() {
+    const hotels = [
+        {
+            name: 'Hotel Pride',
+            address: 'Shop No 1,2,3 Sector 12 Main Market adjoining PEC, Nayagaon, 160103'
+        },
+        {
+            name: 'Hotel Emerald Chandigarh',
+            address: 'SCO-173, 174, Madhya Marg, Sector 8C, Sector 9, Chandigarh, 160008'
+        },
+        {
+            name: 'Hotel Aroma Chandigarh',
+            address: 'Himalaya Marg, Sector 22C, Sector 22, Chandigarh, 160022'
+        },
+        {
+            name: 'Hotel Golden Leaf',
+            address: 'B10/00024/24/1, near PEC College, Adarsh Nagar, Nayagaon, 160103'
+        },
+        {
+            name: 'Hotel Royal Park 22',
+            address: '1015, SCO 1014, 15, Sector 17 Bus Stand Rd, Sector 22B, Chandigarh, 160022'
+        },
+        {
+            name: 'Hotel Royal Empirre',
+            address: 'Plot No 11 E2 Adarsh Nagar, Naya Gaon, Karoran Tehsil Kharad, Chandigarh, 160103'
+        }
+    ];
+   
     return (
         <div style={{ backgroundColor: '#F0F8FF' }}>
-            <div className="container mx-auto px-4 py-10">
+            <div className="container mx-auto  py-10">
                 <div className="max-w-3xl mx-auto text-center mb-8">
                     <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
                         <div className="flex flex-wrap w-full mb-4">
@@ -125,25 +153,34 @@ export function Venue() {
                     </div>
                 </div>
 
-                <div className='third-portion'>
+                <div className="third-portion  py-10">
                     <section className="text-gray-600 body-font overflow-hidden">
-                        <div className="container px-5 py-24 mx-auto">
-                            <div className="lg:w-4/5 mx-auto flex flex-wrap">
-                                <div className="img-list">
-                                    <img alt="Hotels" className="map w-1/2" src="https://ieeeindiscon.org/assets/images/hotels.png" />
-                                    <ul className="list-disc list-inside px-10">
-                                        <h1 className='some-good-hotels'>Some Good Hotels</h1>
-                                        <li className="leading-relaxed">The Lalit Chandigarh</li>
-                                        <li className="leading-relaxed">JW Marriott Hotel</li>
-                                        <li className="leading-relaxed">Hyatt Centric Sector 17</li>
-                                        <li className="leading-relaxed">Hotel Mountain View</li>
-                                        <li className="leading-relaxed">Hyatt Regency</li>
+                        <div className="container py-24 mx-auto">
+                            <div className="flex flex-wrap lg:flex-nowrap lg:w-4/5 mx-auto">
+                                <div className="w-full lg:w-2/3 flex justify-center mb-8 lg:mb-0 sm:p-10">
+                                    <img
+                                        alt="Hotels"
+                                        className="map rounded-lg shadow-lg"
+                                        src="https://ieeeindiscon.org/assets/images/hotels.png"
+                                    />
+                                </div>
+                                <div className="w-full lg:w-1/2 bg-white p-8 rounded-lg hover:shadow-xl shadow-sm">
+                                    <h1 className="text-2xl font-bold mb-4 text-gray-800">Some Good Hotels</h1>
+                                    <ul className="list-disc list-inside pl-5 space-y-4 text-lg text-gray-700">
+                                        {hotels.map((hotel, index) => (
+                                            <li key={index} className="leading-relaxed">
+                                                <span className="font-semibold text-gray-900">{hotel.name}</span>
+                                                <br />
+                                                {hotel.address}
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
+
 
                 <div className='text-3'>
                     <div className="custom-bg-colour rounded-lg overflow-hidden py-2">
@@ -175,14 +212,14 @@ export function Venue() {
                                 </div>
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                    <RetryImageComponent
+                                        <RetryImageComponent
                                             src="https://im.whatshot.in/img/2019/Dec/rose-garden-1575289885.jpg"
                                             alt="content"
                                             maxRetries={3} // Number of retry attempts
                                             retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
                                             className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" // Tailwind CSS classes for the image
                                         />
-                                       
+
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Rose Garden</h2>
                                             <p className="mb-4 text-justify">The largest rose garden in Asia, boasting thousands of varieties.</p>
@@ -191,14 +228,14 @@ export function Venue() {
                                 </div>
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                    <RetryImageComponent
+                                        <RetryImageComponent
                                             src="https://www.adotrip.com/public/images/areas/5e41376d80313-Rock%20Garden%20Sight%20Seeing%20Tour.jpg"
                                             alt="content"
                                             maxRetries={3} // Number of retry attempts
                                             retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
                                             className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" // Tailwind CSS classes for the image
                                         />
-                                      
+
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Rock Garden</h2>
                                             <p className="mb-4 text-justify">A unique sculpture garden crafted from recycled materials.</p>
@@ -207,14 +244,14 @@ export function Venue() {
                                 </div>
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                    <RetryImageComponent
+                                        <RetryImageComponent
                                             src="https://avesdojorge.com/wp-content/uploads/2020/12/avesdojorge_loroparquefundacion-scaled.jpg"
                                             alt="content"
                                             maxRetries={3} // Number of retry attempts
                                             retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
                                             className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" // Tailwind CSS classes for the image
                                         />
-                                        
+
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Bird Park</h2>
                                             <p className="mb-4 text-justify">Located in the Nepli Reserve Forest, it offers a peaceful retreat for birdwatchers within the lush Sukhna Wildlife Sanctuary.</p>
@@ -228,14 +265,14 @@ export function Venue() {
                             <div className="flex flex-wrap -m-4">
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                    <RetryImageComponent
+                                        <RetryImageComponent
                                             src="https://chandigarhmetro.com/wp-content/uploads/2017/03/Le-corbusier-chandigarh.jpg"
                                             alt="content"
                                             maxRetries={3} // Number of retry attempts
                                             retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
                                             className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" // Tailwind CSS classes for the image
                                         />
-                                       
+
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Le Corbusier Centre</h2>
                                             <p className="mb-4 text-justify">Provides insights into the life and works of Le Corbusier.</p>
