@@ -49,8 +49,8 @@ export function Registration() {
         <table className="w-full mt-8 border border-gray-300 rounded-lg">
             <thead>
                 <tr>
-                    <th className="font-medium text-lg border border-gray-300 bg-gray-100 p-4 whitespace-normal">Beneficiary Name</th>
-                    <th className="font-medium text-lg border border-gray-300 bg-gray-100 p-4 whitespace-normal">Punjab Engineering College (Registration / Applications A/c)</th>
+                    <th className="font-medium text-lg border border-gray-300 bg-gray-100 p-4 whitespace-normal text-left">Beneficiary Name</th>
+                    <th className="font-medium text-lg border border-gray-300 bg-gray-100 p-4 whitespace-normal text-left">Punjab Engineering College (Registration / Applications A/c)</th>
                 </tr>
             </thead>
             <tbody>
