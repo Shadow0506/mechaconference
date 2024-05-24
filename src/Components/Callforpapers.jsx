@@ -4,13 +4,34 @@ import { Carousel } from "flowbite-react";
 import "./callforpapers.css"
 export function Callforpapers() {
     const handleDownload = () => {
+        const filePath = '/assets/icdmt_template.docx';
+        const fileName = 'icdmt_template.docx';
+      
+        // Create a link element
         const link = document.createElement('a');
-        link.href = '/assets/icdmt_template.docx';
-        link.download = 'icdmt_template.docx';
+      
+        // Set the href and download attributes
+        link.href = filePath;
+        link.download = fileName;
+      
+        // Append the link to the body
         document.body.appendChild(link);
+      
+        // Trigger the download by simulating a click
         link.click();
+      
+        // Remove the link from the document
         document.body.removeChild(link);
+      
+        console.log(`Download initiated for ${fileName} from ${filePath}`);
       };
+      
+      // Add error handling and logging
+      try {
+        handleDownload();
+      } catch (error) {
+        console.error('Error downloading the file:', error);
+      }
 
     const itemsTrack7 = [
         "Information Technology in Automation",
