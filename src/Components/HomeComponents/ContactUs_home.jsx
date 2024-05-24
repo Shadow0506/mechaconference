@@ -98,7 +98,7 @@ export function ContactUs_home() {
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
                                     <p className="leading-relaxed text-base">Joint-Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
-                                    <p className="leading-relaxed text-base pt-4">Contact Number : +91 </p>
+                                    <p className="leading-relaxed text-base pt-4">Contact Number : +91 8901105666 </p>
                                 </div>
                             </div>
                         </div>

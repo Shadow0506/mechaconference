@@ -370,7 +370,7 @@ export function Callforpapers() {
                         <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
                             Accepted papers will be published in the journals of following publishers
                         </h1>
-                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">(Approval is pending)</p>
+                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">(In communication with)</p>
                     </div>
                 </div>
             </section>
