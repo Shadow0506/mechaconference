@@ -1,5 +1,7 @@
 import './ContactUs.css'
 import Typewriter from "typewriter-effect";
+
+import profsarbjit from './profsarbjitsingh.jpeg'
 export function ContactUs() {
     return (
         <div style={{ backgroundColor: '#F0F8FF' }}>
@@ -84,10 +86,10 @@ export function ContactUs() {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/IMG_20190516_153729-01.jpeg" />
+                            <img alt="team" className="w-16 h-24 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={profsarbjit} />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sarbjit Singh</h2>
-                                    <p className="leading-relaxed text-base">Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
+                                    <p className="leading-relaxed text-base">Organizing Chair, Department of Mechanical Engineering, PEC, CHD</p>
                                     <p className="leading-relaxed text-base pt-4">Contact Number : +91 9888785760</p>
                                 </div>
                             </div>
@@ -97,7 +99,7 @@ export function ContactUs() {
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=McQfhR4AAAAJ&citpid=7" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. M.P Garg</h2>
-                                    <p className="leading-relaxed text-base">Joint-Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
+                                    <p className="leading-relaxed text-base">Joint-Organizing Co-Chair, Department of Mechanical Engineering, PEC, CHD</p>
                                     <p className="leading-relaxed text-base pt-4">Contact Number : +91 8283811022</p>
                                 </div>
                             </div>
@@ -107,7 +109,7 @@ export function ContactUs() {
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Kamal%20pic.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
-                                    <p className="leading-relaxed text-base">Joint-Organizing Secretary, Department of Mechanical Engineering, PEC, CHD</p>
+                                    <p className="leading-relaxed text-base">Joint-Organizing Co-Chair, Department of Mechanical Engineering, PEC, CHD</p>
                                     <p className="leading-relaxed text-base pt-4">Contact Number : +91 8901105666</p>
                                 </div>
                             </div>

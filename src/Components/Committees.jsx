@@ -12,72 +12,12 @@ export function Committees() {
                 <Committees_home />
                 <New_committee />
             </div>
+            
             <section className="text-gray-600 body-font ">
                 <div className="container  mx-auto">
                     <div className="text-center mb-10 pt-10">
                         <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
-                            International Advisory Committee
-                        </h1>
-                        <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
-                    </div>
-                    <div >
-
-
-                        <section className="text-gray-600 body-font">
-                            <div className="container mx-auto">
-                                <div className="flex flex-wrap -m-2">
-                                    
-                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                                <div className="flex-grow">
-                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Prof. Daizhong Su</h2>
-                                                    <p className="leading-relaxed text-lg">Professor</p>
-                                                    <p className="leading-relaxed text-lg">Nottingham Trent University</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                                <div className="flex-grow">
-                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Dr. ANJU R. GUPTA</h2>
-                                                    <p className="leading-relaxed text-lg">Assistant Professor</p>
-                                                    <p className="leading-relaxed text-lg">The University of Toledo</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                                <div className="flex-grow">
-                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Prof. Phani, Anasavarapu Srikantha</h2>
-                                                    <p className="leading-relaxed text-lg">Professor</p>
-                                                    <p className="leading-relaxed text-lg">University of British Columbia</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                                <div className="flex-grow">
-                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Dr. Sunil Agrawal</h2>
-                                                    <p className="leading-relaxed text-lg">Professor</p>
-                                                    <p className="leading-relaxed text-lg">Columbia University, New York</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                </div>
-                            </div>
-                        </section>
-
-                    </div>
-
-                </div>
-            </section>
-            <section className="text-gray-600 body-font ">
-                <div className="container  mx-auto">
-                    <div className="text-center mb-10 pt-10">
-                        <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
-                            National Advisory Committee
+                            International and National Advisory Committee
                         </h1>
                         <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
                     </div>

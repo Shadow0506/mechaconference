@@ -1,5 +1,39 @@
 {
     "faculty": [
+        {
+            "name": "Prof. Daizhong Su",
+            "designation": "Professor",
+            "institute": "Nottingham Trent University",
+            "emailid": "",
+            "mobile_number": "",
+            "area_of_research": ""
+        },
+        {
+            "name": "Dr. ANJU R. GUPTA",
+            "designation": "Assistant Professor",
+            "institute": "The University of Toledo",
+            "emailid": "",
+            "mobile_number": "",
+            "area_of_research": ""
+        },
+        {
+            "name": "Prof. Phani, Anasavarapu Srikantha",
+            "designation": "Professor",
+            "institute": "University of British Columbia",
+            "emailid": "",
+            "mobile_number": "",
+            "area_of_research": ""
+        },
+        {
+            "name": "Dr. Sunil Agrawal",
+            "designation": "Professor",
+            "institute": "Columbia University, New York",
+            "emailid": "",
+            "mobile_number": "",
+            "area_of_research": ""
+        },
+        
+               
         
         {
             "name": "Dr. Navin Kumar",
