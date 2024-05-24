@@ -5,10 +5,10 @@ import "./callforpapers.css"
 export function Callforpapers() {
     const openGoogleDocs = () => {
         window.open('https://docs.google.com/document/d/1IlEeKji912TytiTfhNk2ZHoh0DCq8Iwo/edit?usp=sharing&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
-      };
-    
-      
-     
+    };
+
+
+
 
 
     const itemsTrack7 = [
@@ -86,30 +86,20 @@ export function Callforpapers() {
         "Finite Element Analysis",
         "Computational Applied Mechanics",
         "Fracture and Failure Mechanics",
-        "Modelling & Simulation",
+        "Modelling & Simulation of Composite structures",
         "Product Design and Development",
-        "Tribology, Nano mechanics and MEMS",
-        "Vibrations",
+        "Tribology",
+        "Nano mechanics and MEMS",
+        "Vibrations Analysis",
         "Numerical Simulations of Coupled Problems",
         "Mechanics of Fluids, Solids, and Structures",
-        "Cryogenic Materials",
         "Beam, Plate and Shell Theories",
-        "Composite structures & materials and their omputational modelling",
         "Health monitoring and inspection techniques for Engineering structures",
         "Multi-scale analysis",
         "Optimization techniques and methods in Engineering structures",
         "Automation & Robotics, Mechatronics"
     ];
-    const itemsTrack3 = [
-        "Biomaterials",
-        "Advanced biomaterials",
-        "Biodegradable biomaterials",
-        "Medical implant materials",
-        "Biodevice materials",
-        "Bone Scaffolds",
-        "Biomaterials in drug delivery system",
-        "Biosensors"
-    ];
+
     const itemsTrack2 = [
         "Composite materials and their processing",
         "Metal matrix composites",
@@ -133,11 +123,15 @@ export function Callforpapers() {
         "Thermal problems on composite materials and structures"
     ];
     const itemsTrack1 = [
+
         "Materials behaviour",
         "Advanced Materials and Characterization",
         "Metals and Alloys",
         "Ceramic Materials",
         "Polymeric Materials",
+        "Biomaterials",
+        "Biodegradable materials",
+        "Biomedical implants and Bone Scaffolds",
         "Functionally graded materials",
         "Coatings and Surface Engineering",
         "Advanced Nanomaterials",
@@ -150,14 +144,15 @@ export function Callforpapers() {
         "Renewable Fuels",
         "Building Materials",
         "Smart Materials and their Applications",
-        "Sustainable and Recycled Materials"
+        "Biosensors"
     ];
+
 
     const navigate = useNavigate();
     return (
         <div style={{ backgroundColor: '#F0F8FF' }}>
             <section className="text-gray-600 body-font">
-                <div className="container px-5  mx-auto">
+                <div className="container  mx-auto">
                     <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
                         <div className="flex flex-wrap w-full mb-4">
                             <div className="lg:w-full lg:mb-0 pt-10 text-center">
@@ -173,145 +168,129 @@ export function Callforpapers() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-wrap -m-4">
-                        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 1 Materials </h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {itemsTrack1.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>
-                                        {item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
+                    <div>
+                        <section className="text-gray-600 body-font">
+                            <div className="container py-10 mx-auto">
+                                <div className="flex flex-wrap -m-4">
+                                    <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 1 Materials</h2>
+                                        <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
+                                            {itemsTrack1.map((item, index) => (
+                                                <a key={index}>
+                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                    </span>{item}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    </div>
+                                    <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 2 Composites</h2>
+                                        <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
+                                            {itemsTrack2.map((item, index) => (
+                                                <a key={index}>
+                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                    </span>{item}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    </div>
+                                    <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 3 Design</h2>
+                                        <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
+                                            {itemsTrack4.map((item, index) => (
+                                                <a key={index}>
+                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                    </span>{item}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
-                        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 2 Composites</h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {itemsTrack2.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>
-                                        {item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
+                        <section className="text-gray-600 body-font">
+                            <div className="container py-1 mx-auto">
+                                <div className="flex flex-wrap -m-4">
+                                    <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 4 Manufacturing Techniques</h2>
+                                        <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
+                                            {itemsTrack5.map((item, index) => (
+                                                <a key={index}>
+                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                    </span>{item}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    </div>
+                                    <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 5 Robotics</h2>
+                                        <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
+                                            {itemsTrack6.map((item, index) => (
+                                                <a key={index}>
+                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                    </span>{item}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section className="text-gray-600 body-font ">
+                            <div className="container  py-10 mx-auto">
+                                <div className="flex flex-wrap -m-4">
+                                    <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 6 Mechatronics and Automation</h2>
+                                        <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
+                                            {itemsTrack7.map((item, index) => (
+                                                <a key={index}>
+                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                    </span>{item}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    </div>
+                                    <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
+                                        <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 7 Railway Vehicle Dynamics</h2>
+                                        <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
+                                            {items.map((item, index) => (
+                                                <a key={index}>
+                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                    </span>{item}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    </div>
 
-                        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 3 Biomaterials</h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {itemsTrack3.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>
-                                        {item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
-
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </section>
 
-            <section className="text-gray-600 body-font">
-                <div className="container px-5 py-1 mx-auto">
-                    <div className="flex flex-wrap -m-4">
-                        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 4 Design </h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {itemsTrack4.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>
-                                        {item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
-                        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 5 Manufacturing Techniques</h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {itemsTrack5.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>
-                                        {item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
-                        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 6 Robotics</h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {itemsTrack6.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>
-                                        {item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="text-gray-600 body-font">
-                <div className="container px-5 py-10 mx-auto">
-                    <div className="flex flex-wrap -m-4">
-                        <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 7 Mechatronics and Automation</h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {itemsTrack7.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>{item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
-                        <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
-                            <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 8 Railway Vehicle Dynamics</h2>
-                            <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
-                                {items.map((item, index) => (
-                                    <a key={index}>
-                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                <path d="M20 6L9 17l-5-5"></path>
-                                            </svg>
-                                        </span>{item}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
             <div className="text-center pb-5 px-10">
                 <div className="px-5 py-5 mx-auto flex flex-col items-center justify-center">
                     <div className="flex flex-wrap w-full mb-4">

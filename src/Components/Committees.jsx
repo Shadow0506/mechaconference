@@ -40,8 +40,26 @@ export function Committees() {
                                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                                                 <div className="flex-grow">
                                                     <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Dr. ANJU R. GUPTA</h2>
-                                                    <p className="leading-relaxed text-lg">ASSISTANT PROFESSOR</p>
+                                                    <p className="leading-relaxed text-lg">Assistant Professor</p>
                                                     <p className="leading-relaxed text-lg">The University of Toledo</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                                <div className="flex-grow">
+                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Prof. Phani, Anasavarapu Srikantha</h2>
+                                                    <p className="leading-relaxed text-lg">Professor</p>
+                                                    <p className="leading-relaxed text-lg">University of British Columbia</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                                <div className="flex-grow">
+                                                    <h2 className="text-xl text-gray-900 font-medium title-font mb-2">Dr. Sunil Agrawal</h2>
+                                                    <p className="leading-relaxed text-lg">Professor</p>
+                                                    <p className="leading-relaxed text-lg">Columbia University, New York</p>
                                                 </div>
                                             </div>
                                         </div>

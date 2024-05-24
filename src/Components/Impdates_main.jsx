@@ -66,7 +66,7 @@ export function Impdates_main() {
                   <a className="timeline-content">
                     <span className="timeline-year">15th September</span>
                     <div className="timeline-icon">
-                      <i className="fa-brands fa-readme"></i>
+                      <i className="fa-brands fa-readme pl-10"></i>
                     </div>
                     <div className="content">
                       <h3 className="title">Submission of Camera-Ready Paper</h3>

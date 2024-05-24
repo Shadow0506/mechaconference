@@ -1,21 +1,6 @@
 {
     "faculty": [
-        {
-            "name": "Prof. Daizhong Su",
-            "designation": "Professor",
-            "institute": "Nottingham Trent University",
-            "email": "daizhong.su@ntu.ac.uk",
-            "mobile_number": "Phone: +44 (0)115 848 2306",
-            "area_of_research": "Product/engineering design, design methodology, engineering management, CAD/CAE/CAM"
-        },
-        {
-            "name": "ANJU R. GUPTA",
-            "designation": "ASSISTANT PROFESSOR",
-            "institute": "The University of Toledo",
-            "email": "Anju.Gupta@utoledo.edu",
-            "mobile_number": "Phone: (419) 530-8213",
-            "area_of_research": "Industrial and Manufacturing Engineering"
-        },
+        
         {
             "name": "Dr. Navin Kumar",
             "designation": "Professor",
@@ -175,6 +160,62 @@
             "emailid": "sanata@nituk.ac.in",
             "mobile_number": "9669709504",
             "area_of_research": "Solid Mechanics and Design - CAD and Additive Manufacturing"
+        },
+        {
+            "name": "Dr. Amrita Puri",
+            "designation": "Assistant Professor",
+            "institute": "IIT, Jodhpur",
+            "emailid": "amritapuri@iitj.ac.in",
+            "phone": "0291 280 1518",
+            "area_of_research": "Active noise control; Active vibration control; Experimental modal analysis; Acoustics"
+        },
+        {
+            "name": "Dr. Hari Singh",
+            "designation": "Professor",
+            "institute": "NIT Kurukshetra",
+            "emailid": "hsinghfme@nitkkr.ac.in",
+            "mobile_number": "9416121266",
+            "area_of_research": "Unconventional Machining Processes, Advanced Welding, 3D Printing, MMCs, Product and Process Improvement, Experimental Designs"
+        },
+        {
+            "name": "Sam Anand",
+            "designation": "Professor",
+            "institute": "University of Cincinnati",
+            "emailid": "anands@ucmail.uc.edu",
+            "phone": "513-556-5596",
+            "area_of_research": "Intelligent Design, Manufacturing Systems Optimization, Modelling and Optimization of Additive and Subtractive Manufacturing"
+        },
+        {
+            "name": "Dr. Dhiraj K. Mahajan",
+            "designation": "Associate Professor",
+            "institute": "IIT Ropar",
+            "emailid": "dhiraj.mahajan@iitrpr.ac.in",
+            "mobile_number": "7814252244",
+            "area_of_research": "Hydrogen Embrittlement of Metals, High-Pressure Hydrogen Storage, Bioabsorbable Polymeric Stents, Fracture & Fatigue Behavior of Metals"
+        },
+        {
+            "name": "Dr. Mohit Pant",
+            "designation": "Assistant Professor",
+            "institute": "NIT Hamirpur",
+            "emailid": "mohitfme@nith.ac.in",
+            "phone": "91172-254754",
+            "area_of_research": "Computational Fracture Mechanics"
+        },
+        {
+            "name": "Dr. Ushashi Roy",
+            "designation": "Assistant Professor",
+            "institute": "IIT Kanpur",
+            "emailid": "ushasiroy@iitk.ac.in",
+            "office_phone": "+91-512-259-2245",
+            "area_of_research": "Solid mechanics, Fracture mechanics, Plasticity, Finite element analysis"
+        },
+        {
+            "name": "Dr. A. K. Darpe",
+            "designation": "Professor",
+            "institute": "IIT Delhi",
+            "emailid": "akdarpe[at]mech.iitd.ac.in",
+            "office_phone": "+91-11-2659 6095",
+            "area_of_research": "Machinery Health Monitoring, Rotor Dynamics, Vibration and Noise Engineering"
         }
     ]
 }

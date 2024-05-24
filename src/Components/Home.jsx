@@ -25,6 +25,12 @@ const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, c
         </div>
     );
 };
+const openGoogleDocs = () => {
+    window.open('https://drive.google.com/file/d/1vIXhpyPPXKGW0Kapaz_DQU4pdbbLGGuf/view?usp=sharing', '_blank');
+};
+const openTemplate = () => {
+    window.open('https://docs.google.com/document/d/1IlEeKji912TytiTfhNk2ZHoh0DCq8Iwo/edit?usp=sharing&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
+};
 export function Home() {
 
 
@@ -45,7 +51,7 @@ export function Home() {
                         <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
                     </div>
                     <Marquee className="text-red-500 p-4">
-                        <i className="fa-solid fa-bullhorn px-4"></i>Important Announcements
+                        <i className="fa-solid fa-bullhorn px-4"></i><a onClick={openGoogleDocs}> Click here to download brochure</a>
                     </Marquee>
                     <div className="container mx-auto font-serif">
                         <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
@@ -91,7 +97,7 @@ export function Home() {
                             </h1>
                             <div className="h-1 w-20 bg-indigo-500 rounded mx-auto lg:mx-0"></div>
                             <p className="text-xl text-justify mt-4">
-                            The goal of the International Conference on Design and Manufacturing Technologies (ICDMT-2024), scheduled from November 8-10, 2024, is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing, with a focus on advanced materials, to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view of product design, process design, and analysis, as well as to create and manufacture goods. The conference will feature tracks including <a className="text-indigo-500 inline-flex items-center" href="/callforpapers" target="_blank" rel="noopener noreferrer">Materials, Composites, Biomaterials, Design, Manufacturing Technologies, Robotics, Mechatronics and Automation, and Rail Vehicle Dynamics.</a>
+                            The goal of the International Conference on Design and Manufacturing Technologies (ICDMT-2024), scheduled from November 8-10, 2024, is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing, with a focus on advanced materials, to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view of product design, process design, and analysis, as well as to create and manufacture goods. The conference will feature research tracks including <a className="text-indigo-500 inline-flex items-center" href="/callforpapers" target="_blank" rel="noopener noreferrer">Materials, Composites, Biomaterials, Design, Manufacturing Technologies, Robotics, Mechatronics and Automation, and Rail Vehicle Dynamics.</a>
                             </p>
                         </div>
                     </div>
@@ -110,9 +116,9 @@ export function Home() {
                                 <marquee behavior="scroll" direction="up" scrollamount="5" onMouseOver={(e)=>{e.target.stop()}} onMouseOut={(e)=>{e.target.start()}} className="h-full w-full">
                                     <ul className=" text-xl text-white h-full flex flex-col justify-start items-start py-4 px-2 ">
 
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 1</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 2</li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 3</li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openGoogleDocs}>Download Conference Brochure</a></li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openTemplate}> View Paper Template</a></li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a href="/sponsorship"> View Sponsor Packages</a></li>
                                         <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 4</li>
                                         <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 5</li>
                                         <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i>Hello I am Testing 6</li>

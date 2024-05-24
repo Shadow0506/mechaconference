@@ -52,58 +52,53 @@ export function Callforpapers_home() {
                             <p className=" font-semibold mb-2 text-2xl">Track -1 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Materials</h3>
                             <ul className='text-left'>
-                                <li>
-                                    <a className='sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i> Materials behaviour
+    <li>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Materials behaviour
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Metals and Alloys
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Ceramic Materials
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Polymeric Materials
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Advanced Nanomaterials
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Smart Materials and their Applications
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Sustainable and Recycled Materials
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Functionally graded materials
+        </a>
+    </li>
+    <li className='pt-2'>
+        <a className='sm:text-2xl text-xl'>
+            <i className="fa-solid fa-atom pr-3"></i> Superconductors
+        </a>
+    </li>
+</ul>
 
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className='sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Metals and Alloys
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Ceramic Materials
-
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Polymeric Materials
-
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Advanced Nanomaterials
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Smart Materials and their Applications
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Sustainable and Recycled Materials
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Functionally graded materials
-
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i>Superconductors
-
-
-                                    </a>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
@@ -160,60 +155,8 @@ export function Callforpapers_home() {
                             </ul>
                         </div>
                     </div>
-                    <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
-                        <div className="absolute inset-0 z-0">
-                            <img src="https://www.shutterstock.com/image-illustration/regenerative-medicine-therapeutic-stem-cell-600nw-2024620991.jpg" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
-                        </div>
-                        <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
-                        </div>
-                        <div className="p-4 text-center" >
-                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 3 </p>
-                            <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-9">Biomaterials</h3>
-                            <ul className='text-left sm:mt-4'>
-                                <li>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3"></i>Biomaterials
 
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Advanced biomaterials
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Biodegradable biomaterials
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Bone Scaffolds
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Biodevice materials
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Medical implant materials
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3 pt-3"></i>Biomaterials in drug delivery system
-                                    </a>
-                                </li>
-                                <li className='pt-2'>
-                                    <a className=' sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-dna pr-3"></i>Biosensors
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
                     <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
                         <div className="absolute inset-0 z-0">
                             <img src="https://t3.ftcdn.net/jpg/03/21/87/58/360_F_321875802_aAtoxcTHoEMkI2lwcJXh6r4NVdyjh6y8.jpg" alt="background" className="object-cover w-full h-full opacity-10 rounded-xl" />
@@ -221,7 +164,7 @@ export function Callforpapers_home() {
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
-                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 4 </p>
+                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 3 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Design</h3>
                             <ul className='text-left'>
                                 <li>
@@ -275,7 +218,7 @@ export function Callforpapers_home() {
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
-                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 5 </p>
+                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 4 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Manufacturing Technologies</h3>
                             <ul className='text-left'>
                                 <li>
@@ -323,7 +266,7 @@ export function Callforpapers_home() {
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
-                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 6 </p>
+                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 5 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Robotics</h3>
                             <ul className='text-left sm:mt-4'>
                                 <li>
@@ -377,7 +320,7 @@ export function Callforpapers_home() {
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
-                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 7 </p>
+                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 6 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Mechatronics and Automation</h3>
                             <ul className='text-left sm:mt-20'>
                                 <li>
@@ -430,7 +373,7 @@ export function Callforpapers_home() {
                         <div className="h-5 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
                         </div>
                         <div className="p-4 text-center" >
-                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 8 </p>
+                            <p className=" font-semibold mb-2  sm:text-2xl text-xl">Track - 7 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Railway Vehicle Dynamics</h3>
                             <ul className='text-left sm:mt-24'>
                                 <li>
