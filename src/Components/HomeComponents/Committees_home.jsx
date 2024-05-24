@@ -131,7 +131,7 @@ export function Committees_home() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Kamal%20pic.jpg" />
+                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://media.istockphoto.com/id/1341046662/vector/picture-profile-icon-human-or-people-sign-and-symbol-for-template-design.jpg?s=612x612&w=0&k=20&c=A7z3OK0fElK3tFntKObma-3a7PyO8_2xxW0jtmjzT78=" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Shubham Sharma</h2>
                                     <p className="leading-relaxed text-base">Joint-Organizing Co-Chair, Department of Mechanical Engineering, Lebanese American University, Kraytem</p>

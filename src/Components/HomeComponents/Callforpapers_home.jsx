@@ -52,52 +52,53 @@ export function Callforpapers_home() {
                             <p className=" font-semibold mb-2 text-2xl">Track -1 </p>
                             <h3 className="tracking-widest text-indigo-500 sm:text-3xl text-2xl title-font pt-5 mb-8">Materials</h3>
                             <ul className='text-left'>
-    <li>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Materials behaviour
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Metals and Alloys
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Ceramic Materials
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Polymeric Materials
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Advanced Nanomaterials
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Smart Materials and their Applications
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Sustainable and Recycled Materials
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Functionally graded materials
-        </a>
-    </li>
-    <li className='pt-2'>
-        <a className='sm:text-2xl text-xl'>
-            <i className="fa-solid fa-atom pr-3"></i> Superconductors
-        </a>
-    </li>
-</ul>
+                                <li>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Materials behaviour
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Metals and Alloys
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Ceramic Materials
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                <i className="fa-solid fa-atom pr-3"></i>
+                                        Polymeric Materials
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Advanced Nanomaterials
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Smart Materials and their                                   Applications
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Sustainable and Recycled Materials
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Functionally graded materials
+                                    </a>
+                                </li>
+                                <li className='pt-2'>
+                                    <a className='sm:text-2xl text-xl'>
+                                        <i className="fa-solid fa-atom pr-3"></i> Superconductors
+                                    </a>
+                                </li>
+                            </ul>
 
                         </div>
                     </div>
