@@ -69,7 +69,7 @@ export function Committees_home() {
                     <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={inderdeep} />
                     <div class="text-center">
                         <h2 class="text-lg font-medium text-gray-900">Professor Inderdeep Singh</h2>
-                        <h3 class="text-gray-500 mb-2">Department of Design, IIT Roorkee</h3>
+                        <h3 class="text-gray-500 mb-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</h3>
                     </div>
                 </div>
                 <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-96 transform hover:shadow-xl">
@@ -292,7 +292,7 @@ export function Committees_home() {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                                     <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                                         <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/styles/medium/public/faculty_profile/images/Photograph.jpg?itok=sOF47TEy" />
@@ -308,6 +308,24 @@ export function Committees_home() {
                                         <div className="flex-grow">
                                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Nitin Dixit</h2>
                                             <p className="leading-relaxed text-base">Assistant Professor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Jimmy%20Karloopia.png" />
+                                        <div className="flex-grow">
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Jimmy Karloopia</h2>
+                                            <p className="leading-relaxed text-base">Member, Department of Production Engineering, PEC, CHD</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                        <img alt="team" className="w-16 h-18 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/mohit-tyagi.jpg" />
+                                        <div className="flex-grow">
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Mohit Tyagi</h2>
+                                            <p className="leading-relaxed text-base">Member, Department of Production Engineering, PEC, CHD</p>
                                         </div>
                                     </div>
                                 </div>
