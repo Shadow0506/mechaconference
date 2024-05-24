@@ -63,7 +63,7 @@ export function Speakershome() {
               <img src={akshay_dv} alt="" className="h-44 w-44 rounded-full" />
             </div>
             <div className="p-4 text-center">
-              <p className="text-xl font-semibold mb-2">Akshay Dvivedi</p>
+              <p className="text-xl font-semibold mb-2">Prof. Akshay Dvivedi</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
               <p className="text-gray-700 mb-4 mt-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
               <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
@@ -74,7 +74,7 @@ export function Speakershome() {
               <img src={rahul_vaish} alt="" className="h-44 w-44 rounded-full" />
             </div>
             <div className="p-4 text-center">
-              <p className="text-xl font-semibold mb-2">Rahul Vaish</p>
+              <p className="text-xl font-semibold mb-2">Prof. Rahul Vaish</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font sm:pt-6">Professor</h3>
               <p className="text-gray-700 mt-2 mb-4">School of Engineering, IIT Mandi</p>
               <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
@@ -85,7 +85,7 @@ export function Speakershome() {
               <img src={Sunil_pandey} alt="" className="h-44 w-44 rounded-full" />
             </div>
             <div className="p-4 text-center">
-              <p className="text-xl font-semibold mb-2">Sunil Pandey</p>
+              <p className="text-xl font-semibold mb-2">Prof. Sunil Pandey</p>
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font sm:pt-6">Professor</h3>
               <p className="text-gray-700 mt-2 mb-4">Department of Mechanical Engineering, IIT Delhi</p>
               <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>

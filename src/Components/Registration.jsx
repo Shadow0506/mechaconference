@@ -43,43 +43,47 @@ export function Registration() {
                         </Table.Body>
                     </Table>
                 </div>
-                <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black overflow-y-hidden">
-                    <div className="sm:overflow-hidden overflow-x-auto overflow-y-hidden w-full lg:w-2/3">
-                        <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
-                        <Table hoverable className="w-full mt-8 border border-gray-300 rounded-lg">
-                            <Table.Head>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Beneficiary Name</Table.HeadCell>
-                                <Table.HeadCell className="whitespace-nowrap font-medium text-lg border border-gray-300 bg-gray-100 p-4">Punjab Engineering College (Registration / Applications A/c)</Table.HeadCell>
-                            </Table.Head>
-                            <Table.Body>
-                                <Table.Row className="bg-white">
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Bank</Table.Cell>
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">State Bank of India</Table.Cell>
-                                </Table.Row>
-                                <Table.Row className="bg-white">
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Account No.</Table.Cell>
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">39083056639</Table.Cell>
-                                </Table.Row>
-                                <Table.Row className="bg-white">
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">IFSC</Table.Cell>
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">SBIN0002452</Table.Cell>
-                                </Table.Row>
-                                <Table.Row className="bg-white">
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">MICRO</Table.Cell>
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">160002008</Table.Cell>
-                                </Table.Row>
-                                <Table.Row className="bg-white">
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">Address</Table.Cell>
-                                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 p-4">PEC Market, Sector 12, Chandigarh</Table.Cell>
-                                </Table.Row>
-                            </Table.Body>
-                        </Table>
-                    </div>
-                    <div className="px-4 lg:px-24 py-4 lg:py-24 flex flex-col items-center">
-                        <p className="text-xl pt-5 mt-5 text-center">You can also scan this QR code to register</p>
-                        <img src={reg_qr} className="h-48 w-48 lg:h-64 lg:w-64 mt-4" />
-                    </div>
-                </div>
+                <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-3 border-r-black overflow-x-auto">
+    <div className="overflow-x-auto w-full lg:w-2/3">
+        <p className="text-xl pt-5 mt-5 w-full lg:w-2/3">Registration can be done online using the link given below, and the registration fee can also be paid online to the below account:</p>
+        <table className="w-full mt-8 border border-gray-300 rounded-lg">
+            <thead>
+                <tr>
+                    <th className="font-medium text-lg border border-gray-300 bg-gray-100 p-4 whitespace-normal">Beneficiary Name</th>
+                    <th className="font-medium text-lg border border-gray-300 bg-gray-100 p-4 whitespace-normal">Punjab Engineering College (Registration / Applications A/c)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr className="bg-white">
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">Bank</td>
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">State Bank of India</td>
+                </tr>
+                <tr className="bg-white">
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">Account No.</td>
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">39083056639</td>
+                </tr>
+                <tr className="bg-white">
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">IFSC</td>
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">SBIN0002452</td>
+                </tr>
+                <tr className="bg-white">
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">MICRO</td>
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">160002008</td>
+                </tr>
+                <tr className="bg-white">
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">Address</td>
+                    <td className="whitespace-normal font-medium text-lg text-gray-900 border border-gray-300 p-4">PEC Market, Sector 12, Chandigarh</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div className="px-4 lg:px-24 py-4 lg:py-24 flex flex-col items-center">
+        <p className="text-xl pt-5 mt-5 text-center">You can also scan this QR code to register</p>
+        <img src={reg_qr} className="h-48 w-48 lg:h-64 lg:w-64 mt-4" />
+    </div>
+</div>
+
+
 
 
                 <div className="mt-8 text-center">

@@ -18,30 +18,47 @@ const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, c
 export function Venue() {
     const hotels = [
         {
-            name: 'Hotel Pride',
-            address: 'Shop No 1,2,3 Sector 12 Main Market adjoining PEC, Nayagaon, 160103'
+            name: 'Hotel Taj',
+            address: 'Block No. 9, Sector 17-A, Chandigarh, 160017'
         },
         {
-            name: 'Hotel Emerald Chandigarh',
-            address: 'SCO-173, 174, Madhya Marg, Sector 8C, Sector 9, Chandigarh, 160008'
+            name: 'Hyatt Regency Chandigarh',
+            address: '178, Industrial Area Phase I, Chandigarh, 160002'
         },
         {
-            name: 'Hotel Aroma Chandigarh',
+            name: 'The Lalit Chandigarh',
+            address: 'Rajiv Gandhi IT Park, Kishangarh, Chandigarh, 160101'
+        },
+        {
+            name: 'Hotel Mountview',
+            address: 'Sector 10, Chandigarh, 160011'
+        },
+        {
+            name: 'Hotel Parkview',
+            address: 'Sector 24B, Chandigarh, 160023'
+        },
+        {
+            name: 'Shivalik View Hotel',
+            address: 'Sector 17-E, Chandigarh, 160017'
+        },
+        {
+            name: 'Lemon Tree Hotel',
+            address: 'Plot No. 3 MW, Industrial Area Phase I, Chandigarh, 160002'
+        },
+        {
+            name: 'Hotel Aroma',
             address: 'Himalaya Marg, Sector 22C, Sector 22, Chandigarh, 160022'
         },
         {
-            name: 'Hotel Golden Leaf',
-            address: 'B10/00024/24/1, near PEC College, Adarsh Nagar, Nayagaon, 160103'
+            name: 'Hotel Piccadilly',
+            address: 'Sector 22B, Chandigarh, 160022'
         },
         {
-            name: 'Hotel Royal Park 22',
-            address: '1015, SCO 1014, 15, Sector 17 Bus Stand Rd, Sector 22B, Chandigarh, 160022'
-        },
-        {
-            name: 'Hotel Royal Empirre',
-            address: 'Plot No 11 E2 Adarsh Nagar, Naya Gaon, Karoran Tehsil Kharad, Chandigarh, 160103'
+            name: 'JW Marriott Hotel Chandigarh',
+            address: 'Sector 35B, Dakshin Marg, Chandigarh, 160035'
         }
     ];
+    
    
     return (
         <div style={{ backgroundColor: '#F0F8FF' }}>
@@ -153,33 +170,39 @@ export function Venue() {
                     </div>
                 </div>
 
-                <div className="third-portion  py-10">
-                    <section className="text-gray-600 body-font overflow-hidden">
-                        <div className="container py-24 mx-auto">
-                            <div className="flex flex-wrap lg:flex-nowrap lg:w-4/5 mx-auto">
-                                <div className="w-full lg:w-2/3 flex justify-center mb-8 lg:mb-0 sm:p-10">
-                                    <img
-                                        alt="Hotels"
-                                        className="map rounded-lg shadow-lg"
-                                        src="https://ieeeindiscon.org/assets/images/hotels.png"
-                                    />
-                                </div>
-                                <div className="w-full lg:w-1/2 bg-white p-8 rounded-lg hover:shadow-xl shadow-sm">
-                                    <h1 className="text-2xl font-bold mb-4 text-gray-800">Some Good Hotels</h1>
-                                    <ul className="list-disc list-inside pl-5 space-y-4 text-lg text-gray-700">
-                                        {hotels.map((hotel, index) => (
-                                            <li key={index} className="leading-relaxed">
-                                                <span className="font-semibold text-gray-900">{hotel.name}</span>
-                                                <br />
-                                                {hotel.address}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                <div className="third-portion py-10">
+    <section className="text-gray-600 body-font overflow-hidden">
+        <div className="container py-24 mx-auto">
+            <div className="flex flex-wrap lg:flex-nowrap lg:w-4/5 mx-auto">
+                <div className="w-full lg:w-2/3 flex flex-col items-center mb-8 lg:mb-0 sm:p-10">
+                    <img
+                        alt="Hotels"
+                        className="map rounded-lg shadow-lg h-96"
+                        src="https://ieeeindiscon.org/assets/images/hotels.png"
+                    />
+                    <img
+                        alt="Hotels Large View"
+                        className="map rounded-lg shadow-lg mt-10 w-full h-auto"
+                        src="https://ieeeindiscon.org/assets/images/hotels.png"
+                    />
                 </div>
+                <div className="w-full lg:w-1/2 bg-white p-8 rounded-lg hover:shadow-xl shadow-sm">
+                    <h1 className="text-2xl font-bold mb-4 text-gray-800">Some Good Hotels</h1>
+                    <ul className="list-disc list-inside pl-5 space-y-4 text-lg text-gray-700">
+                        {hotels.map((hotel, index) => (
+                            <li key={index} className="leading-relaxed">
+                                <span className="font-semibold text-gray-900">{hotel.name}</span>
+                                <br />
+                                {hotel.address}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 
 
                 <div className='text-3'>

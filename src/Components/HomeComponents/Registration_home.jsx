@@ -50,7 +50,7 @@ export function Registration_home() {
                     <div className="flex flex-col mt-6">
                         <div className=" border-gray-300 mt-4 pt-4  text-left">
                             <p className="text-lg text-justify px-4">
-                                <i className="fa-solid fa-hand-point-right pr-2"></i> Conference registration fee includes paper presentation, entry to all sessions and keynote speeches, conference presentation certificate and publication in conference proceedings. The additional cost may be applicable for publication in SCOPUS or Web of Science indexed / UGC care journals. The details are available below.
+                                <i className="fa-solid fa-hand-point-right pr-2"></i> Conference registration fee includes paper presentation, entry to all sessions and keynote speeches, conference presentation certificate and publication in conference proceedings. The additional cost may be applicable for publication in SCOPUS or Web of Science indexed / UGC care journals.
                             </p>
                         </div>
                     </div>
