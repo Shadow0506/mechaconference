@@ -6,44 +6,47 @@ export function Callforpapers() {
     const handleDownload = async () => {
         const filePath = '/assets/icdmt_template.docx';
         const fileName = 'icdmt_template.docx';
-
+      
         try {
-            // Fetch the file
-            const response = await fetch(filePath);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-
-            // Create a blob from the response
-            const blob = await response.blob();
-
-            // Create a link element
-            const link = document.createElement('a');
-            const url = window.URL.createObjectURL(blob);
-
-            // Set the href to the blob URL
-            link.href = url;
-
-            // Set the download attribute with the filename
-            link.download = fileName;
-
-            // Append the link to the body
-            document.body.appendChild(link);
-
-            // Trigger the download by simulating a click
-            link.click();
-
-            // Remove the link from the document
-            document.body.removeChild(link);
-
-            // Revoke the blob URL
-            window.URL.revokeObjectURL(url);
-
-            console.log(`Download initiated for ${fileName} from ${filePath}`);
+          // Fetch the file
+          const response = await fetch(filePath);
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+      
+          // Get the blob from the response
+          const blob = await response.blob();
+          
+          // Create a new blob with the correct MIME type
+          const newBlob = new Blob([blob], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
+      
+          // Create a link element
+          const link = document.createElement('a');
+          const url = window.URL.createObjectURL(newBlob);
+      
+          // Set the href to the blob URL
+          link.href = url;
+      
+          // Set the download attribute with the filename
+          link.download = fileName;
+      
+          // Append the link to the body
+          document.body.appendChild(link);
+      
+          // Trigger the download by simulating a click
+          link.click();
+      
+          // Remove the link from the document
+          document.body.removeChild(link);
+      
+          // Revoke the blob URL
+          window.URL.revokeObjectURL(url);
+      
+          console.log(`Download initiated for ${fileName} from ${filePath}`);
         } catch (error) {
-            console.error('Error downloading the file:', error);
+          console.error('Error downloading the file:', error);
         }
-    };
+      };
 
 
     const itemsTrack7 = [
