@@ -14,7 +14,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/IMG_1096_0.jpeg" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Poonam Saini</h2>
-                                <p className="leading-relaxed text-base">Chairperson, Departmemnt of Computer Science Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Chairperson, Department of Computer Science Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Kamal%20pic.jpg" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
-                                <p className="leading-relaxed text-base">Convenor, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Convenor, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-18 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/shilpa%20%281%29.png" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Shilpa</h2>
-                                <p className="leading-relaxed text-base">Member, Departmemnt of Computer Science Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Member, Department of Computer Science Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByqEO63Z1Dhk65vsk7FKyGMEIJSN4tlngbUjQLLCjCA&s" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Viveksheel</h2>
-                                <p className="leading-relaxed text-base">Member, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Member, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export function New_committee() {
                     
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Perminderjit Singh</h2>
-                                <p className="leading-relaxed text-base">Chairperson, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Chairperson, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ export function New_committee() {
                         <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/images/rajesh_kanda.jpg" />
                                 <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Rajesh Kanda</h2>
-                                <p className="leading-relaxed text-base">Co-Chairperson , Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Co-Chairperson , Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ export function New_committee() {
                         <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/images/chander_kant.jpg" />
                                 <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Chanderkant</h2>
-                                <p className="leading-relaxed text-base">Convenor, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Convenor, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Jimmy%20Karloopia.png" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Jimmy Karloopia</h2>
-                                <p className="leading-relaxed text-base">Member, Departmemnt of Production Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Member, Department of Production Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByqEO63Z1Dhk65vsk7FKyGMEIJSN4tlngbUjQLLCjCA&s" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Lokesh</h2>
-                                <p className="leading-relaxed text-base">Member, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Member, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ export function New_committee() {
                                 
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Sarbjit Singh</h2>
-                                <p className="leading-relaxed text-base">Chairperson, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Chairperson, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@ export function New_committee() {
                                 
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Mohinder Pal Garg</h2>
-                                <p className="leading-relaxed text-base">Co-Chairperson, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Co-Chairperson, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-18 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/mohit-tyagi.jpg" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Mohit Tyagi</h2>
-                                <p className="leading-relaxed text-base">Member, Departmemnt of Production Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Member, Department of Production Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/ankit.jpg" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Ankit Yadav</h2>
-                                <p className="leading-relaxed text-base">Member, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Member, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ export function New_committee() {
                             <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Photograph.jpg" />
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Harshit Khandelwal</h2>
-                                <p className="leading-relaxed text-base">Member, Departmemnt of Mechanical Engineering, PEC, CHD</p>
+                                <p className="leading-relaxed text-base">Member, Department of Mechanical Engineering, PEC, CHD</p>
                             </div>
                         </div>
                     </div>
