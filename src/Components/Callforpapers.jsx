@@ -3,50 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { Carousel } from "flowbite-react";
 import "./callforpapers.css"
 export function Callforpapers() {
-    const handleDownload = async () => {
-        const filePath = '/assets/icdmt_template.docx';
-        const fileName = 'icdmt_template.docx';
-      
-        try {
-          // Fetch the file as a binary stream
-          const response = await fetch(filePath);
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-      
-          // Read the response as a binary array buffer
-          const arrayBuffer = await response.arrayBuffer();
-      
-          // Create a blob from the array buffer
-          const blob = new Blob([arrayBuffer], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
-      
-          // Create a URL for the blob
-          const url = window.URL.createObjectURL(blob);
-      
-          // Create a link element
-          const link = document.createElement('a');
-          link.href = url;
-      
-          // Set the download attribute with the filename
-          link.download = fileName;
-      
-          // Append the link to the body
-          document.body.appendChild(link);
-      
-          // Trigger the download by simulating a click
-          link.click();
-      
-          // Remove the link from the document
-          document.body.removeChild(link);
-      
-          // Revoke the blob URL
-          window.URL.revokeObjectURL(url);
-      
-          console.log(`Download initiated for ${fileName} from ${filePath}`);
-        } catch (error) {
-          console.error('Error downloading the file:', error);
-        }
+    const openGoogleDocs = () => {
+        window.open('https://docs.google.com/document/d/1IlEeKji912TytiTfhNk2ZHoh0DCq8Iwo/edit?usp=sharing&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
       };
+    
       
      
 
@@ -383,7 +343,7 @@ export function Callforpapers() {
                         </li>
                     </ul>
                     <div className="flex flex-col items-center mt-4 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-20">
-                        <button className="botao" onClick={handleDownload}>
+                        <button className="botao" onClick={openGoogleDocs}>
                             <svg
                                 className="mysvg"
                                 xmlns="http://www.w3.org/2000/svg"
