@@ -3,35 +3,48 @@ import { useNavigate } from "react-router-dom";
 import { Carousel } from "flowbite-react";
 import "./callforpapers.css"
 export function Callforpapers() {
-    const handleDownload = () => {
+    const handleDownload = async () => {
         const filePath = '/assets/icdmt_template.docx';
         const fileName = 'icdmt_template.docx';
-      
-        // Create a link element
-        const link = document.createElement('a');
-      
-        // Set the href and download attributes
-        link.href = filePath;
-        link.download = fileName;
-      
-        // Append the link to the body
-        document.body.appendChild(link);
-      
-        // Trigger the download by simulating a click
-        link.click();
-      
-        // Remove the link from the document
-        document.body.removeChild(link);
-      
-        console.log(`Download initiated for ${fileName} from ${filePath}`);
-      };
-      
-      // Add error handling and logging
-      try {
-        handleDownload();
-      } catch (error) {
-        console.error('Error downloading the file:', error);
-      }
+
+        try {
+            // Fetch the file
+            const response = await fetch(filePath);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+
+            // Create a blob from the response
+            const blob = await response.blob();
+
+            // Create a link element
+            const link = document.createElement('a');
+            const url = window.URL.createObjectURL(blob);
+
+            // Set the href to the blob URL
+            link.href = url;
+
+            // Set the download attribute with the filename
+            link.download = fileName;
+
+            // Append the link to the body
+            document.body.appendChild(link);
+
+            // Trigger the download by simulating a click
+            link.click();
+
+            // Remove the link from the document
+            document.body.removeChild(link);
+
+            // Revoke the blob URL
+            window.URL.revokeObjectURL(url);
+
+            console.log(`Download initiated for ${fileName} from ${filePath}`);
+        } catch (error) {
+            console.error('Error downloading the file:', error);
+        }
+    };
+
 
     const itemsTrack7 = [
         "Information Technology in Automation",
@@ -365,36 +378,36 @@ export function Callforpapers() {
                         </li>
                     </ul>
                     <div className="flex flex-col items-center mt-4 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-20">
-                    <button className="botao" onClick={handleDownload}>
-      <svg
-        className="mysvg"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        height="24px"
-        width="24px"
-      >
-        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-        <g
-          stroke-linejoin="round"
-          stroke-linecap="round"
-          id="SVGRepo_tracerCarrier"
-        ></g>
-        <g id="SVGRepo_iconCarrier">
-          <g id="Interface / Download">
-            <path
-              stroke-linejoin="round"
-              stroke-linecap="round"
-              stroke-width="2"
-              stroke="#f1f1f1"
-              d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-              id="Vector"
-            ></path>
-          </g>
-        </g>
-      </svg>
-      <span className="texto">Download Template</span>
-    </button>
+                        <button className="botao" onClick={handleDownload}>
+                            <svg
+                                className="mysvg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                height="24px"
+                                width="24px"
+                            >
+                                <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                                <g
+                                    stroke-linejoin="round"
+                                    stroke-linecap="round"
+                                    id="SVGRepo_tracerCarrier"
+                                ></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="Interface / Download">
+                                        <path
+                                            stroke-linejoin="round"
+                                            stroke-linecap="round"
+                                            stroke-width="2"
+                                            stroke="#f1f1f1"
+                                            d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+                                            id="Vector"
+                                        ></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <span className="texto">Download Template</span>
+                        </button>
                         <a
                             href="/callforpapers"
                             className="inline-block px-3 py-2 mb-2 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white"
