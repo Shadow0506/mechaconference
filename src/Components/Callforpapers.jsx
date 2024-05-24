@@ -8,23 +8,23 @@ export function Callforpapers() {
         const fileName = 'icdmt_template.docx';
       
         try {
-          // Fetch the file
+          // Fetch the file as a binary stream
           const response = await fetch(filePath);
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
       
-          // Get the blob from the response
-          const blob = await response.blob();
-          
-          // Create a new blob with the correct MIME type
-          const newBlob = new Blob([blob], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
+          // Read the response as a binary array buffer
+          const arrayBuffer = await response.arrayBuffer();
+      
+          // Create a blob from the array buffer
+          const blob = new Blob([arrayBuffer], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
+      
+          // Create a URL for the blob
+          const url = window.URL.createObjectURL(blob);
       
           // Create a link element
           const link = document.createElement('a');
-          const url = window.URL.createObjectURL(newBlob);
-      
-          // Set the href to the blob URL
           link.href = url;
       
           // Set the download attribute with the filename
@@ -47,6 +47,8 @@ export function Callforpapers() {
           console.error('Error downloading the file:', error);
         }
       };
+      
+     
 
 
     const itemsTrack7 = [
