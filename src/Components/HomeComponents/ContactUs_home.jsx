@@ -87,7 +87,7 @@ export function ContactUs_home() {
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=McQfhR4AAAAJ&citpid=7" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. M.P Garg</h2>
-                                    <p className="leading-relaxed text-base">Joint-Organizing Co-Chair, Department of Mechanical Engineering, PEC, CHD</p>
+                                    <p className="leading-relaxed text-base"> Organizing Co-Chair, Department of Mechanical Engineering, PEC, CHD</p>
                                     <p className="leading-relaxed text-base pt-4">Contact Number : +91 8283811022</p>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@ export function ContactUs_home() {
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Kamal%20pic.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
-                                    <p className="leading-relaxed text-base">Joint-Organizing Co-Chair, Department of Mechanical Engineering, PEC, CHD</p>
+                                    <p className="leading-relaxed text-base"> Organizing Co-Chair, Department of Mechanical Engineering, PEC, CHD</p>
                                     <p className="leading-relaxed text-base pt-4">Contact Number : +91 8901105666 </p>
                                 </div>
                             </div>

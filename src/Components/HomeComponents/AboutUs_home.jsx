@@ -9,6 +9,10 @@ import sixth from "./sixth.jpg"
 import seventh from "./seventh.jpg"
 import eight from "./eight.jpg"
 import ninth from "./ninth.jpg"
+import pec1 from './pec1.png'
+import pec2 from './pec2.png'
+import pec3 from './pec3.png'
+import pec4 from './pec4.png'
 export function AboutUs_home() {
   const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {
     const { currentSrc, handleError, errorCount } = useImageWithRetry(src, maxRetries, retryInterval);
@@ -43,6 +47,10 @@ export function AboutUs_home() {
             <div className="rounded-lg overflow-hidden">
               <div className="relative h-[18rem] sm:h-[36rem]">
                 <Carousel slideInterval={3000} infiniteLoop={true}>
+                  <img src={pec1} alt="Century" className="w-full h-full object-cover" />
+                  <img src={pec2} alt="Century" className="w-full h-full object-cover" />
+                  <img src={pec3} alt="Century" className="w-full h-full object-cover" />
+                  <img src={pec4} alt="Century" className="w-full h-full object-cover" />
                   <img src="https://ieeeindiscon.org/assets/images/college/audi.jpeg" alt="Audi" className="w-full h-full object-cover" />
                   <img src="https://ieeeindiscon.org/assets/images/college/helicopter.jpeg" alt="Helicopter" className="w-full h-full object-cover" />
                   <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="Chowk" className="w-full h-full object-cover" />

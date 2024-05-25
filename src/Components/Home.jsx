@@ -10,8 +10,6 @@ import { Impdates_main } from "./Impdates_main";
 import './Home.css';
 import React, { useState, useEffect } from 'react';
 import useImageWithRetry from './useImageWithRetry';
-
-
 const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {
     const { currentSrc, handleError, errorCount } = useImageWithRetry(src, maxRetries, retryInterval);
 
@@ -46,7 +44,7 @@ export function Home() {
                             alt="background"
                             maxRetries={3} // Number of retry attempts
                             retryInterval={2000} // Retry interval in milliseconds (e.g., 2000ms = 2 seconds)
-                            className="object-cover w-full h-full opacity-25 rounded-xl" // Tailwind CSS classes for the image
+                            className="object-cover w-full h-full opacity-25 rounded-xl hidden md:block" // Tailwind CSS classes for the image
                         />
                         <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
                     </div>
@@ -113,12 +111,12 @@ export function Home() {
                             </div>
 
                             <div className="h-full w-full shadow-xl rounded-b-2xl p-4" style={{ backgroundColor: '#72A0C1' }}>
-                                <marquee behavior="scroll" direction="up" scrollamount="5" onMouseOver={(e)=>{e.target.stop()}} onMouseOut={(e)=>{e.target.start()}} className="h-full w-full">
+                                <marquee behavior="scroll" direction="up" scrollamount="2" onMouseOver={(e)=>{e.target.stop()}} onMouseOut={(e)=>{e.target.start()}} className="h-full w-full">
                                     <ul className=" text-xl text-white h-full flex flex-col justify-start items-start py-4 px-2 ">
 
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openGoogleDocs}>Download Conference Brochure</a></li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openTemplate}> View Paper Template</a></li>
-                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a href="/sponsorship"> View Sponsor Packages</a></li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl" style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openGoogleDocs}><button>Download Conference Brochure</button></a></li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a onClick={openTemplate}> <button>View Paper Template</button></a></li>
+                                        <li className="mb-6 bg-indigo-500 rounded-xl w-full py-2 px-4 shadow-xl " style={{ backgroundColor: '#2a52be' }}><i classname="fa-solid fa-bullhorn px-3"></i><a href="/sponsorship"> <button>View Sponsor Packages</button></a></li>
                                        
                                     </ul>
                                 </marquee>
