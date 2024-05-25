@@ -80,7 +80,7 @@ export function Callforpapers_home() {
                                 </li>
                                 <li className='pt-2'>
                                     <a className='sm:text-2xl text-xl'>
-                                        <i className="fa-solid fa-atom pr-3"></i> Smart Materials and their                                   Applications
+                                        <i className="fa-solid fa-atom pr-3"></i> Smart Materials and their applications
                                     </a>
                                 </li>
                                 <li className='pt-2'>
