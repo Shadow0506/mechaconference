@@ -64,20 +64,20 @@ export function Speakershome() {
             </div>
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Prof. Akshay Dvivedi</p>
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3>
-              <p className="text-gray-700 mb-4 mt-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
+              {/* <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Professor</h3> */}
+              <p className="text-gray-700 mb-4 mt-2 pt-6">Department of Mechanical and Industrial Engineering, IIT Roorkee</p>
               <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
           </div>
-          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center ">
+          <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
             <div className="h-56 flex justify-center items-center rounded-t-xl" style={{ backgroundColor: '#1a3e60' }}>
               <img src={rahul_vaish} alt="" className="h-44 w-44 rounded-full" />
             </div>
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Prof. Rahul Vaish</p>
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font sm:pt-6">Professor</h3>
-              <p className="text-gray-700 mt-2 mb-4">School of Engineering, IIT Mandi</p>
-              <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
+              {/* <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font"> </h3> */}
+              <p className="text-gray-700 pt-6 pb-6 mb-4 ">School of Engineering, IIT Mandi</p>
+              <a className="bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
           </div>
           <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center">
@@ -86,8 +86,8 @@ export function Speakershome() {
             </div>
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Prof. Sunil Pandey</p>
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font sm:pt-6">Professor</h3>
-              <p className="text-gray-700 mt-2 mb-4">Department of Mechanical Engineering, IIT Delhi</p>
+              {/* <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font sm:pt-6">Professor</h3> */}
+              <p className="text-gray-700 pt-6 pb-6 mb-4">Department of Mechanical Engineering, IIT Delhi</p>
               <a className="mt-4 bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
             </div>
           </div>
@@ -123,7 +123,7 @@ export function Speakershome() {
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2">Dr. Catalin Iulian Pruncu</p>
 
-              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">PhD, CEng MIMeche, MInstP, MASME
+              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">(In Communication With)
               </h3>
               <p className="text-gray-700 mt-2 mb-4">Senior Academic University Of Wolverhampton
                 West Midlands, England, United Kingdom
@@ -138,8 +138,9 @@ export function Speakershome() {
             </div>
             <div className="p-4 text-center">
               <p className="text-xl font-semibold mb-2 ">Dr. Fernando Fraternali</p>
-
-              <p className="text-gray-700 mt-8 mb-4">Department of Civil Engineering, University of Salerno, Italy.
+              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">(In Communication With)
+              </h3>
+              <p className="text-gray-700 pt-2 mb-4">Department of Civil Engineering, University of Salerno, Italy.
 
               </p>
               <a className=" bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl">Read More</a>
@@ -151,9 +152,10 @@ export function Speakershome() {
               <img src={paulo} alt="" className="h-44 w-44 rounded-full" />
             </div>
             <div className="p-4 text-center">
-              <p className="text-xl font-semibold mb-2 pt-4">Prof. J. Paulo Davim</p>
-
-              <p className="text-gray-700 mt-4 mb-4">University of Aveiro
+              <p className="text-xl font-semibold mb-2 ">Prof. J. Paulo Davim</p>
+              <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">(In Communication With)
+              </h3>
+              <p className="text-gray-700 mb-4 pt-2">University of Aveiro
                 Campus Universitário de Santiago,(PORTUGAL)
 
 
