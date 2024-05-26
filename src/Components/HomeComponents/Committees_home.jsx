@@ -59,11 +59,11 @@ export function Committees_home() {
                 <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
             </div>
             <div class="flex flex-wrap justify-center p-10 space-y-10 md:space-x-10 md:space-y-0">
-                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4  w-full md:w-96 transform hover:shadow-xl">
-                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://pec.ac.in/sites/default/files/faculty_profile/images/parminderjit.jpg" />
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://channeli.in/media/kernel/display_pictures/d25c88cc-f877-43fc-a94b-05f509945a14" />
                     <div class="text-center">
-                        <h2 class="text-lg font-medium text-gray-900">Professor Perminderjit Singh</h2>
-                        <h3 class="text-gray-500 mb-2">Department of Mechanical Engineering PEC, Chandigarh</h3>
+                        <h2 class="text-lg font-medium text-gray-900">Professor Apurbba K. Sharma</h2>
+                        <h3 class="text-gray-500 mb-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</h3>
                     </div>
                 </div>
                 <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-96 transform hover:shadow-xl">
@@ -73,11 +73,11 @@ export function Committees_home() {
                         <h3 class="text-gray-500 mb-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</h3>
                     </div>
                 </div>
-                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-96 transform hover:shadow-xl">
-                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://channeli.in/media/kernel/display_pictures/d25c88cc-f877-43fc-a94b-05f509945a14" />
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4  w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://pec.ac.in/sites/default/files/faculty_profile/images/parminderjit.jpg" />
                     <div class="text-center">
-                        <h2 class="text-lg font-medium text-gray-900">Professor Apurbba K. Sharma</h2>
-                        <h3 class="text-gray-500 mb-2">Department of Mechanical and Industrial Engineering, IIT Roorkee</h3>
+                        <h2 class="text-lg font-medium text-gray-900">Professor Perminderjit Singh</h2>
+                        <h3 class="text-gray-500 mb-2">Department of Mechanical Engineering PEC, Chandigarh</h3>
                     </div>
                 </div>
             </div>

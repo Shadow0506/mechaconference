@@ -343,13 +343,13 @@ export function Callforpapers() {
                             </ul>
                         </li>
                         <li className='pt-2'>
-    <a>
-        <div className="flex items-center space-x-3">
-            <div><i className="fa-regular fa-hand-point-right px-2 py-3"></i></div>
-            <div>Accepted papers, following peer review, will be published as a standalone proceeding by a Scopus Indexed publication.</div>
-        </div>
-    </a>
-</li>
+                            <a>
+                                <div className="flex items-center space-x-3">
+                                    <div><i className="fa-regular fa-hand-point-right px-2 py-3"></i></div>
+                                    <div>Accepted papers, following peer review, will be published as a standalone proceeding by a Scopus Indexed publication.</div>
+                                </div>
+                            </a>
+                        </li>
 
                     </ul>
                     <div className="flex flex-col items-center mt-4 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-20">
