@@ -3,9 +3,10 @@ import { Link, useNavigate } from "react-router-dom";
 import { Menuitems } from './Menuitems.js';
 import Typewriter from "typewriter-effect";
 import main_logo from './main_logo.jpeg'
-import logo_nobg from './logo_nobg.png'
+//import logo_nobg from './logo_nobg.png'
 import pec_nobg from './pec_nobg.png'
 import pec_circle from './pec_circle.png'
+import logo_nobg_final_2 from './logo_nobg_final_2.png'
 export function Headertailwind() {
     const navigate = useNavigate();
 
@@ -24,7 +25,7 @@ export function Headertailwind() {
                         <img className="h-16 w-20 md:h-20 lg:h-36 lg:w-36" src={pec_circle} alt="peclogo" />
                     </a>
                     <a href="/">
-                        <img className="h-14 w-40 md:h-20 lg:h-36 lg:w-80" src={logo_nobg} alt="peclogo" />
+                        <img className="h-16 w-40 sm:h-36 md:h-20 lg:h-36 lg:w-80" src={logo_nobg_final_2} alt="peclogo" />
                     </a>
                     <a href="/">
                         <img className="h-16 w-20 md:h-20 lg:h-36 lg:w-36" src="https://iitr.ac.in/Centres/International%20Centre%20of%20Excellence%20for%20Dams/assets/b62ae2df8a426804bc7c58955ceeb977e240a0727ae0018eb62a6c637ab5b135_SRIC.png" alt="iitrlogo" />
