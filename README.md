@@ -10,7 +10,7 @@
 7. [Contributors](#contributors)
 8. [Contact Information](#contact-information)
 ## Introduction
-Welcome to the official repository for the ICDMT 2024 website. The International Conference on Data Mining and Technology (ICDMT) 2024 is a premier event for researchers and practitioners to discuss the latest advancements in data mining and technology. This repository contains the source code for the conference website.
+Welcome to the official repository for the ICDMT 2024 website. The International Conference on Design and Manufacturing Technology (ICDMT) 2024 is a premier event for researchers and practitioners to discuss the latest advancements in data mining and technology. This repository contains the source code for the conference website.
 
 ## Technologies Used
 - **Frontend:**
