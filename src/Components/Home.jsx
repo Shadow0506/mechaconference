@@ -7,7 +7,6 @@ import { Registration_home } from "./HomeComponents/Registration_home";
 import { Committees_home } from "./HomeComponents/Committees_home";
 import { ContactUs_home } from "./HomeComponents/ContactUs_home";
 import { Impdates_main } from "./Impdates_main";
-import './Home.css';
 import React, { useState, useEffect } from 'react';
 import useImageWithRetry from './useImageWithRetry';
 const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {

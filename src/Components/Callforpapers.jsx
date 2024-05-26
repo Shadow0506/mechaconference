@@ -176,12 +176,15 @@ export function Callforpapers() {
                                         <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 1 Materials</h2>
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {itemsTrack1.map((item, index) => (
-                                                <a key={index}>
-                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                            <path d="M20 6L9 17l-5-5"></path>
-                                                        </svg>
-                                                    </span>{item}
+                                                <a key={index} >
+                                                    <div class="flex items-center space-x-3">
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <div>{item}</div>
+                                                    </div>
                                                 </a>
                                             ))}
                                         </nav>
@@ -204,12 +207,15 @@ export function Callforpapers() {
                                         <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 3 Design</h2>
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {itemsTrack4.map((item, index) => (
-                                                <a key={index}>
-                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                            <path d="M20 6L9 17l-5-5"></path>
-                                                        </svg>
-                                                    </span>{item}
+                                                <a key={index} >
+                                                    <div className="flex items-center space-x-3">
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <div>{item}</div>
+                                                    </div>
                                                 </a>
                                             ))}
                                         </nav>
@@ -225,13 +231,17 @@ export function Callforpapers() {
                                         <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 4 Manufacturing Techniques</h2>
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {itemsTrack5.map((item, index) => (
-                                                <a key={index}>
-                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                            <path d="M20 6L9 17l-5-5"></path>
-                                                        </svg>
-                                                    </span>{item}
+                                                <a key={index} >
+                                                    <div className="flex items-center space-x-3">
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <div>{item}</div>
+                                                    </div>
                                                 </a>
+
                                             ))}
                                         </nav>
                                     </div>
@@ -239,13 +249,17 @@ export function Callforpapers() {
                                         <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Track 5 Robotics</h2>
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {itemsTrack6.map((item, index) => (
-                                                <a key={index}>
-                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                            <path d="M20 6L9 17l-5-5"></path>
-                                                        </svg>
-                                                    </span>{item}
+                                                <a key={index} >
+                                                    <div className="flex items-center space-x-3">
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <div>{item}</div>
+                                                    </div>
                                                 </a>
+
                                             ))}
                                         </nav>
                                     </div>
@@ -260,12 +274,18 @@ export function Callforpapers() {
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {itemsTrack7.map((item, index) => (
                                                 <a key={index}>
-                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                            <path d="M20 6L9 17l-5-5"></path>
-                                                        </svg>
-                                                    </span>{item}
+                                                    <div className="flex items-center space-x-3">
+                                                        <div>
+                                                            <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                    <path d="M20 6L9 17l-5-5"></path>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                        <div>{item}</div>
+                                                    </div>
                                                 </a>
+
                                             ))}
                                         </nav>
                                     </div>
@@ -273,13 +293,17 @@ export function Callforpapers() {
                                         <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 7 Railway Vehicle Dynamics</h2>
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {items.map((item, index) => (
-                                                <a key={index}>
-                                                    <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
-                                                            <path d="M20 6L9 17l-5-5"></path>
-                                                        </svg>
-                                                    </span>{item}
+                                                <a key={index} >
+                                                    <div className="flex items-center space-x-3">
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <div>{item}</div>
+                                                    </div>
                                                 </a>
+
                                             ))}
                                         </nav>
                                     </div>
@@ -318,8 +342,15 @@ export function Callforpapers() {
                                 <li> <i class="fa-regular fa-hand-point-right px-2 py-3"></i>Mandatory plagiarism screening for publication eligibility</li>
                             </ul>
                         </li>
-                        <li><i class="fa-regular fa-hand-point-right px-2 py-3"></i>Accepted papers, following peer review, will be published as a standalone proceeding by a Scopus Indexed publication.
-                        </li>
+                        <li className='pt-2'>
+    <a>
+        <div className="flex items-center space-x-3">
+            <div><i className="fa-regular fa-hand-point-right px-2 py-3"></i></div>
+            <div>Accepted papers, following peer review, will be published as a standalone proceeding by a Scopus Indexed publication.</div>
+        </div>
+    </a>
+</li>
+
                     </ul>
                     <div className="flex flex-col items-center mt-4 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-20">
                         <button className="botao" onClick={openGoogleDocs}>
@@ -353,13 +384,13 @@ export function Callforpapers() {
                             <span className="texto">Download Template</span>
                         </button>
                         <a
-                           href="https://cmt3.research.microsoft.com/docs/help/pdfs/small_conference_guide.pdf" target="_blank"
+                            href="https://cmt3.research.microsoft.com/docs/help/pdfs/small_conference_guide.pdf" target="_blank"
                             className="inline-block px-3 py-2 mb-2 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white" style={{ backgroundColor: '#818589' }}
                         >
                             Guide for Authors
                         </a>
                         <a
-                           href="https://cmt3.research.microsoft.com/ICDMT2024/Submission/Index"  target="_blank"
+                            href="https://cmt3.research.microsoft.com/ICDMT2024/Submission/Index" target="_blank"
                             className="inline-block px-3 py-2 mb-2 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white"
                         >
                             Submit Your Paper
