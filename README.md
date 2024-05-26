@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/icdmt-2024-website.git
+    git clone https://github.com/arnavbansal2764/mechaconference
     cd mechaconference
     ```
 
