@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import inderdeep from './inderdeep.jpeg'
-import nitin from './1579867642019.jpeg'
 import profsarbjit from './profsarbjitsingh.jpeg'
 import shubhamsharma from './shubhamsharma.jpg'
+import nitin from './nitindixit.jpeg'
 export function Committees_home() {
     const navigate = useNavigate();
 
@@ -298,14 +298,14 @@ export function Committees_home() {
                                     <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                                         <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/styles/medium/public/faculty_profile/images/Photograph.jpg?itok=sOF47TEy" />
                                         <div className="flex-grow">
-                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Harshit Khandewal</h2>
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Harshit Kumar Khandelwal</h2>
                                             <p className="leading-relaxed text-base">Assistant Professor</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                                     <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={nitin} />
+                                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0  mr-4" src={nitin} />
                                         <div className="flex-grow">
                                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Nitin Dixit</h2>
                                             <p className="leading-relaxed text-base">Assistant Professor</p>
