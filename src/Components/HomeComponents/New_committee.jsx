@@ -1,3 +1,9 @@
+import vaani from './vaani.jpeg'
+import parth from './parth.jpg'
+import jatt from './jatt.jpeg'
+import cr from './cr.jpeg'
+import bhavya from './Bhavya.jpeg'
+import ar9 from './ar9.jpeg'
 export function New_committee() {
     return (
         <section className="text-gray-600 body-font">
@@ -16,7 +22,7 @@ export function New_committee() {
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Poonam Saini</h2>
                                 <p className="leading-relaxed text-base">Chairperson, Department of Computer Science Engineering, PEC, CHD</p>
                             </div>
-                        </div>
+                      </div>
                     </div>
                     <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
@@ -160,6 +166,72 @@ export function New_committee() {
                     </div>
                 </div>
             </div>
+            {/* <div className="container mx-auto">
+                <div className="text-center mb-10 pt-10">
+                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
+                        Students Website Team
+                    </h1>
+                    <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
+                </div>
+                <div className="flex flex-wrap -m-2">
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={ar9} />
+                                
+                            <div className="flex-grow">
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Arnav Bansal</h2>
+                                <p className="leading-relaxed text-base">Website Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={cr} />
+                                
+                            <div className="flex-grow">
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Jaitavya Aggarwal</h2>
+                                <p className="leading-relaxed text-base">Website Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                            <img alt="team" className="w-16 h-18 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={jatt} />
+                            <div className="flex-grow">
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Armaan Singh Jhand</h2>
+                                <p className="leading-relaxed text-base">Website Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                            <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={bhavya} />
+                            <div className="flex-grow">
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Bhavya Pratap Singh</h2>
+                                <p className="leading-relaxed text-base">Website Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                            <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={parth} />
+                            <div className="flex-grow">
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Parth Kushwaha </h2>
+                                <p className="leading-relaxed text-base">Website Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                            <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={vaani} />
+                            <div className="flex-grow">
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Vaani Garg </h2>
+                                <p className="leading-relaxed text-base">Website Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
         </section>
     )
 }
