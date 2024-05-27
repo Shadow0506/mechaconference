@@ -243,7 +243,7 @@ export function Committees_home() {
                                     <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                                         <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/images/sandeep.jpg" />
                                         <div className="flex-grow">
-                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sandeep Selodkar</h2>
+                                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Prof. Sandeep Salodkar</h2>
                                             <p className="leading-relaxed text-base">Associate Professor</p>
                                         </div>
                                     </div>
