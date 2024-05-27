@@ -166,7 +166,7 @@ export function New_committee() {
                     </div>
                 </div>
             </div>
-            <div className="container mx-auto">
+            {/* <div className="container mx-auto">
                 <div className="text-center mb-10 pt-10">
                     <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
                         Students Website Team
@@ -231,7 +231,7 @@ export function New_committee() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }
