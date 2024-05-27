@@ -33,7 +33,7 @@ export function Home() {
 
 
     return (
-        <div style={{ backgroundColor: '#F0F8FF' }}>
+        <div className="mx-auto" style={{ backgroundColor: '#F0F8FF' }}>
             <section className="text-gray-600 body-font" >
 
                 <div className="relative overflow-hidden rounded-xl ">
