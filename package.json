@@ -23,6 +23,7 @@
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.4",
+    "react-helmet-async": "^2.0.5",
     "react-loading": "^2.0.3",
     "react-marquee-slider": "^1.1.5",
     "react-pricing-table": "^0.0.3",

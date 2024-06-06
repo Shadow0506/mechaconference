@@ -1,4 +1,4 @@
-// App.jsx
+// src/App.jsx
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -19,8 +19,11 @@ import Loading from './Components/Loading';
 import NotFound from './Components/NotFound';
 import { inject } from '@vercel/analytics';
 import { injectSpeedInsights } from '@vercel/speed-insights';
+import { Helmet } from 'react-helmet-async';
+
 injectSpeedInsights();
 inject();
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -32,14 +35,18 @@ function App() {
 
   return (
     <div className="flex flex-col h-screen">
+      <Helmet>
+        <title>ICDMT 2024</title>
+        <meta name="description" content="Website designed for International Conference on design and manufacturing organized at Punjab Engineering College (PEC) Chandigarh" />
+      </Helmet>
       <BrowserRouter>
         <Headertailwind />
         <div className="flex-1">
           {isLoading ? (
-          <Loading />
+            <Loading />
           ) : (
             <Routes>
-              <Route path='/Impdates' element={<Impdates_main/>} />
+              <Route path='/Impdates' element={<Impdates_main />} />
               <Route path='/' element={<Home />} />
               <Route path='/speakers' element={<Speakers />} />
               <Route path='/aboutus' element={<AboutUs />} />
