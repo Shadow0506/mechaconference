@@ -289,7 +289,7 @@ export function Callforpapers() {
                                             ))}
                                         </nav>
                                     </div>
-                                    <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
+                                    {/* <div className="p-4 lg:w-1/2 sm:w-1/2 w-full">
                                         <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">Track 7 Railway Vehicle Dynamics</h2>
                                         <nav className="flex flex-col items-start text-left -mb-1 space-y-2.5">
                                             {items.map((item, index) => (
@@ -306,7 +306,7 @@ export function Callforpapers() {
 
                                             ))}
                                         </nav>
-                                    </div>
+                                    </div> */}
 
                                 </div>
                             </div>

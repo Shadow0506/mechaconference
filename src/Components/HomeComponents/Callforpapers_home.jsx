@@ -505,7 +505,7 @@ export function Callforpapers_home() {
 
                         </div>
                     </div>
-                    <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
+                    {/* <div className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center transform hover:shadow-xl">
                         <div className="absolute inset-0 z-0">
                             <img src="https://nenews.in/wp-content/uploads/2022/12/Railway-Coach-Factory.jpg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
                         </div>
@@ -558,7 +558,7 @@ export function Callforpapers_home() {
                             </ul>
 
                         </div>
-                    </div>
+                    </div> */}
 
                 </Slider>
 
