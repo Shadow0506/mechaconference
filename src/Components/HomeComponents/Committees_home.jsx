@@ -3,6 +3,7 @@ import inderdeep from './inderdeep.jpeg'
 import profsarbjit from './profsarbjitsingh.jpeg'
 import shubhamsharma from './shubhamsharma.jpg'
 import nitin from './nitindixit.jpeg'
+import Pj from './src/Components/HomeComponents/PJ Singh.jpeg'
 export function Committees_home() {
     const navigate = useNavigate();
 
@@ -74,7 +75,7 @@ export function Committees_home() {
                     </div>
                 </div>
                 <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4  w-full md:w-96 transform hover:shadow-xl">
-                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://pec.ac.in/sites/default/files/faculty_profile/images/parminderjit.jpg" />
+                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={Pj} />
                     <div class="text-center">
                         <h2 class="text-lg font-medium text-gray-900">Professor Perminderjit Singh</h2>
                         <h3 class="text-gray-500 mb-2">Department of Mechanical Engineering PEC, Chandigarh</h3>
