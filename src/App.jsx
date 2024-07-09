@@ -20,6 +20,7 @@ import NotFound from './Components/NotFound';
 import { inject } from '@vercel/analytics';
 import { injectSpeedInsights } from '@vercel/speed-insights';
 import { Helmet } from 'react-helmet-async';
+import PublicationPartner from './Components/PublicationPartner';
 
 injectSpeedInsights();
 inject();
@@ -56,6 +57,7 @@ function App() {
               <Route path='/registration' element={<Registration />} />
               <Route path='/sponsorship' element={<Sponsorship />} />
               <Route path='/venue' element={<Venue />} />
+              <Route path='/publication-partners' element={<PublicationPartner />}/>
               <Route path='*' element={<NotFound />} />
             </Routes>
           )}
