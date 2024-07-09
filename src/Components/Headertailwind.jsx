@@ -43,7 +43,7 @@ export function Headertailwind() {
 
 
             <div className={`max-w-screen-xl mx-auto ${mobileMenuOpen ? 'block' : 'hidden'} md:block`}>
-                <ul className="font-large flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 md: bg-gray-80 border-gray-700">
+                <ul className="font-large flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 md: bg-gray-80 border-gray-700 text-sm">
                     {Menuitems.map((item, index) => (
                         <li key={index}>
                             <a href={item.url} className="block py-2 px-0 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white hover:text-white hover:bg-transparent">
