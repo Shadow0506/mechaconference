@@ -42,6 +42,13 @@ export const Menuitems = [
         
     },
     {
+        title : "Publication Partners",
+        url : "/publication-partners",
+        cName : "nav-links",
+        icon : "fa-solid fa-book pr-1"
+
+    },
+    {
         title : "Venue",
         url : "/venue",
         cName : "nav-links",
