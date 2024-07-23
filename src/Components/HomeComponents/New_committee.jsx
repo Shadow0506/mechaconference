@@ -1,7 +1,7 @@
 import vaani from './vaani.jpeg'
 import parth from './parth.jpg'
 import jatt from './jatt.jpeg'
-import cr from './cr.jpeg'
+import Jaitavya from './Jaitavya Aggarwal.jpeg'
 import bhavya from './Bhavya.jpeg'
 import ar9 from './ar9.jpeg'
 export function New_committee() {
@@ -186,7 +186,7 @@ export function New_committee() {
                     </div>
                     <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={cr} />
+                        <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={Jaitavya} />
                                 
                             <div className="flex-grow">
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Jaitavya Aggarwal</h2>
