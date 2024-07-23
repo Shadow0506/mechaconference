@@ -166,7 +166,7 @@ export function New_committee() {
                     </div>
                 </div>
             </div>
-            {/* <div className="container mx-auto">
+            <div className="container mx-auto">
                 <div className="text-center mb-10 pt-10">
                     <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
                         Students Website Team
@@ -221,17 +221,9 @@ export function New_committee() {
                             </div>
                         </div>
                     </div>
-                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                        <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                            <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={vaani} />
-                            <div className="flex-grow">
-                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Vaani Garg </h2>
-                                <p className="leading-relaxed text-base">Website Developer</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
-            </div> */}
+            </div>
         </section>
     )
 }

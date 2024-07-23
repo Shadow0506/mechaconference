@@ -48,8 +48,11 @@ export function Home() {
                         <img src="https://ieeeindiscon.org/assets/images/college/chowk.jpeg" alt="background" className="object-cover w-full h-full opacity-15 rounded-xl" />
                     </div>
                     <Marquee className="text-red-500 p-4">
-                        <i className="fa-solid fa-bullhorn px-4"></i><a onClick={openGoogleDocs}> Click here to download brochure</a>
+                        <i className="fa-solid fa-bullhorn px-4 "></i><a onClick={openGoogleDocs} className="text-2xl"> Click here to download brochure</a>
+                        <i className="fa-solid fa-bullhorn px-4  "></i><p className="text-2xl">Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published.</p>
+
                     </Marquee>
+                   
                     <div className="container mx-auto font-serif">
                         <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
                             <div className="rounded-box lg:p-3 rounded w-full">

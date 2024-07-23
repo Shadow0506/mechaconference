@@ -14,28 +14,20 @@ function PublicationPartner() {
                 }} />
             </h1>
             <div className="h-1 w-20 bg-indigo-500 rounded mx-auto"></div>
-            
-            <p className='mt-5 text-lg'>The selected accepted papers will be published in the following journals after peer review as per Journal policy 
+            <p className='text-2xl pt-10 text-bold px-20 text-blue-800 font-bold'>
+            Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published.
             </p>
-            <p className='text-lg font-extralight'>
-                (in communication with)
+            <p className='text-2xl pt-10 text-bold px-20 text-blue-800 font-bold'>
+            Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.
+            </p>
+            <p className='text-3xl pt-10 font-semibold'>
+                Lecture Notes in Mechanical Engineering - Book series. Published by Springer and indexed by scopus.
+            </p>
+            <p className='text-lg pt-10 text-bold font-extralight'>
+               (in communication with) 
             </p>
 
             <div className='flex flex-wrap justify-center'>
-                <div className='w-5/6 xl:w-1/5 lg:w-1/3 m-10 p-5 rounded-lg flex flex-col justify-center hover:scale-105 hover:bg-[#e6f3ff] duration-200'>
-                    <a href="https://journals.sagepub.com/overview-metric/PIE" target='_blank'>
-                        <img src='https://bioone.org/images/publishers/fullsize/SAGE.png' className='rounded-lg w-1/2 mx-auto'/>
-                        <ul className='font-light'>
-                            <li className='font-bold text-xl m-4'>Sage</li>
-                            <li>Proceedings of the Institution of Mechanical Engineers</li>
-                            <hr className='bg-[rgb(81,81,84)]/20' style={{padding: 0.5}}/>
-                            <li>Part E: Journal of Process Mechanical Engineering</li>
-                            <li className='font-extralight text-sm'>(scroll below for journal)</li>
-                            <hr className='bg-[rgb(81,81,84)]/20' style={{padding: 0.5}}/>
-                            <li>Impact Factor: 2.3 (SCI).</li>
-                        </ul>
-                    </a>
-                </div>
                 <div className='w-5/6 xl:w-1/5 lg:w-1/3 m-10 p-5 rounded-lg flex flex-col justify-center hover:scale-105 hover:bg-[#e6f3ff] duration-200'>
                     <a href="https://link.springer.com/journal/12008" target='_blank'>
                         <img src='https://icssmt.com/2023/Springer.png' className='rounded-lg w-1/2 mx-auto'/>
@@ -46,19 +38,9 @@ function PublicationPartner() {
                             <hr className='bg-[rgb(81,81,84)]/20' style={{padding: 0.5}}/>
                             <li>Impact Factor: 2.1 (ESCI & Scopus)</li>
                         </ul>
+                        
                     </a>
-                </div>
-                <div className='w-5/6 xl:w-1/5 lg:w-1/3 m-10 p-5 rounded-lg flex flex-col justify-center hover:scale-105 hover:bg-[#e6f3ff] duration-200'>
-                    <a href="https://www.tandfonline.com/action/journalInformation?journalCode=tmpt20" target='_blank'>
-                        <img src='https://www.informascope.com/views/default/_images/_logos/urunler/taylor_and_francis.png' className='rounded-lg w-1/2 mx-auto'/>
-                        <ul className='font-light'>
-                            <li className='font-bold text-xl m-4'>Taylor & Francis</li>
-                            <li>Advances in Materials and Processing Technologies</li>
-                            <li className='font-extralight text-sm'>(scroll below for journal)</li>
-                            <hr className='bg-[rgb(81,81,84)]/20' style={{padding: 0.5}}/>
-                            <li>Impact Factor: 2.2 ( ESCI & Scopus)</li>
-                        </ul>
-                    </a>
+                    
                 </div>
             </div>
 
@@ -67,7 +49,7 @@ function PublicationPartner() {
                     <a href="https://pubs.aip.org/aip" target='_blank'>
                         <img src='https://th.bing.com/th/id/OIP.BwO8K-2yO0qK6xxDuUcqQQHaDj?w=342&h=168&c=7&r=0&o=5&dpr=1.3&pid=1.7' className='rounded-lg w-1/2 py-5 mx-auto'/>
                         <ul className='font-light'>
-                            <li className='font-bold text-xl m-4'>API Publishing</li>
+                            <li className='font-bold text-xl m-4'>AIP Publishing</li>
                             <li>AIP Conference Proceedings</li>
                         </ul>
                     </a>
