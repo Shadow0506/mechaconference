@@ -4,7 +4,9 @@ import jatt from './jatt.jpeg'
 import Jaitavya from './Jaitavya Aggarwal.jpeg'
 import bhavya from './Bhavya.jpeg'
 import ar9 from './ar9.jpeg'
+import { useNavigate } from 'react-router-dom'
 export function New_committee() {
+    const navigate = useNavigate();
     return (
         <section className="text-gray-600 body-font">
             <div className="container mx-auto">
@@ -174,7 +176,8 @@ export function New_committee() {
                     <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
                 </div>
                 <div className="flex flex-wrap -m-2">
-                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                   
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full" onClick={()=>{window.open('https://www.linkedin.com/in/arnav-bansal-5716b9220/')}}>
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                         <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={ar9} />
                                 
@@ -184,7 +187,7 @@ export function New_committee() {
                             </div>
                         </div>
                     </div>
-                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div className="p-2 lg:w-1/3 md:w-1/2 w-full" onClick={()=>{}}>
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                         <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={Jaitavya} />
                                 
