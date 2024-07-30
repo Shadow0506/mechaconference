@@ -5,6 +5,7 @@ import shubhamsharma from './shubhamsharma.jpg'
 import nitin from './nitindixit.jpeg'
 import rakeshkumar from './rakeshkumar.jpg'
 import PJ from './PJsingh.png'
+import Rajesh from './Rajesh Kumar Bhatia.jpeg'
 export function Committees_home() {
     const navigate = useNavigate();
 
@@ -23,9 +24,9 @@ export function Committees_home() {
                     {/* Chief Patron (Centered) */}
 
                     <div className="flex flex-col items-center bg-white rounded-lg p-6 shadow-md lg:w-2/3 w-full transition duration-300 transform hover:shadow-xl ">
-                        <img alt="Chief Patron" className="lg:w-full lg:h-full w-48 h-48 rounded-lg  mb-4 object-cover object-center shadow-2xl" src="https://pec.ac.in/sites/default/files/styles/event/public/headline/images/Director_PEC-1.JPG?itok=6elrGkaX" />
+                        <img alt="Chief Patron" className="lg:w-full lg:h-full w-48 h-48 rounded-lg  mb-4 object-cover object-center shadow-2xl" src={Rajesh} />
                         <div className="text-center">
-                            <h2 className="text-lg font-medium text-gray-900">Professor Baldev Setia</h2>
+                            <h2 className="text-lg font-medium text-gray-900">Professor Rajesh Kumar Bhatia </h2>
                             <h3 className="text-gray-500 mb-2">Director, PEC Chandigarh</h3>
                         </div>
                     </div>
