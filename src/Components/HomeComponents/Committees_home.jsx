@@ -148,7 +148,7 @@ export function Committees_home() {
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={rakeshkumar} />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Rakesh Kumar Phanden</h2>
-                                    <p className="leading-relaxed text-base">Associate Professor, Amity University Noida</p>
+                                    <p className="leading-relaxed text-base">Organizing Co-Chair, Associate Professor, Amity University Noida</p>
                                 </div>
                             </div>
                         </div>
