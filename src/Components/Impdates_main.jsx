@@ -24,12 +24,12 @@ export function Impdates_main() {
               <div className="main-timeline">
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">31st July</span>
+                    <span className="timeline-year">15th August</span>
                     <div className="timeline-icon">
                       <i className="fa-regular fa-newspaper"></i>
                     </div>
                     <div className="content">
-                      <h3 className="title">Full Paper Submission</h3>
+                      <h3 className="title">Abstract/Paper Submission</h3>
                       <p className="description hidden md:block">
                         Submit your completed research paper for peer review and potential publication in academic journals or conference proceedings. View more about the tracks and paper submission process here.
                       </p>
@@ -44,7 +44,7 @@ export function Impdates_main() {
                 </div>
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">31st August</span>
+                    <span className="timeline-year">15th September</span>
                     <div className="timeline-icon">
                       <i className="fa-solid fa-envelope"></i>
                     </div>
@@ -64,7 +64,7 @@ export function Impdates_main() {
                 </div>
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">15th September</span>
+                    <span className="timeline-year">30th September</span>
                     <div className="timeline-icon">
                       <i className="fa-brands fa-readme pl-10"></i>
                     </div>
@@ -84,7 +84,7 @@ export function Impdates_main() {
                 </div>
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">1st September</span>
+                    <span className="timeline-year">15th September</span>
                     <div className="timeline-icon">
                       <i className="fa-solid fa-address-card"></i>
                     </div>
@@ -161,7 +161,7 @@ export function Impdates_main() {
           View All Dates
         </a>
         <a href="/callforpapers" className="inline-block px-3 py-2 mb-2 ml-4 mr-4 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white">
-          Submit Your Paper
+          Submit Abstract/Paper
         </a>
       </div>
 
