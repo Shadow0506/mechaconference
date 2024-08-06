@@ -13,6 +13,7 @@ import pec1 from './pec1.png'
 import pec2 from './pec2.png'
 import pec3 from './pec3.png'
 import pec4 from './pec4.png'
+import GR from './GRLogo.png'
 export function AboutUs_home() {
   const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, className }) => {
     const { currentSrc, handleError, errorCount } = useImageWithRetry(src, maxRetries, retryInterval);
@@ -182,8 +183,8 @@ export function AboutUs_home() {
             </div>
             <div className="flex flex-col sm:flex-row sm:mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mt-10">
-                  <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Indian_Institute_of_Technology_Roorkee_logo.png" alt="IIT-R Logo" className="w-16 h-16" />
+                <div className="w-24 h-24 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 mt-10">
+                  <img src={GR} alt="IIT-R Logo" className="w-full h-20" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center mt-4">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-2xl"> Design Innovation Center</h2>
