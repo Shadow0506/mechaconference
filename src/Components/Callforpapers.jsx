@@ -393,7 +393,7 @@ export function Callforpapers() {
                             href="https://cmt3.research.microsoft.com/ICDMT2024/Submission/Index" target="_blank"
                             className="inline-block px-3 py-2 mb-2 text-white bg-green-500 border border-transparent rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white"
                         >
-                            Submit Your Paper
+                            Submit Abstract/Paper
                         </a>
                     </div>
 
