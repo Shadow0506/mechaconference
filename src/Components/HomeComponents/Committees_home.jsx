@@ -27,7 +27,7 @@ export function Committees_home() {
                         <img alt="Chief Patron" className="lg:w-full lg:h-full w-48 h-48 rounded-lg  mb-4 object-cover object-center shadow-2xl" src={Rajesh} />
                         <div className="text-center">
                             <h2 className="text-lg font-medium text-gray-900">Professor Rajesh Kumar Bhatia </h2>
-                            <h3 className="text-gray-500 mb-2">Director, PEC Chandigarh</h3>
+                            <h3 className="text-gray-500 mb-2">Interim Director, PEC Chandigarh</h3>
                         </div>
                     </div>
                     {/* Committee Members (In a single column) */}
