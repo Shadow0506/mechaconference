@@ -47,7 +47,7 @@ export function Committees_home() {
                     <div className="flex flex-col items-center bg-white rounded-lg p-6 shadow-md lg:w-2/3 w-full transition duration-300 transform hover:shadow-xl ">
                         <img alt="Chief Patron" className="lg:w-96 lg:h-96 w-48 h-48 rounded-lg  mb-4 object-cover object-center shadow-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-9P_vQmoyBSzLk3Q3hEMu6kbl-zI-J2XVw&s" />
                         <div className="text-center">
-                            <h2 className="text-lg font-medium text-gray-900">Prof. Shantanu Bhattacharya</h2>
+                            <h2 className="text-lg font-medium text-gray-900">Professor Shantanu Bhattacharya</h2>
                             <h3 className="text-gray-500 mb-2">Director CSIR-Central Scientific Instruments Organisation (CSIR-CSIO),Chandigarh</h3>
                         </div>
                     </div>
@@ -148,6 +148,15 @@ export function Committees_home() {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
+                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={nsjassal} />
+                                <div className="flex-grow">
+                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Narinder Singh Jassal</h2>
+                                    <p className="leading-relaxed text-base">Organizing Co-Chair, Sr. Principal Scientist, CSIR-CSIO, CHD</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
                                 <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src="https://pec.ac.in/sites/default/files/faculty_profile/images/Kamal%20pic.jpg" />
                                 <div className="flex-grow">
                                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Kamal Kumar</h2>
@@ -173,15 +182,7 @@ export function Committees_home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">
-                                <img alt="team" className="w-16 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4" src={nsjassal} />
-                                <div className="flex-grow">
-                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Dr. Narinder Singh Jassal</h2>
-                                    <p className="leading-relaxed text-base">Organizing Co-Chair, Sr. Principal Scientist, CSIR-CSIO, CHD</p>
-                                </div>
-                            </div>
-                        </div>
+
                         {/* <div className="flex flex-wrap w-full justify-center"> */}
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white shadow-md transition duration-300 hover:shadow-xl">

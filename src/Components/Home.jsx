@@ -70,13 +70,22 @@ export function Home() {
                                 </h1>
                                 <p className="sm:text-2xl text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Funded by Chandigarh Administration (Govt. of India)</p>
                                 <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
-                                    &
+                                    In Collaboration With
                                 </h1>
                                 <h1 className="pt-3 sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
                                     Design Innovation Center
                                 </h1>
                                 <h1 className="pt-3 sm:text-4xl text-xl title-font mb-2 text-blue-900 font-bold ">
                                     Indian Institute of Technology, Roorkee
+                                </h1>
+                                <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
+                                    &
+                                </h1>
+                                <h1 className="pt-3 sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
+                                Central Scientific Instruments Organisation (CSIO)
+                                </h1>
+                                <h1 className="pt-3 sm:text-4xl text-xl title-font mb-2 text-blue-900 font-bold ">
+                                Council of Scientific & Industrial Research (CSIR)
                                 </h1>
                                 <p className="sm:text-2xl text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Funded by MHRD (Govt. of India)</p>
                                 <h1 className="sm:text-5xl text-2xl pt-4  title-font mb-2 text-red-500 font-bold">
