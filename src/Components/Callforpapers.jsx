@@ -79,7 +79,6 @@ export function Callforpapers() {
         "Computational Applied Mechanics",
         "Fracture and Failure Mechanics",
         "Modelling & Simulation of Composite structures",
-        "Product Design and Development",
         "Tribology",
         "Nano mechanics and MEMS",
         "Vibrations Analysis",
@@ -89,6 +88,9 @@ export function Callforpapers() {
         "Health monitoring and inspection techniques for Engineering structures",
         "Multi-scale analysis",
         "Optimization techniques and methods in Engineering structures",
+        "Product Design and Development",
+        "Interactive Design",
+        "UI/UX Design",
         "Automation & Robotics, Mechatronics"
     ];
 
