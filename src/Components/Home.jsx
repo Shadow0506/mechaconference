@@ -23,7 +23,7 @@ const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, c
     );
 };
 const openGoogleDocs = () => {
-    window.open('https://drive.google.com/file/d/1VjjyNuUkNm36X0_61_KSOKQrcNEH_6hY/view', '_blank');
+    window.open('https://drive.google.com/file/d/1s1dEQizJngxXLOpPxgpEMTpfz-DlSdXq/view?usp=sharing', '_blank');
 };
 const openTemplate = () => {
     window.open('https://docs.google.com/document/d/1IlEeKji912TytiTfhNk2ZHoh0DCq8Iwo/edit?usp=sharing&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
@@ -68,7 +68,7 @@ export function Home() {
                                 <h1 className="pt-3 sm:text-4xl text-xl title-font mb-2 text-blue-900 font-bold">
                                     Punjab Engineering College (Deemed to be University), Chandigarh
                                 </h1>
-                                <p className="sm:text-2xl text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Funded by Chandigarh Administration (Govt. of India)</p>
+                                <p className="sm:text-2xl text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Institute under Chandigarh Administration (Govt. of India)</p>
                                 <h1 className="pt-3 sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900">
                                     In Collaboration With
                                 </h1>
@@ -106,7 +106,7 @@ export function Home() {
                             </h1>
                             <div className="h-1 w-20 bg-indigo-500 rounded mx-auto lg:mx-0"></div>
                             <p className="text-xl text-justify mt-4">
-                            The goal of the International Conference on Design and Manufacturing Technologies (ICDMT-2024), scheduled from November 8-10, 2024, is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing, with a focus on advanced materials, to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view of product design, process design, and analysis, as well as to create and manufacture goods. The conference will feature research tracks including <a className="text-indigo-500 inline-flex items-center" href="/callforpapers" target="_blank" rel="noopener noreferrer">Materials, Composites, Biomaterials, Design, Manufacturing Technologies, Robotics, Mechatronics and Automation, and Rail Vehicle Dynamics.</a>
+                            The goal of the International Conference on Design and Manufacturing Technologies (ICDMT-2024), scheduled from November 8-10, 2024, is to bring together experts and practitioners from diverse fields of mechanical engineering ranging from design to manufacturing, with a focus on advanced materials, to share their thoughts on the latest developments in this sector. It aims to foster innovation and collaboration within these fields and bring together different perspectives to provide a comprehensive view of product design, process design, and analysis, as well as to create and manufacture goods. The conference will feature research tracks including <a className="text-indigo-500 inline-flex items-center" href="/callforpapers" target="_blank" rel="noopener noreferrer">Materials, Composites, Design, Manufacturing Technologies, Robotics, Mechatronics and Automation, and Sustainable Circular Bioeconomy.</a>
                             </p>
                         </div>
                     </div>
