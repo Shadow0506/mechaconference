@@ -59,7 +59,7 @@ export function Home() {
                                 <h1 className="sm:text-5xl text-3xl font-medium title-font mb-2 text-gray-900">
                                     <span className="text-red-500">I</span>nternational <span className="text-red-500">C</span>onference on <span className="text-red-500">D</span>esign and <span className="text-red-500">M</span>anufacturing <span className="text-red-500">T</span>echnologies
                                 </h1>
-                                <p className="sm:text-3xl text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Design, Develop and Manufacture</p>
+                                <p className="sm:text-3xl text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Theme : Design, Develop and Manufacture</p>
                                 <p className="sm:text-3xl text-center mx-auto text-xl italic lg:w-1/2 w-full leading-relaxed mt-5">Organized by</p>
 
                                 <h1 className="pt-3 sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
