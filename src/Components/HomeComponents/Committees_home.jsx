@@ -15,44 +15,37 @@ export function Committees_home() {
         <div>
 
             <div className="container mx-auto">
+                
+
                 <div className="text-center mb-10">
-                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">
-                        Chief Patron
-                    </h1>
-                    <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
-                </div>
-
-                <div className="flex flex-col items-center gap-8">
-                    {/* Chief Patron (Centered) */}
-
-                    <div className="flex flex-col items-center bg-white rounded-lg p-6 shadow-md lg:w-2/3 w-full transition duration-300 transform hover:shadow-xl ">
-                        <img alt="Chief Patron" className="lg:w-full lg:h-full w-48 h-48 rounded-lg  mb-4 object-cover object-center shadow-2xl" src={Rajesh} />
-                        <div className="text-center">
-                            <h2 className="text-lg font-medium text-gray-900">Professor Rajesh Kumar Bhatia </h2>
-                            <h3 className="text-gray-500 mb-2">Interim Director, PEC Chandigarh</h3>
-                        </div>
+                <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 pt-5 text-gray-900">
+                    Patrons
+                </h1>
+                <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
+            </div>
+            <div class="flex flex-wrap justify-center p-10 space-y-10 md:space-x-10 md:space-y-0">
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://iitr.ac.in/Institute/assets/0a5b046d07f6f971b7776de682f57c5b9cdc8fa060db7ef59de82e721c8098f4_Director_IITR.jpeg" />
+                    <div class="text-center">
+                        <h2 class="text-lg font-medium text-gray-900">Professor Kamal Kishore Pant</h2>
+                        <h3 class="text-gray-500 mb-2">Director, IIT Roorkee</h3>
                     </div>
-                    {/* Committee Members (In a single column) */}
                 </div>
-                <div className="text-center mb-10">
-                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">
-                        Co-Patron
-                    </h1>
-                    <div className="h-1 w-20 mx-auto bg-indigo-500 rounded"></div>
-                </div>
-
-                <div className="flex flex-col items-center gap-8">
-                    {/* Chief Patron (Centered) */}
-
-                    <div className="flex flex-col items-center bg-white rounded-lg p-6 shadow-md lg:w-2/3 w-full transition duration-300 transform hover:shadow-xl ">
-                        <img alt="Chief Patron" className="lg:w-96 lg:h-96 w-48 h-48 rounded-lg  mb-4 object-cover object-center shadow-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-9P_vQmoyBSzLk3Q3hEMu6kbl-zI-J2XVw&s" />
-                        <div className="text-center">
-                            <h2 className="text-lg font-medium text-gray-900">Professor Shantanu Bhattacharya</h2>
-                            <h3 className="text-gray-500 mb-2">Director CSIR-Central Scientific Instruments Organisation (CSIR-CSIO),Chandigarh</h3>
-                        </div>
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 mb-4 w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-48 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src={Rajesh} />
+                    <div class="text-center">
+                        <h2 class="text-lg font-medium text-gray-900">Professor Rajesh Kumar Bhatia</h2>
+                        <h3 class="text-gray-500 mb-2">Interim Director, PEC Chandigarh</h3>
                     </div>
-                    {/* Committee Members (In a single column) */}
                 </div>
+                <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4  w-full md:w-96 transform hover:shadow-xl">
+                    <img alt="Committee Member" class="w-36 h-48 rounded-3xl mb-4 object-cover object-center shadow-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-9P_vQmoyBSzLk3Q3hEMu6kbl-zI-J2XVw&s" />
+                    <div class="text-center">
+                        <h2 class="text-lg font-medium text-gray-900">Professor Shantanu Bhattacharya</h2>
+                        <h3 class="text-gray-500 mb-2">Director CSIR-Central Scientific Instruments Organisation (CSIR-CSIO),Chandigarh</h3>
+                    </div>
+                </div>
+            </div>
 
             </div>
             <div className="container mx-auto">
