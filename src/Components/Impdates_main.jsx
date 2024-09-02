@@ -24,7 +24,7 @@ export function Impdates_main() {
               <div className="main-timeline">
                 <div className="timeline">
                   <a className="timeline-content">
-                    <span className="timeline-year">31st August</span>
+                    <span className="timeline-year">15th September</span>
                     <div className="timeline-icon">
                       <i className="fa-regular fa-newspaper"></i>
                     </div>
