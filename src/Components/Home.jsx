@@ -23,7 +23,7 @@ const RetryImageComponent = ({ src, alt, maxRetries = 3, retryInterval = 2000, c
     );
 };
 const openGoogleDocs = () => {
-    window.open('https://drive.google.com/file/d/1s1dEQizJngxXLOpPxgpEMTpfz-DlSdXq/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1OCHrD56iUVvk3sl_mUjdx92CoNsIL1L0/view?usp=sharing', '_blank');
 };
 const openTemplate = () => {
     window.open('https://docs.google.com/document/d/1IlEeKji912TytiTfhNk2ZHoh0DCq8Iwo/edit?usp=sharing&ouid=111443267578785456162&rtpof=true&sd=true', '_blank');
