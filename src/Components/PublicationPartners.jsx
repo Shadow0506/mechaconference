@@ -23,13 +23,13 @@ function PublicationPartner() {
             <p className='text-3xl font-semibold p-10'>
                 Lecture Notes in Mechanical Engineering - Book series. Published by Springer and indexed by scopus.
             </p>
-            <div className='flex flex-col xs:flex-col sm:flex-row justify-center h-1/6 m-10'>
+            {/* <div className='flex flex-col xs:flex-col sm:flex-row justify-center h-1/6 m-10'>
                 <img src='https://icssmt.com/2023/Springer.png' className='rounded-lg h-1/2 my-auto mx-10'/>
                 <img src='https://www.universitetam.ru/images/cover_lnme.webp' className='rounded-lg mt-4 mx-10'/>
             </div>
             <p className='text-lg pt-2 text-bold font-extralight'>
                (in communication with) 
-            </p>
+            </p> */}
 
             <div className='flex flex-wrap justify-evenly'>
                 <div className='w-5/6 xl:w-1/5 lg:w-1/3 m-10 p-5 rounded-lg flex flex-col justify-center hover:scale-105 hover:bg-[#e6f3ff] duration-200'>
