@@ -21,7 +21,7 @@ export function Sponsorship() {
     },
     {
       title: "Complimentary Registrations",
-      description: "Complimentary conference registrations for 10 representatives from your company, allowing access to all conference sessions and activities."
+      description: "Complimentary conference registrations for 5 representatives from your company, allowing access to all conference sessions and activities."
     },
     {
       title: "Networking Opportunities",
@@ -59,7 +59,7 @@ export function Sponsorship() {
     },
     {
       title: "Complimentary Registrations",
-      description: "Complimentary conference registrations for 5 representatives from your company, allowing access to all conference sessions and activities."
+      description: "Complimentary conference registrations for 4 representatives from your company, allowing access to all conference sessions and activities."
     },
     {
       title: "Networking Opportunities",
@@ -196,21 +196,21 @@ export function Sponsorship() {
                 <Table.Body>
                   <Table.Row className="bg-white">
                     <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Platinum</Table.Cell>
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 10,00,000/-
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 5,00,000/-
                     </Table.Cell>
                   </Table.Row>
                   <Table.Row className="bg-white">
                     <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Gold</Table.Cell>
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 7,00,000/-
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 4,00,000/-
                     </Table.Cell>
                   </Table.Row>
                   <Table.Row className="bg-white">
                     <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Silver</Table.Cell>
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 5,00,000/- </Table.Cell>
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 2,50,000/- </Table.Cell>
                   </Table.Row>
                   <Table.Row className="bg-white">
                     <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Bronze</Table.Cell>
-                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 3,00,000/- </Table.Cell>
+                    <Table.Cell className="whitespace-nowrap font-medium text-lg text-gray-900 border border-gray-300 sm:py-10 sm:px-20 p-4">Rs. 2,00,000/- </Table.Cell>
                   </Table.Row>
                 </Table.Body>
               </Table>
