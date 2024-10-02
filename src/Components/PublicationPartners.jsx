@@ -30,41 +30,6 @@ function PublicationPartner() {
             <p className='text-lg pt-2 text-bold font-extralight'>
                (in communication with) 
             </p> */}
-
-            <div className='flex flex-wrap justify-evenly'>
-                <div className='w-5/6 xl:w-1/5 lg:w-1/3 m-10 p-5 rounded-lg flex flex-col justify-center hover:scale-105 hover:bg-[#e6f3ff] duration-200'>
-                    <a href="https://pubs.aip.org/aip" target='_blank'>
-                        <img src='https://th.bing.com/th/id/OIP.BwO8K-2yO0qK6xxDuUcqQQHaDj?w=342&h=168&c=7&r=0&o=5&dpr=1.3&pid=1.7' className='rounded-lg w-1/2 py-5 mx-auto'/>
-                        <ul className='font-light'>
-                            <li className='font-bold text-xl m-4'>AIP Publishing</li>
-                            <li>AIP Conference Proceedings</li>
-                        </ul>
-                    </a>
-                </div>
-
-                <div className='w-5/6 xl:w-1/5 lg:w-1/3 m-10 p-5 rounded-lg flex flex-row justify-center hover:scale-105 hover:bg-[#e6f3ff] duration-200'>
-                    <a href="https://link.springer.com/journal/12008" target='_blank'>
-                        <p className='font-bold text-xl mx-auto my-4 w-full'>Springer</p>
-
-                        <div className='flex flex-row xs:flex-col sm:flex-row'>
-                            <ul className='font-light p-4 my-auto'>
-                                <li>International Journal on Interactive Design and Manufacturing (IJIDeM)</li>
-                                <hr className='bg-[rgb(81,81,84)]/20' style={{padding: 0.5}}/>
-                                <li>Impact Factor: 2.1 (ESCI & Scopus)</li>
-                            </ul>
-                            <img src='https://th.bing.com/th/id/OIP.IVjXebxeDEFCnKz7BWl0hwAAAA?rs=1&pid=ImgDetMain' alt='Journal Image' className='rounded-lg w-2/3 h-2/3 my-auto mx-auto p-4'/>
-                        </div>
-                    </a>
-                    
-                </div>
-                
-                <div className='w-5/6 xl:w-1/5 lg:w-1/3 m-10 p-5 rounded-lg flex flex-col justify-center hover:scale-105 hover:bg-[#e6f3ff] duration-200'>
-                    <img src='https://th.bing.com/th/id/OIP.Xoyt1V7R2DFuADm9Ad41RgHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7' className='rounded-lg w-1/2 py-5 mx-auto'/>
-                    <ul className='font-light'>
-                        <li className='font-bold text-xl m-4'>Elsevier</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
   )
